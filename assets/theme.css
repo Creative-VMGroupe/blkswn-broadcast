@@ -12974,7 +12974,7 @@ body {
   right: 0;
   display: block;
   padding: 8px calc(var(--inner) / 2);
-  font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY));
+  font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
   color: var(--text-light);
   font-style: var(--FONT-STYLE-BODY-ITALIC);
   transition: opacity 0.3s ease, visibility 0.3s;
