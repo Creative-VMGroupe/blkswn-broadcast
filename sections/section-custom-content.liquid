@@ -74,7 +74,7 @@
               <div class="brick__block__text brick__block__text--column{{ padding_class }} text-center">
                 {%- if block.settings.title != blank -%}
                   {%- assign animation_order = animation_order | plus: 1 -%}
-                  <p class="brick__product__subheading subheading subheading-size-1"
+                  <p class="brick__product__subheading subheading subheading-size-3"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="{{ animation_order }}">{{ block.settings.title }}</p>
@@ -105,7 +105,7 @@
             <div class="brick__block brick__block--collection"{% if style != blank %} style="{{ style }}"{% endif %} {{ block.shopify_attributes }}>
               <div class="brick__block__collection{{ padding_class }}">
                 {%- if block.settings.title != blank -%}
-                  <p class="look__title text-center subheading subheading-size-1"
+                  <p class="look__title text-center subheading subheading-size-3"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="1">{{ block.settings.title }}</p>
@@ -325,9 +325,9 @@
           "id":    "heading_size",
           "label": "Heading size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default":7
+          "default":1
         },
         {
           "type": "textarea",
@@ -339,9 +339,9 @@
           "id":    "text_size",
           "label": "Text size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default":3
+          "default":7
         },
         {
           "type": "select",
@@ -447,7 +447,7 @@
           "id":    "subheading_size",
           "label": "Subheading size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
           "default":3
         },
@@ -462,9 +462,9 @@
           "id":    "heading_size",
           "label": "Heading size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default": 8
+          "default": 1
         },
         {
           "type": "richtext",
@@ -477,9 +477,9 @@
           "id":    "text_size",
           "label": "Text size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default": 4
+          "default": 7
         },
         {
           "type": "header",
@@ -595,7 +595,7 @@
           "id":    "subheading_size",
           "label": "Subheading size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
           "default":3
         },
@@ -610,9 +610,9 @@
           "id":    "heading_size",
           "label": "Heading size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default":7
+          "default":1
         },
         {
           "type": "richtext",
@@ -625,9 +625,9 @@
           "id":    "text_size",
           "label": "Text size",
           "min": 1,
-          "max": 15,
+          "max": 8,
           "step": 1,
-          "default":3
+          "default":7
         },
         {
           "type":  "range",
