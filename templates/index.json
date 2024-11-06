@@ -535,7 +535,7 @@
             "icon_size": 20,
             "icon_color": "#545454",
             "title": "Secure transactions",
-            "heading_size": 1,
+            "heading_size": 3,
             "text": "<p>Transactions are handled with bank-grade security.</p><p></p>",
             "text_size": 7
           }
@@ -547,9 +547,9 @@
             "icon_size": 20,
             "icon_color": "#545454",
             "title": "Simple checkout",
-            "heading_size": 4,
-            "text": "<p>Our secure checkout is quick and easy to use.<p>",
-            "text_size": 3
+            "heading_size": 3,
+            "text": "<p>Our secure checkout is quick and easy to use.</p><p></p>",
+            "text_size": 7
           }
         },
         "icon-2": {
@@ -559,9 +559,9 @@
             "icon_size": 20,
             "icon_color": "#545454",
             "title": "Get in touch",
-            "heading_size": 4,
-            "text": "<p>Have questions? Get in touch with us at any time.<p>",
-            "text_size": 3
+            "heading_size": 3,
+            "text": "<p>Have questions? Get in touch with us at any time.</p><p></p>",
+            "text_size": 7
           }
         }
       },
