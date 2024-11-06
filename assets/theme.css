@@ -13274,7 +13274,7 @@ body {
 
 .product-item__cutline,
 .product-item__price {
-  font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY));
+  font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
   overflow-wrap: break-word;
 }
 @media only screen and (max-width: 749px) {
