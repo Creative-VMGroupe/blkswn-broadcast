@@ -24950,6 +24950,7 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/*Set Font for entire site*/
 .h1,
 .h2,
 .h3,
@@ -25014,4 +25015,60 @@ select,
 .product-upsell__price,
 .product-upsell__price .unit {
 	font-family: minerva-modern, sans-serif !important;
+}
+/*Set Font size for all site*/
+:root {
+  --font-15: 48px;
+  --font-14: 48px;
+  --font-13: 48px;
+  --font-12: 48px;
+  --font-11: 48px;
+  --font-10: 48px;
+  --font-9: 48px;
+  --font-8: 10px;
+  --font-7: 13px;
+  --font-6: 16px;
+  --font-5: 20px;
+  --font-4: 24px;
+  --font-3: 30px;
+  --font-2: 40px;
+  --font-1: 48px;
+}
+@media only screen and (min-width: 750px) and (max-width: 989px) {
+  :root {
+  --font-15: 48px;
+  --font-14: 48px;
+  --font-13: 48px;
+  --font-12: 48px;
+  --font-11: 48px;
+  --font-10: 48px;
+  --font-9: 48px;
+  --font-8: 10px;
+  --font-7: 13px;
+  --font-6: 16px;
+  --font-5: 20px;
+  --font-4: 24px;
+  --font-3: 30px;
+  --font-2: 40px;
+  --font-1: 48px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  :root {
+  --font-15: 48px;
+  --font-14: 48px;
+  --font-13: 48px;
+  --font-12: 48px;
+  --font-11: 48px;
+  --font-10: 48px;
+  --font-9: 48px;
+  --font-8: 10px;
+  --font-7: 13px;
+  --font-6: 16px;
+  --font-5: 20px;
+  --font-4: 24px;
+  --font-3: 30px;
+  --font-2: 40px;
+  --font-1: 48px;
+  }
 }
