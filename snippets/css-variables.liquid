@@ -5,7 +5,12 @@
 {% endcomment %}
 
 {%- liquid
-  assign heading_font = settings.type_heading_font
+  if settings.adobe_font_enabled
+      assign heading_font = 'minerva-modern, sans-serif;'
+  else
+      assign heading_font = settings.type_heading_font
+  endif
+   
   assign subheading_font = settings.type_sub_font
   assign base_font = settings.type_base_font
   assign nav_font = settings.type_nav_font
