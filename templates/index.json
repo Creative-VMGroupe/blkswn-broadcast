@@ -187,12 +187,24 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_custom_code_BePKRy": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<tolstoy-carousel\n      data-tags=\"{% for tag in product.tags -%}{{ tag }},{%- endfor %}\"\n      class=\"tolstoy-carousel\"\n      data-publish-id=\"cvx2ehstya2pe\" \n      data-product-id=\"{{ product.id }}\">\n    </tolstoy-carousel>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "slideshow",
     "docs",
     "17316112040b45b302",
-    "1731611205705610c2"
+    "1731611205705610c2",
+    "section_custom_code_BePKRy"
   ]
 }
