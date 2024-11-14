@@ -514,6 +514,7 @@
         "logos-1",
         "logos-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Press",
         "enable_heading_slider": true,
@@ -570,6 +571,7 @@
         "icon-1",
         "icon-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": 1,
@@ -586,6 +588,23 @@
         "padding_bottom": 50,
         "layout_mobile": "slider"
       }
+    },
+    "1731610159aaa165db": {
+      "type": "apps",
+      "blocks": {
+        "tolstoy_shoppable_video_ugc_carousel_block_mahjWN": {
+          "type": "shopify://apps/tolstoy-shoppable-video-ugc/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "publishId"
+          }
+        }
+      },
+      "block_order": [
+        "tolstoy_shoppable_video_ugc_carousel_block_mahjWN"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -599,6 +618,7 @@
     "featured-collection",
     "hero",
     "logos",
-    "icons"
+    "icons",
+    "1731610159aaa165db"
   ]
 }
