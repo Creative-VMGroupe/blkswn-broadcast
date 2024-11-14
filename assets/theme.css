@@ -25076,3 +25076,6 @@ select,
   width: 50% !important;
   background-color: red !important;
 }
+.tolstoy-carousel-videos-container {
+  gap: 30px !important;
+}
