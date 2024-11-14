@@ -25072,3 +25072,7 @@ select,
   --font-1: 48px;
   }
 }
+.wht-prod-info {
+  width: 50% !important;
+  background-color: red !important;
+}
