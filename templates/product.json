@@ -136,113 +136,67 @@
         "padding_bottom": 30
       }
     },
-    "shipping": {
-      "type": "section-accordion",
+    "section_custom_content_PD4bAg": {
+      "type": "section-custom-content",
       "blocks": {
-        "shipping-0": {
-          "type": "icon",
+        "image_6iGe8V": {
+          "type": "image",
           "settings": {
-            "icon_name": "icon-fast-shipment",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Fast shipping",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
+            "image": "shopify://shop_images/elaborate-building-interior-with-light-teal-walls.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Test",
+            "heading_size": 1,
+            "description": "Testing",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         },
-        "shipping-1": {
-          "type": "icon",
+        "image_WYBNXz": {
+          "type": "image",
           "settings": {
-            "icon_name": "icon-box",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Order tracking",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "shipping-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
+            "image": "shopify://shop_images/bedroom-with-heart-pillows.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "shipping-0",
-        "shipping-1",
-        "shipping-2"
+        "image_6iGe8V",
+        "image_WYBNXz"
       ],
       "settings": {
-        "default_open": false,
-        "title": "Shipping",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "icon_color": "#545454",
-        "bg_color": "",
-        "color": "",
-        "border_color": "",
-        "width": "wrapper",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "about": {
-      "type": "section-accordion",
-      "blocks": {
-        "about-0": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "image": "shopify://shop_images/prod_img_3.jpg",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-1": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "aspect_ratio": 0.6
-          }
-        },
-        "about-2": {
-          "type": "image",
-          "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "aspect_ratio": 0.6
-          }
-        }
-      },
-      "block_order": [
-        "about-0",
-        "about-1",
-        "about-2"
-      ],
-      "settings": {
-        "default_open": false,
-        "title": "About us",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "icon_color": "#545454",
-        "bg_color": "",
-        "color": "",
-        "border_color": "",
-        "width": "wrapper",
-        "padding_top": 0,
-        "padding_bottom": 30
       }
     },
     "related": {
@@ -282,8 +236,7 @@
   },
   "order": [
     "main",
-    "shipping",
-    "about",
+    "section_custom_content_PD4bAg",
     "related"
   ]
 }
