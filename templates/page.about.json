@@ -1,1 +1,164 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"subheading":"","subheading_size":3,"show_title":true,"heading_size":8,"show_content":true,"text_size":4,"align_text":"text-left","width":"wrapper","padding_top":50,"padding_bottom":50}},"double-1":{"type":"section-double","blocks":{"heading-1-1":{"type":"heading","settings":{"text_size":7}},"text-1-1":{"type":"text","settings":{"text_size":3,"text_style":"font-body"}}},"block_order":["heading-1-1","text-1-1"],"settings":{"layout":"is-reversed","height":"sixty-fifty-height-hero","mobile_height":"four-fifty-height-hero--mobile","width":"wrapper--full","image_width":"one-half","text_alignment":"text-left","padding_top":0,"padding_bottom":50}},"columns":{"type":"section-columns","blocks":{"image-1":{"type":"image","settings":{"image_aspect_ratio":1.2,"button_text":"","button_url":"","button_type":"btn--primary hero__btn","button_style":"btn--solid"}},"image-2":{"type":"image","settings":{"image_aspect_ratio":1.2,"button_text":"","button_url":"","button_type":"btn--primary hero__btn","button_style":"btn--solid"}},"image-3":{"type":"image","settings":{"image_aspect_ratio":1.2,"button_text":"","button_url":"","button_type":"btn--primary hero__btn","button_style":"btn--solid"}}},"block_order":["image-1","image-2","image-3"],"settings":{"align_text":"text-center","align_columns":"flex-align-top","width":"wrapper--full-padded","padding_top":50,"padding_bottom":50,"layout_mobile":"slider"}},"double-2":{"type":"section-double","blocks":{"heading-2-1":{"type":"heading","settings":{"text_size":7}},"text-2-1":{"type":"text","settings":{"text_size":3,"text_style":"font-body"}}},"block_order":["heading-2-1","text-2-1"],"settings":{"height":"sixty-fifty-height-hero","mobile_height":"four-fifty-height-hero--mobile","width":"wrapper--full","image_width":"one-half","text_alignment":"text-left","padding_top":50,"padding_bottom":50}},"announcement":{"type":"section-announcement","blocks":{"text":{"type":"text","settings":{"target_device_enabled":false,"target_device":"mobile"}}},"block_order":["text"],"settings":{"layout":"marquee","slider_speed":7,"marquee_speed":100,"padding_top":0,"padding_bottom":0}},"collections-list":{"type":"section-collections-list","blocks":{"collection-1":{"type":"collection","settings":{}},"collection-2":{"type":"collection","settings":{}},"collection-3":{"type":"collection","settings":{}},"collection-4":{"type":"collection","settings":{}}},"block_order":["collection-1","collection-2","collection-3","collection-4"],"settings":{"title":"","layout":"grid","aspect_ratio":1.2,"padding_top":50,"padding_bottom":32}},"press-logos":{"type":"section-press-logos","blocks":{"logo-item-1":{"type":"logo-item","settings":{"logo_width":150,"link":"","heading_size":6}},"logo-item-2":{"type":"logo-item","settings":{"logo_width":150,"link":"","heading_size":6}},"logo-item-3":{"type":"logo-item","settings":{"logo_width":150,"link":"","heading_size":6}},"logo-item-4":{"type":"logo-item","settings":{"logo_width":150,"link":"","heading_size":6}}},"block_order":["logo-item-1","logo-item-2","logo-item-3","logo-item-4"],"settings":{"enable_heading_slider":false,"logo_opacity":60,"padding_top":50,"padding_bottom":50}},"divider":{"type":"section-divider","settings":{"show_line":true,"width":"wrapper--full-padded","padding_top":31,"padding_bottom":50}}},"order":["main","double-1","columns","double-2","announcement","collections-list","press-logos","divider"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_video_mgYB7V": {
+      "type": "section-video",
+      "settings": {
+        "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "title": "Video",
+        "heading_size": 1,
+        "description": "Tell your brand's story through images.",
+        "text_size": 7,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_zawWcP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_kGG3cF": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "text_size": 1,
+            "padding_bottom": 16
+          }
+        },
+        "text_ML8jkt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 7,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_kGG3cF",
+        "text_ML8jkt"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 100
+      }
+    },
+    "section_custom_content_7P4WcN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_GNT3LU": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_4UQUjp": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 1,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_size": 7,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GNT3LU",
+        "text_4UQUjp"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_video_mgYB7V",
+    "main",
+    "section_rich_text_zawWcP",
+    "section_custom_content_7P4WcN"
+  ]
+}
