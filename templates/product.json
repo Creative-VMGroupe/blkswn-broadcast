@@ -205,12 +205,13 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "Related products",
+            "product_recommendations_heading": "You May Also Like",
             "limit": 4
           }
         },
         "recent": {
           "type": "recent",
+          "disabled": true,
           "settings": {
             "product_recently_heading": "Recently viewed",
             "product_recently_limit": 4
@@ -222,9 +223,9 @@
         "recent"
       ],
       "settings": {
-        "enable_tabs": true,
-        "heading_alignment": "text-center",
-        "heading_size": 5,
+        "enable_tabs": false,
+        "heading_alignment": "text-left",
+        "heading_size": 1,
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
