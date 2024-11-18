@@ -1,1 +1,117 @@
-{"sections":{"featured":{"type":"featured-posts","blocks":{"feat":{"type":"featured_post","settings":{}}},"block_order":["feat"],"settings":{}},"main":{"type":"blog","settings":{}}},"order":["featured","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured": {
+      "type": "featured-posts",
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "feat"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_kFaJKM": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_7khwVA": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_size": 1
+          }
+        },
+        "text_jiXNXU": {
+          "type": "text",
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "text_style": "font-body"
+          }
+        },
+        "button_iqgWYX": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7khwVA",
+        "text_jiXNXU",
+        "button_iqgWYX"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show_title": true,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "grid": 3,
+        "rows": 3,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "featured",
+    "section_hero_kFaJKM",
+    "main"
+  ]
+}
