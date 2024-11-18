@@ -144,9 +144,71 @@
         "text_4UQUjp"
       ],
       "settings": {
-        "height": "screen-height-one-half",
+        "height": "five-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_Ee7YLp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_mnehbQ": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_NjyBLJ": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "From Our Founders",
+            "heading_size": 1,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_size": 7,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mnehbQ",
+        "text_NjyBLJ"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
         "borders": false,
         "gutters": false,
         "reverse_blocks": false,
@@ -159,6 +221,7 @@
     "section_video_mgYB7V",
     "main",
     "section_rich_text_zawWcP",
-    "section_custom_content_7P4WcN"
+    "section_custom_content_7P4WcN",
+    "section_custom_content_Ee7YLp"
   ]
 }
