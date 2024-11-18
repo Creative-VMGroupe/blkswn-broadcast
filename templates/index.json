@@ -145,34 +145,6 @@
         "padding_bottom": 100
       }
     },
-    "1731611205705610c2": {
-      "type": "apps",
-      "blocks": {
-        "tolstoy_shoppable_video_ugc_carousel_block_Qnd4Pn": {
-          "type": "shopify://apps/tolstoy-shoppable-video-ugc/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
-          "settings": {
-            "publishId": "cvx2ehstya2pe"
-          }
-        }
-      },
-      "block_order": [
-        "tolstoy_shoppable_video_ugc_carousel_block_Qnd4Pn"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "section_custom_code_BePKRy": {
-      "type": "section-custom-code",
-      "settings": {
-        "code": "<tolstoy-carousel\n      data-tags=\"{% for tag in product.tags -%}{{ tag }},{%- endfor %}\"\n      class=\"tolstoy-carousel\"\n      data-publish-id=\"cvx2ehstya2pe\" \n      data-product-id=\"{{ product.id }}\">\n    </tolstoy-carousel>",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_collection_V9iWVX": {
       "type": "section-collection",
       "settings": {
@@ -196,13 +168,222 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "section_custom_content_dyBMKi": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_EadAhQ": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 1,
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        },
+        "video_cnjY44": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 1,
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "video_EadAhQ",
+        "video_cnjY44"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_BxL6Rp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_t3rAYq": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 1,
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        },
+        "video_iyCU6B": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 1,
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "video_t3rAYq",
+        "video_iyCU6B"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_posts_BPRi9F": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_EzdUWm": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        },
+        "featured_post_Kd4nTi": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_EzdUWm",
+        "featured_post_Kd4nTi"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_q3WfR4": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "test",
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1731611205705610c2": {
+      "type": "apps",
+      "blocks": {
+        "tolstoy_shoppable_video_ugc_carousel_block_Qnd4Pn": {
+          "type": "shopify://apps/tolstoy-shoppable-video-ugc/blocks/carousel-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "cvx2ehstya2pe"
+          }
+        }
+      },
+      "block_order": [
+        "tolstoy_shoppable_video_ugc_carousel_block_Qnd4Pn"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
     "slideshow",
     "docs",
-    "1731611205705610c2",
-    "section_custom_code_BePKRy",
-    "section_collection_V9iWVX"
+    "section_collection_V9iWVX",
+    "section_custom_content_dyBMKi",
+    "section_custom_content_BxL6Rp",
+    "featured_posts_BPRi9F",
+    "section_collection_q3WfR4",
+    "1731611205705610c2"
   ]
 }
