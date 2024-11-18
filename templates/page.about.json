@@ -206,7 +206,7 @@
         "text_NjyBLJ"
       ],
       "settings": {
-        "height": "four-fifty-height-hero",
+        "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
         "borders": false,
