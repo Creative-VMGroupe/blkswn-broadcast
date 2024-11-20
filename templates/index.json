@@ -9,8 +9,62 @@
  */
 {
   "sections": {
+    "section_hero_jXhH8j": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_mthNCp": {
+          "type": "heading",
+          "settings": {
+            "title": "COLLECTION TITLE",
+            "heading_size": 1
+          }
+        },
+        "text_7gQFpP": {
+          "type": "text",
+          "settings": {
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "button_RJpwmW": {
+          "type": "button",
+          "settings": {
+            "link_text": "DISCOVER",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mthNCp",
+        "text_7gQFpP",
+        "button_RJpwmW"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/SoJuicyLipOil-BabyPanda-Stylized-Into_1_1.jpg",
+        "link": "",
+        "mobile_height": "sixty-fifty-height-hero--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_video_DG3pLE": {
       "type": "section-video",
+      "disabled": true,
       "settings": {
         "video": "shopify://files/videos/tolstoy_1694feb7-5317-48ad-a74c-f98b1af27305_preview.mp4",
         "show_video_popup": false,
@@ -330,6 +384,7 @@
     }
   },
   "order": [
+    "section_hero_jXhH8j",
     "section_video_DG3pLE",
     "docs",
     "section_collection_V9iWVX",
