@@ -25078,6 +25078,7 @@ a.btn,p.hero__description {
   --font-1: 48px;
   }
 }
+/*Global*/
 /*Buttons*/
 a.btn {
   min-width: 200px;
@@ -25085,6 +25086,9 @@ a.btn {
 a.btn.btn--small {
   min-width: auto;
 }
-
+.product__price {
+  opacity: 1 !important;
+}
+/*PDP*/
 
 /*Media Queries Start*/
