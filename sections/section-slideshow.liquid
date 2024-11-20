@@ -591,11 +591,254 @@
           "default": false
         }
       ]
+    },
+        {
+      "type": "video",
+      "name": "Video Slide",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Video"
+        },
+        {
+            "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Match size to other slides"
+        },
+        {
+          "type": "video",
+          "id": "mobile_video",
+          "label": "Mobile video",
+          "info": "Match size to other slides"
+        },
+        {
+          "type": "header",
+          "content": "Overlay"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Opacity",
+          "info": "Increase contrast for legible text.",
+          "unit": "%",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "default":0
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Overlay color",
+          "default": "#000"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_overlay_text",
+          "label": "Overlay behind text only",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Video slide"
+        },
+        {
+          "type":  "range",
+          "id":    "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 8,
+          "step": 1,
+          "default":1
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Text",
+          "default": "Tell your brand's story through images."
+        },
+        {
+          "type":  "range",
+          "id":    "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 8,
+          "step": 1,
+          "default":4
+        },
+        {
+          "type": "select",
+          "id": "flex_align_desktop",
+          "label": "Desktop alignment",
+          "default": "align--middle-center-desktop",
+          "options": [
+            { "value": "align--top-left-desktop", "label": "Top left"},
+            { "value": "align--top-center-desktop", "label": "Top center"},
+            { "value": "align--top-right-desktop", "label": "Top right"},
+            { "value": "align--middle-left-desktop", "label": "Middle left"},
+            { "value": "align--middle-center-desktop", "label": "Absolute center"},
+            { "value": "align--middle-right-desktop", "label": "Middle right"},
+            { "value": "align--bottom-left-desktop", "label": "Bottom left"},
+            { "value": "align--bottom-center-desktop", "label": "Bottom center"},
+            { "value": "align--bottom-right-desktop", "label": "Bottom right"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "flex_align_mobile",
+          "label": "Mobile alignment",
+          "default": "align--middle-center-mobile",
+          "options": [
+            { "value": "align--top-left-mobile", "label": "Top left"},
+            { "value": "align--top-center-mobile", "label": "Top center"},
+            { "value": "align--top-right-mobile", "label": "Top right"},
+            { "value": "align--middle-left-mobile", "label": "Middle left"},
+            { "value": "align--middle-center-mobile", "label": "Absolute center"},
+            { "value": "align--middle-right-mobile", "label": "Middle right"},
+            { "value": "align--bottom-left-mobile", "label": "Bottom left"},
+            { "value": "align--bottom-center-mobile", "label": "Bottom center"},
+            { "value": "align--bottom-right-mobile", "label": "Bottom right"}
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text",
+          "default": "#FFFFFF"
+        },
+        
+        {
+          "type": "header",
+          "content": "First button"
+        },
+        {
+          "type": "text",
+          "id": "first_button_text",
+          "label": "Text",
+          "default": "View products",
+          "info": "Leave blank to link entire video"
+        },
+        {
+          "type": "url",
+          "id": "first_button_link",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "first_button_type",
+          "label": "Color",
+          "default": "btn--primary",
+          "options": [
+            {"value": "btn--primary", "label": "Primary"},
+            {"value": "btn--secondary", "label": "Secondary"},
+            {"value": "btn--white", "label": "White"},
+            {"value": "btn--black", "label": "Black"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "first_button_size",
+          "label": "Size",
+          "default": "",
+          "options": [
+            { "label": "Small", "value": "btn--small" },
+            { "label": "Medium", "value": "" },
+            { "label": "Large", "value": "btn--large" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "first_button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "first_button_show_arrow",
+          "label": "Show arrow",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Second button"
+        },
+        {
+          "type": "text",
+          "id": "second_button_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "second_button_link",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "second_button_type",
+          "label": "Color",
+          "default": "btn--white",
+          "options": [
+            {"value": "btn--primary", "label": "Primary"},
+            {"value": "btn--secondary", "label": "Secondary"},
+            {"value": "btn--white", "label": "White"},
+            {"value": "btn--black", "label": "Black"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "second_button_size",
+          "label": "Size",
+          "default": "",
+          "options": [
+            { "label": "Small", "value": "btn--small" },
+            { "label": "Medium", "value": "" },
+            { "label": "Large", "value": "btn--large" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "second_button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "second_button_show_arrow",
+          "label": "Show arrow",
+          "default": false
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Slideshow",
+      "name": "Slideshow w/ Media",
       "category": "Image",
       "settings": {
         "height": "screen-height-two-thirds"
