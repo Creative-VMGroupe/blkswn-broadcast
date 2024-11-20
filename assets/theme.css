@@ -24963,7 +24963,6 @@ h3,
 h4,
 h5,
 h6,
-a,
 span,
 p,
 div,
@@ -25019,6 +25018,9 @@ select,
 .product-upsell__price,
 .product-upsell__price .unit {
 	font-family: minerva-modern, sans-serif !important;
+}
+a.btn,p.hero__description {
+  font-family: transat-text, sans-serif !important;
 }
 /*Set Font size for all site*/
 :root {
