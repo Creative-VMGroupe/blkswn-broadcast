@@ -15,7 +15,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "subheading_option": "breadcrumb",
+            "subheading_option": "collection",
             "text_size": 3,
             "padding_bottom": 8
           }
@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify://shop_images/elaborate-building-interior-with-light-teal-walls.jpg",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "Test",
             "heading_size": 1,
@@ -152,7 +152,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
@@ -166,7 +166,7 @@
           "settings": {
             "image": "shopify://shop_images/bedroom-with-heart-pillows.jpg",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 1,
@@ -174,7 +174,7 @@
             "text_size": 7,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
