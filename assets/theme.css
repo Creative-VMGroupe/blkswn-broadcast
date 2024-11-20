@@ -25078,10 +25078,11 @@ a.btn,p.hero__description {
   --font-1: 48px;
   }
 }
-.wht-prod-info {
-  width: 50% !important;
-  background-color: red !important;
+/*Buttons*/
+a.btn {
+  min-width: 200px;
 }
-.tolstoy-carousel-videos-container {
-  gap: 30px !important;
-}
+
+
+
+/*Media Queries Start*/
