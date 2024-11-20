@@ -171,8 +171,8 @@
         "image_36YC8b"
       ],
       "settings": {
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
@@ -234,8 +234,8 @@
         "image_zVeciy"
       ],
       "settings": {
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
