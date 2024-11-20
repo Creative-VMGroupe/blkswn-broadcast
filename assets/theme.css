@@ -25090,5 +25090,7 @@ a.btn.btn--small {
   opacity: 1 !important;
 }
 /*PDP*/
-
+.radio__legend__label {
+  font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
+}
 /*Media Queries Start*/
