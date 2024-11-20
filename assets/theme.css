@@ -25082,7 +25082,9 @@ a.btn,p.hero__description {
 a.btn {
   min-width: 200px;
 }
-
+a.btn.btn--small {
+  min-width: none;
+}
 
 
 /*Media Queries Start*/
