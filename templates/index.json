@@ -53,10 +53,10 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "show_placeholder": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -92,70 +92,10 @@
         "padding_bottom": 0
       }
     },
-    "docs": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Newly Updated",
-            "text_size": 3,
-            "padding_bottom": 16
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Broadcast Documentation",
-            "text_size": 1,
-            "padding_bottom": 16
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Broadcast has been extensively documented to help you learn what's possible and get the most out of the theme.  Learn how to set up advanced menus, color swatches, sophisticated cart upsells, and more.</p>",
-            "text_size": 7,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "See the new Broadcast docs",
-            "button_url": "https://broadcast.invisiblethemes.com/",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons"
-      ],
-      "disabled": true,
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "section_collection_V9iWVX": {
       "type": "section-collection",
       "settings": {
-        "heading": "Best Sellers",
+        "heading": "FEATURED COLLECTION",
         "description": "",
         "layout": "inline",
         "link_text": "Shop Now",
@@ -386,7 +326,6 @@
   "order": [
     "section_hero_jXhH8j",
     "section_video_DG3pLE",
-    "docs",
     "section_collection_V9iWVX",
     "section_custom_content_dyBMKi",
     "section_custom_content_BxL6Rp",
