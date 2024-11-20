@@ -25083,7 +25083,7 @@ a.btn {
   min-width: 200px;
 }
 a.btn.btn--small {
-  min-width: none;
+  min-width: auto;
 }
 
 
