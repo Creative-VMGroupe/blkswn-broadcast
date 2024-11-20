@@ -125,7 +125,7 @@
             "video": "shopify://files/videos/tolstoy_1694feb7-5317-48ad-a74c-f98b1af27305_preview.mp4",
             "show_video_popup": false,
             "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "BED",
@@ -147,7 +147,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2eaeb5e41c3931f9712d3fd70d68bea8.jpg",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "overlay_color": "#000",
             "show_overlay_text": false,
             "title": "LIVING",
@@ -188,7 +188,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Frame_1087622.jpg",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "overlay_color": "#000",
             "show_overlay_text": false,
             "title": "",
@@ -210,7 +210,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/97cc3dfb25470a62841db0ca79191dac.jpg",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "overlay_color": "#000",
             "show_overlay_text": false,
             "title": "COLLECTION TITLE",
