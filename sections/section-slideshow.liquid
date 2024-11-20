@@ -128,7 +128,9 @@
               {%- unless show_overlay_text or overlay_opacity == 0.0 -%}
                 <div class="image-overlay" style="--overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"></div>
               {%- endunless -%}
-
+{%  case block.type %}
+{% when 'image' %}
+                    
               {%- liquid
                 if forloop.first and section.index < 3
                   assign loading = 'eager'
@@ -142,7 +144,12 @@
 
                 render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, alt: alt, loading: loading, fetchpriority: fetchpriority, preload: preload
               -%}
-
+{% when 'video' %}
+{%- assign video = block.settings.video -%}
+<div class="video-container video-slideshow-container{% if fullscreen and text_box_below%} full-screen-minus-header{% endif %}" >
+{{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+</div>           
+{% endcase %}
             {%- if first_button_text == blank and first_button_link != blank -%}
               </a>
             {%- else -%}
