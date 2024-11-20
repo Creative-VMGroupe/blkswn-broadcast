@@ -296,11 +296,11 @@
         "grid": 4,
         "rows": 3,
         "width": "wrapper--full-padded",
-        "layout_mobile": "slider",
+        "layout_mobile": "2",
         "bg_color": "",
         "color": "",
         "padding_top": 60,
-        "padding_bottom": 50
+        "padding_bottom": 60
       }
     },
     "1731611205705610c2": {
