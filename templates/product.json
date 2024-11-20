@@ -16,7 +16,7 @@
           "type": "title",
           "settings": {
             "subheading_option": "collection",
-            "text_size": 3,
+            "text_size": 2,
             "padding_bottom": 8
           }
         },
