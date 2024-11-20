@@ -279,27 +279,27 @@
         "padding_bottom": 0
       }
     },
-    "section_collection_q3WfR4": {
+    "section_collection_HCegyn": {
       "type": "section-collection",
       "settings": {
-        "heading": "Best Sellers",
+        "heading": "BEST SELLERS",
         "description": "",
         "layout": "inline",
-        "link_text": "Shop Now",
+        "link_text": "VIEW ALL",
         "link_url": "",
         "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
         "show_arrow": false,
         "featured_collection": "test",
         "layout_desktop": "grid",
         "grid": 4,
         "rows": 3,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
+        "padding_top": 60,
         "padding_bottom": 50
       }
     },
@@ -328,7 +328,7 @@
     "section_custom_content_dyBMKi",
     "section_custom_content_cAaVR4",
     "featured_posts_BPRi9F",
-    "section_collection_q3WfR4",
+    "section_collection_HCegyn",
     "1731611205705610c2"
   ]
 }
