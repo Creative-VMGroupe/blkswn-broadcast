@@ -142,33 +142,32 @@
             "color": "#ffffff"
           }
         },
-        "video_cnjY44": {
-          "type": "video",
+        "image_36YC8b": {
+          "type": "image",
           "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "image": "shopify://shop_images/2eaeb5e41c3931f9712d3fd70d68bea8.jpg",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "#000",
             "show_overlay_text": false,
-            "title": "Video",
-            "heading_size": 1,
-            "description": "Tell your brand's story through images.",
+            "title": "LIVING",
+            "heading_size": 3,
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sadipscing elitr, sadipscing elitr",
             "text_size": 7,
-            "flex_align": "align--middle-center",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
+            "flex_align": "align--middle-left",
             "bg_color": "",
-            "color": "#ffffff"
+            "color": "#FFFFFF",
+            "link_text": "LEARN MORE",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
           }
         }
       },
       "block_order": [
         "video_EadAhQ",
-        "video_cnjY44"
+        "image_36YC8b"
       ],
       "settings": {
         "height": "five-fifty-height-hero",
@@ -184,29 +183,6 @@
     "section_custom_content_BxL6Rp": {
       "type": "section-custom-content",
       "blocks": {
-        "video_t3rAYq": {
-          "type": "video",
-          "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "Video",
-            "heading_size": 1,
-            "description": "Tell your brand's story through images.",
-            "text_size": 7,
-            "flex_align": "align--middle-center",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "bg_color": "",
-            "color": "#ffffff"
-          }
-        },
         "video_iyCU6B": {
           "type": "video",
           "settings": {
@@ -229,11 +205,32 @@
             "bg_color": "",
             "color": "#ffffff"
           }
+        },
+        "image_4PbQCK": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
-        "video_t3rAYq",
-        "video_iyCU6B"
+        "video_iyCU6B",
+        "image_4PbQCK"
       ],
       "settings": {
         "height": "five-fifty-height-hero",
