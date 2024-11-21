@@ -25095,8 +25095,9 @@ a.btn.btn--small {
 }
 small,
 .small,
-p small {
+p small, .product-upsell__price  {
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
 }
+
 
 /*Media Queries Start*/
