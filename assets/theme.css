@@ -25090,14 +25090,15 @@ a.btn.btn--small {
   opacity: 1 !important;
 }
 /*PDP*/
-.radio__legend__label, .radio__legend__value {
-  font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
-}
+/*Fonts*/
+/*Font size 10*/
 small,
 .small,
 p small, .product-upsell__price  {
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
 }
-
-
+/*Font size 12*/
+.product-upsell__title, .radio__legend__label, .radio__legend__value {
+    font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
+}
 /*Media Queries Start*/
