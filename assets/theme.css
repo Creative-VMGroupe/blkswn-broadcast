@@ -24970,13 +24970,6 @@ div,
 .blog-section .article__image .article__tags,
 body,
 .subheading,
-.h1--body,
-.h2--body,
-.h3--body,
-.h4--body,
-.h5--body,
-.h6--body,
-.font-body,
 .font-heading,
 .review__content blockquote,
 .collection-hover__button,
@@ -25019,7 +25012,13 @@ select,
 .product-upsell__price .unit {
 	font-family: minerva-modern, sans-serif !important;
 }
-a.btn,p.hero__description {
+a.btn,p.hero__description,.h1--body,
+.h2--body,
+.h3--body,
+.h4--body,
+.h5--body,
+.h6--body,
+.font-body, {
   font-family: transat-text, sans-serif !important;
 }
 /*Set Font size for all site*/
