@@ -185,7 +185,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/pdp_img2.png",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
