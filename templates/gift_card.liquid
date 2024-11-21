@@ -98,10 +98,8 @@
   {% style %}
     {%- liquid
       assign heading_font = settings.type_heading_font
-      assign heading_font = 'minerva-modern, sans-serif'
       assign base_font = settings.type_base_font
-      assign base_font = 'transat-text'
-       
+
       assign heading_font_bold = heading_font | font_modify: 'weight', 'bolder'
       assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
 
