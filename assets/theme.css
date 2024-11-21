@@ -25014,14 +25014,15 @@ p.hero__description,
 .product-upsell__price .unit,
 .blog-section .article__image .article__tags, .popout__toggle, .sale-box,
 .preorder-box,
-.badge-box, .search-submit,
+.badge-box, 
+.search-submit,
 input,
 textarea,
 select,
 span,
 p,
 div,
-body, {
+body {
   font-family: transat-text, sans-serif !important;
 }
 /*Set Font size for all site*/
