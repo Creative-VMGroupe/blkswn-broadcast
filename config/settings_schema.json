@@ -296,6 +296,21 @@
     ]
   },
   {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Adobe Font?"
+      },
+      {
+        "type": "checkbox",
+        "id": "adobe_font_enabled",
+        "label": "Enable the adobe font",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "Buttons",
     "settings": [
       {
