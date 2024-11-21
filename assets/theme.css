@@ -25001,7 +25001,9 @@ h6,
 .product-upsell__variant-title {
 	font-family: minerva-modern, sans-serif !important;
 }
-a.btn,p.hero__description,.h1--body,
+a.btn, 
+p.hero__description, 
+.h1--body,
 .h2--body,
 .h3--body,
 .h4--body,
