@@ -116,14 +116,7 @@
             "title": "Dry Clean & Hand Wash Only",
             "text_size": 8,
             "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "divider_1": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "padding_bottom": 16
+            "padding_bottom": 40
           }
         },
         "upsell": {
@@ -148,7 +141,6 @@
         "popup_y8MyYf",
         "icon_1",
         "icon_2",
-        "divider_1",
         "upsell"
       ],
       "settings": {
