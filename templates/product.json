@@ -162,12 +162,12 @@
         "image_6iGe8V": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/elaborate-building-interior-with-light-teal-walls.jpg",
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/pdp_img1.jpg",
+            "overlay_opacity": 30,
             "overlay_color": "#000000",
             "show_overlay_text": false,
-            "title": "Test",
-            "heading_size": 1,
+            "title": "COLLECTION TITLE",
+            "heading_size": 3,
             "description": "Testing",
             "text_size": 5,
             "flex_align": "align--middle-center",
@@ -176,15 +176,15 @@
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
             "show_arrow": false
           }
         },
         "image_WYBNXz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/bedroom-with-heart-pillows.jpg",
+            "image": "shopify://shop_images/pdp_img2.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -209,9 +209,9 @@
         "image_WYBNXz"
       ],
       "settings": {
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full-padded",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
         "borders": false,
         "gutters": false,
         "reverse_blocks": false,
