@@ -263,11 +263,11 @@
             "column_width": 50,
             "icon_name": "icon-shield",
             "icon_size": 20,
-            "icon_alignment": "icon--top",
+            "icon_alignment": "icon--left",
             "icon_color": "#545454",
             "title": "100% SILK",
             "heading_size": 5,
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>Vypp frisparkssprej. Nehåkroledes didåjaling. Nisade. Therese Sjöberg heterott. Filoskop psykofaktisk. Bebal teraform. Odinyrar. Paragism trer. Post. Dende </p>",
             "text_size": 7
           }
         },
@@ -277,11 +277,11 @@
             "column_width": 50,
             "icon_name": "icon-shield",
             "icon_size": 20,
-            "icon_alignment": "icon--top",
+            "icon_alignment": "icon--left",
             "icon_color": "#545454",
             "title": "AIR DRY ONLY",
             "heading_size": 5,
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>Vypp frisparkssprej. Nehåkroledes didåjaling. Nisade. Therese Sjöberg heterott. Filoskop psykofaktisk. Bebal teraform. Odinyrar. Paragism trer. Post. Dende </p>",
             "text_size": 7
           }
         },
@@ -291,11 +291,11 @@
             "column_width": 50,
             "icon_name": "icon-shield",
             "icon_size": 20,
-            "icon_alignment": "icon--top",
+            "icon_alignment": "icon--left",
             "icon_color": "#545454",
             "title": "DRY CLEAN OR HAND WASH ONLY",
             "heading_size": 5,
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>Vypp frisparkssprej. Nehåkroledes didåjaling. Nisade. Therese Sjöberg heterott. Filoskop psykofaktisk. Bebal teraform. Odinyrar. Paragism trer. Post. Dende </p>",
             "text_size": 7
           }
         },
@@ -305,11 +305,11 @@
             "column_width": 50,
             "icon_name": "icon-shield",
             "icon_size": 20,
-            "icon_alignment": "icon--top",
+            "icon_alignment": "icon--left",
             "icon_color": "#545454",
             "title": "CARE TIPS",
             "heading_size": 5,
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>Vypp frisparkssprej. Nehåkroledes didåjaling. Nisade. Therese Sjöberg heterott. Filoskop psykofaktisk. Bebal teraform. Odinyrar. Paragism trer. Post. Dende </p>",
             "text_size": 7
           }
         }
@@ -322,7 +322,7 @@
       ],
       "settings": {
         "title": "Fabrics & Care",
-        "heading_size": 1,
+        "heading_size": 3,
         "description": "",
         "align_heading": "text-left",
         "align_text": "text-left",
