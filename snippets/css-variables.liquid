@@ -6,9 +6,13 @@
 
 {%- liquid
   assign heading_font = settings.type_heading_font
+  assign heading_font = 'minerva-modern, sans-serif'
   assign subheading_font = settings.type_sub_font
+  assign subheading_font = 'transat-text'
   assign base_font = settings.type_base_font
+  assign base_font = 'transat-text' 
   assign nav_font = settings.type_nav_font
+  assign nav_font = 'transat-text' 
 
   assign heading_font_bold = heading_font | font_modify: 'weight', 'bolder'
   assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
