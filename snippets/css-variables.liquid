@@ -6,13 +6,9 @@
 
 {%- liquid
   assign heading_font = settings.type_heading_font
-  assign heading_font = 'Minerva Modern'
   assign subheading_font = settings.type_sub_font
-  assign subheading_font = 'Transat Text'
   assign base_font = settings.type_base_font
-  assign base_font = 'Transat Text' 
   assign nav_font = settings.type_nav_font
-  assign nav_font = 'Transat Text' 
 
   assign heading_font_bold = heading_font | font_modify: 'weight', 'bolder'
   assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
@@ -88,6 +84,7 @@
       assign swatch_size_product = '3.0'
   endcase
 -%}
+
 {% style %}
 
 :root {
@@ -327,7 +324,7 @@
 --FONT-UPPERCASE-HEADING: {{ heading_font_uppercase }};
 --LETTER-SPACING-HEADING: {{ settings.heading_letter_spacing | divided_by: 1000.0 | append: 'em' }};
 
---FONT-STACK-HEADING: {{ heading_font }}, {{ heading_font.fallback_families }};
+--FONT-STACK-HEADING: {{ heading_font.family }}, {{ heading_font.fallback_families }};
 --FONT-STYLE-HEADING: {{ heading_font.style }};
 --FONT-STYLE-HEADING-ITALIC: {{ heading_font_italic.style }};
 --FONT-ADJUST-HEADING: {{ settings.type_heading_size | divided_by: 100.0 }};
@@ -375,7 +372,7 @@
   --LAYOUT-OUTER-SMALL: 16px;
   --LAYOUT-GUTTER-SMALL: 16px;
 {%- else -%}
-  --LAYOUT-OUTER: 40px;
+  --LAYOUT-OUTER: 50px;
   --LAYOUT-GUTTER: 10px;
   --LAYOUT-OUTER-MEDIUM: 30px;
   --LAYOUT-GUTTER-MEDIUM: 22px;
