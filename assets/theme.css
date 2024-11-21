@@ -24951,7 +24951,7 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 /*Set Font for entire site*/
-.h1,
+/* .h1,
 .h2,
 .h3,
 .h4,
@@ -25024,7 +25024,7 @@ p,
 div,
 body {
   font-family: transat-text, sans-serif !important;
-}
+} */
 /*Set Font size for all site*/
 :root {
   --font-15: 48px;
