@@ -41,7 +41,7 @@
             "show_quantity": true,
             "show_payment_button": true,
             "show_gift_card_recipient": false,
-            "padding_bottom": 32
+            "padding_bottom": 40
           }
         },
         "pickup": {
