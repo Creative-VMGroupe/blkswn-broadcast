@@ -25093,5 +25093,10 @@ a.btn.btn--small {
 .radio__legend__label, .radio__legend__value {
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
 }
+small,
+.small,
+p small {
+  font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
+}
 
 /*Media Queries Start*/
