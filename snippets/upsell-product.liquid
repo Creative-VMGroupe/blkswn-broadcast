@@ -80,7 +80,7 @@
 
         <div class="product-upsell__content">
           {%- if upsell_error -%}
-            <p class="product-upsell__title h3">{{ product_title }}</p>
+            <p class="product-upsell__title h8">{{ product_title }}</p>
             <p class="product-upsell__variant-title h4">{{ product_info }}</p>
 
             {%- if onboarding and upsell_quick_add_hide == false -%}
@@ -97,7 +97,7 @@
             {%- endif -%}
           {%- else -%}
             <a href="{{ upsell_product.url }}" class="product-upsell__link">
-              <p class="product-upsell__title h3">{{ upsell_product.title | strip_html }}</p>
+              <p class="product-upsell__title h8">{{ upsell_product.title | strip_html }}</p>
 
               {%- if upsell_product.variants.size == 1 and upsell_variant.title != 'Default Title' -%}
                 <p class="product-upsell__variant-title h4">{{ upsell_variant.title | replace: '/', '<span>&nbsp;</span>' }}</p>
