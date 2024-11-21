@@ -17,13 +17,13 @@
           "settings": {
             "subheading_option": "collection",
             "text_size": 2,
-            "padding_bottom": 8
+            "padding_bottom": 16
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "padding_bottom": 16
+            "padding_bottom": 34
           }
         },
         "variants": {
