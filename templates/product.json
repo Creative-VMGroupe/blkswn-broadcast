@@ -81,6 +81,44 @@
             "padding_bottom": 8
           }
         },
+        "popup_y8MyYf": {
+          "type": "popup",
+          "settings": {
+            "title": "Size Guide",
+            "text": "<p>Additonal information about the product.</p>",
+            "page": "",
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 40
+          }
+        },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-email",
+            "image": "shopify://shop_images/Vector.png",
+            "icon_size": 20,
+            "icon_color": "#000000",
+            "title": "100% Silk",
+            "text_size": 8,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "image": "shopify://shop_images/Ellipse_32.png",
+            "icon_size": 20,
+            "icon_color": "#000000",
+            "title": "Dry Clean & Hand Wash Only",
+            "text_size": 8,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
         "divider_1": {
           "type": "divider",
           "settings": {
@@ -97,30 +135,6 @@
             "bg_color": "",
             "padding_bottom": 16
           }
-        },
-        "icon_1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-email",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Free 30 Days Returns",
-            "text_size": 7,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "icon_2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-truck",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Free shipping on orders over $100",
-            "text_size": 7,
-            "width": "full",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -131,10 +145,11 @@
         "pickup",
         "tabs",
         "fit_guide_a7TwRt",
-        "divider_1",
-        "upsell",
+        "popup_y8MyYf",
         "icon_1",
-        "icon_2"
+        "icon_2",
+        "divider_1",
+        "upsell"
       ],
       "settings": {
         "product_sticky_enable": true,
