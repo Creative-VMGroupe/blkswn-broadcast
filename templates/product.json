@@ -129,7 +129,7 @@
         "upsell": {
           "type": "upsell",
           "settings": {
-            "upsell_product": "",
+            "upsell_product": "{{ product.metafields.custom.complementary_product.value }}",
             "upsell_product_list": [],
             "show_avaialable_upsell_only": false,
             "bg_color": "",
