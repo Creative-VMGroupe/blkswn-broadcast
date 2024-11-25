@@ -24950,6 +24950,8 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+
+/*Global*/
 /*Set Font for entire site*/
 .h1,
 .h2,
@@ -25025,7 +25027,7 @@ p,
 div,
 body {
   font-family: transat-text, sans-serif !important;
-} 
+}
 /*Set Font size for all site*/
 :root {
   --font-15: 48px;
@@ -25082,8 +25084,7 @@ body {
   --font-1: 48px;
   }
 }
-/*Global*/
-/*Font Size H1*/
+/*Heading Font Size*/
 h1,
 .h1 {
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
