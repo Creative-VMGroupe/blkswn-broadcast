@@ -108,7 +108,7 @@
         "overlay_opacity": 0,
         "overlay_color": "#000",
         "show_overlay_text": false,
-        "bg_color": "",
+        "bg_color": "#f7f7f7",
         "color": "",
         "padding_top": 60,
         "padding_bottom": 30
@@ -174,7 +174,7 @@
         "gutters": false,
         "reverse_blocks": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "section_custom_content_7VkqqN": {
