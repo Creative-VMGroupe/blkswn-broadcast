@@ -25083,7 +25083,7 @@ body {
   }
 }
 /*Global*/
-/*Font Size*/
+/*Font Size H1*/
 h1, .h1 {
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
 }
@@ -25107,13 +25107,13 @@ a.btn.btn--small {
 
 /*PDP*/
 /*Fonts*/
-/*Font size 10*/
+/*Font size H9*/
 small,
 .small,
 p small, .product-upsell__price  {
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
 }
-/*Font size 12*/
+/*Font size H8*/
 .product-upsell__title, .radio__legend__label, .radio__legend__value {
     font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
 }
