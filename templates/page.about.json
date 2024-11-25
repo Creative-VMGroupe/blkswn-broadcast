@@ -9,34 +9,6 @@
  */
 {
   "sections": {
-    "section_video_mgYB7V": {
-      "type": "section-video",
-      "settings": {
-        "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "width": "wrapper--full",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "title": "Video",
-        "heading_size": 1,
-        "description": "Tell your brand's story through images.",
-        "text_size": 7,
-        "flex_align": "align--middle-left",
-        "bg_color": "",
-        "color": "#FFFFFF",
-        "link_text": "",
-        "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -55,173 +27,70 @@
         "padding_bottom": 50
       }
     },
-    "section_rich_text_zawWcP": {
-      "type": "section-rich-text",
+    "section_hero_8KX7Qc": {
+      "type": "section-hero",
       "blocks": {
-        "heading_kGG3cF": {
-          "type": "heading",
-          "settings": {
-            "title": "About Us",
-            "text_size": 1,
-            "padding_bottom": 16
-          }
-        },
-        "text_ML8jkt": {
+        "text_4TUWit": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_size": 7,
-            "text_style": "font-body",
-            "padding_bottom": 16
+            "description": "Lorem Ipsum",
+            "text_size": 8,
+            "text_style": "font-body"
+          }
+        },
+        "heading_6xgABA": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_size": 1
+          }
+        },
+        "text_kfgLfG": {
+          "type": "text",
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "button_cxYrpD": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "heading_kGG3cF",
-        "text_ML8jkt"
+        "text_4TUWit",
+        "heading_6xgABA",
+        "text_kfgLfG",
+        "button_cxYrpD"
       ],
       "settings": {
-        "width": "wrapper",
-        "align_text": "text-center",
-        "overlay_opacity": 0,
+        "height": "seven-fifty-height-hero",
+        "width": "wrapper--full",
+        "link": "",
+        "mobile_height": "five-fifty-height-hero--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 30,
         "overlay_color": "#000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "",
-        "padding_top": 30,
-        "padding_bottom": 100
-      }
-    },
-    "section_custom_content_7P4WcN": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_GNT3LU": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 1,
-            "description": "",
-            "text_size": 7,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_4UQUjp": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "subheading_size": 3,
-            "title": "Custom content",
-            "heading_size": 1,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_size": 7,
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_GNT3LU",
-        "text_4UQUjp"
-      ],
-      "settings": {
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full-padded",
-        "borders": false,
-        "gutters": false,
-        "reverse_blocks": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_custom_content_Ee7YLp": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_mnehbQ": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 1,
-            "description": "",
-            "text_size": 7,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_NjyBLJ": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "subheading_size": 3,
-            "title": "From Our Founders",
-            "heading_size": 1,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_size": 7,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_mnehbQ",
-        "text_NjyBLJ"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "borders": false,
-        "gutters": false,
-        "reverse_blocks": false,
+        "color": "#FFFFFF",
+        "show_placeholder": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
     }
   },
   "order": [
-    "section_video_mgYB7V",
     "main",
-    "section_rich_text_zawWcP",
-    "section_custom_content_7P4WcN",
-    "section_custom_content_Ee7YLp"
+    "section_hero_8KX7Qc"
   ]
 }
