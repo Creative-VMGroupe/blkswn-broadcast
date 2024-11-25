@@ -25084,6 +25084,13 @@ body {
   --font-1: 48px;
   }
 }
+/*Body Font Size*/
+html {
+  font-size: 13px;
+}
+body {
+  font-size: 13px;
+}
 /*Heading Font Size*/
 h1,
 .h1 {
