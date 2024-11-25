@@ -25083,6 +25083,10 @@ body {
   }
 }
 /*Global*/
+/*Font Size*/
+h1, .h1 {
+  font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
+}
 /*Buttons*/
 a.btn {
   min-width: 200px;
@@ -25093,6 +25097,14 @@ a.btn.btn--small {
 .product__price {
   opacity: 1 !important;
 }
+
+/*End Global*/
+
+/*Collection CLP*/
+
+/*End Collection CLP*/
+
+
 /*PDP*/
 /*Fonts*/
 /*Font size 10*/
@@ -25105,4 +25117,5 @@ p small, .product-upsell__price  {
 .product-upsell__title, .radio__legend__label, .radio__legend__value {
     font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
 }
+/*End PDP*/
 /*Media Queries Start*/
