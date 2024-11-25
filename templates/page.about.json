@@ -41,15 +41,15 @@
         "heading_6xgABA": {
           "type": "heading",
           "settings": {
-            "title": "Image banner",
+            "title": "OUR PROMISE",
             "heading_size": 1
           }
         },
         "text_kfgLfG": {
           "type": "text",
           "settings": {
-            "description": "Tell your brand's story through images.",
-            "text_size": 6,
+            "description": "Lörem ipsum komtopi jovissade krodell bön, och favis kalapp och don och testbädd. Dysvision operaosmos. Ölig kontragyn tekrati och filologi såväl som tran och chefsnappni",
+            "text_size": 7,
             "text_style": "font-body"
           }
         },
