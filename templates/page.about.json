@@ -183,7 +183,7 @@
         "image_hBDa7R": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_1.jpg",
+            "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_1_1.jpg",
             "overlay_opacity": 30,
             "overlay_color": "#000",
             "show_overlay_text": false,
@@ -202,32 +202,32 @@
             "show_arrow": false
           }
         },
-        "image_4A3kkH": {
-          "type": "image",
+        "text_9eBMJe": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_3.jpg",
-            "overlay_opacity": 30,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 1,
-            "description": "",
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "FROM OUR FOUNDER",
+            "heading_size": 2,
+            "text": "<p>Lörem ipsum mytotopi medelpod: i lagån tir. Mal rodybelt iledes den tripol taliban-tv åvis exopöbelt vakus. Gått töligt men dekaling och rabes. Spevide tev lyssna in. Monoleras sudoku, vas, i deciledes påliga. Sonade apladör radiosiv bepengen. </p>",
             "text_size": 7,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
           }
         }
       },
       "block_order": [
         "image_hBDa7R",
-        "image_4A3kkH"
+        "text_9eBMJe"
       ],
       "settings": {
         "height": "screen-height-one-half",
