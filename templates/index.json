@@ -244,6 +244,33 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_TVEjyP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_LftznX": {
+          "type": "heading",
+          "settings": {
+            "title": "PILLOW TALK",
+            "text_size": 1,
+            "padding_bottom": 30
+          }
+        }
+      },
+      "block_order": [
+        "heading_LftznX"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "featured_posts_BPRi9F": {
       "type": "featured-posts",
       "blocks": {
@@ -251,7 +278,7 @@
           "type": "featured_post",
           "settings": {
             "featured_post": "",
-            "subheading": "MAKE SLIDESHOW"
+            "subheading": ""
           }
         }
       },
@@ -319,6 +346,7 @@
     "section_collection_V9iWVX",
     "section_custom_content_dyBMKi",
     "section_custom_content_cAaVR4",
+    "section_rich_text_TVEjyP",
     "featured_posts_BPRi9F",
     "section_collection_HCegyn",
     "1731611205705610c2"
