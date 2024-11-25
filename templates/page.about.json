@@ -230,8 +230,8 @@
         "text_9eBMJe"
       ],
       "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
