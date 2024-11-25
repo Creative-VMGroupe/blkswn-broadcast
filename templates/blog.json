@@ -39,7 +39,7 @@
     "main": {
       "type": "blog",
       "settings": {
-        "show_title": false,
+        "show_title": true,
         "show_rss": false,
         "show_tag_nav": true,
         "grid": 3,
