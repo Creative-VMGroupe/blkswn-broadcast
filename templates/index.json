@@ -277,7 +277,7 @@
         "featured_post_EzdUWm": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "",
+            "featured_post": "news/test-post",
             "subheading": ""
           }
         }
