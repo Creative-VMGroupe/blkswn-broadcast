@@ -52,28 +52,17 @@
             "text_size": 7,
             "text_style": "font-body"
           }
-        },
-        "button_cxYrpD": {
-          "type": "button",
-          "settings": {
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
         }
       },
       "block_order": [
         "text_4TUWit",
         "heading_6xgABA",
-        "text_kfgLfG",
-        "button_cxYrpD"
+        "text_kfgLfG"
       ],
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
+        "image_1": "shopify://shop_images/e5a10ad78aaaaca47107e3aa8968ada3.jpg",
         "link": "",
         "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_desktop": "align--middle-left-desktop",
@@ -87,10 +76,48 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_BL8ycj": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_C7VeXK": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT US",
+            "text_size": 1,
+            "padding_bottom": 8
+          }
+        },
+        "text_fPbKLx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lörem ipsum äldrelots semilog i tegon selig kall sulävis filoosmos desk. Ryngen nekrok täligt, dianetik agnostisocial digon, oses, ylig. Nesk pneumasocial ösovira i </p>",
+            "text_size": 7,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_C7VeXK",
+        "text_fPbKLx"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "main",
-    "section_hero_8KX7Qc"
+    "section_hero_8KX7Qc",
+    "section_rich_text_BL8ycj"
   ]
 }
