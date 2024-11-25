@@ -253,18 +253,10 @@
             "featured_post": "",
             "subheading": "MAKE SLIDESHOW"
           }
-        },
-        "featured_post_Kd4nTi": {
-          "type": "featured_post",
-          "settings": {
-            "featured_post": "",
-            "subheading": "Featured post"
-          }
         }
       },
       "block_order": [
-        "featured_post_EzdUWm",
-        "featured_post_Kd4nTi"
+        "featured_post_EzdUWm"
       ],
       "settings": {
         "height": "five-fifty-height-hero",
