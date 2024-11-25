@@ -113,11 +113,73 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
+    },
+    "section_custom_content_EKgAVY": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_dnY38P": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 30,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_KG8W9k": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 30,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 1,
+            "description": "",
+            "text_size": 7,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_dnY38P",
+        "image_KG8W9k"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "section_hero_8KX7Qc",
-    "section_rich_text_BL8ycj"
+    "section_rich_text_BL8ycj",
+    "section_custom_content_EKgAVY"
   ]
 }
