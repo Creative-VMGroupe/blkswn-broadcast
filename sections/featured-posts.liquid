@@ -3,6 +3,7 @@
   assign default_content = 'home_page.onboarding.no_content' | t
   assign bg_color = section.settings.bg_color
   assign text_color = section.settings.color
+  assign full_bleed = section.settings.full_bleed
 -%}
 
 {%- style -%}
@@ -22,7 +23,7 @@
 
 {%- if section.blocks.size > 0 -%}
   <section id="FeaturedPosts--{{ section.id }}"
-    class="featured-posts section-padding"
+    class="featured-posts section-padding featured-posts-custom {% if full_bleed %}full_bleed{% endif %}"
     data-section-id="{{ section.id }}"
     data-section-type="blog-section">
     <div class="{{ section.settings.width }}">
