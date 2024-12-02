@@ -25155,7 +25155,7 @@ a.btn.btn--small {
 
 /*End PDP*/
 /*Media Queries Start*/
-@media(min-width: 760px) {
+@media(min-width: 750px) {
   .featured-posts-custom.full_bleed .editorial{
 position: relative;
 }
