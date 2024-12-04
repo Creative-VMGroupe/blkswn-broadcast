@@ -25172,3 +25172,8 @@ flex: 1;
     transform: translateY(-50%);
 }
 }
+
+
+#appointo-body-calendar {
+  display: block !important;
+}
