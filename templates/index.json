@@ -339,6 +339,17 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_custom_code_bN688M": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<div class=\"appointo-custom-btn\" data-appointo-product-handle=\"test-3\" type=\"embed\"></div>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -350,6 +361,7 @@
     "section_rich_text_V86WcM",
     "featured_posts_BPRi9F",
     "section_collection_HCegyn",
-    "1731611205705610c2"
+    "1731611205705610c2",
+    "section_custom_code_bN688M"
   ]
 }
