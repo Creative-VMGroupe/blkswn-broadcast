@@ -25163,7 +25163,7 @@ a.btn.btn--small {
     padding-bottom: 0px; */
     width: 143px;
     height: auto;
-    will-change: width, transform, padding-bottom;
+    will-change: width, transform, height;
     /* transform: translate3d(0px, -24px, 0px); */
 }
 [data-header-expanded="true"] .header__logo {
