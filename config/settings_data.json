@@ -79,27 +79,6 @@
         "type": "shopify://apps/tolstoy-shoppable-video-ugc/blocks/widget-block/06fa8282-42ff-403e-b67c-1936776aed11",
         "disabled": false,
         "settings": {}
-      },
-      "9278379683843197553": {
-        "type": "shopify://apps/appointment-booking-appointo/blocks/app-embed/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
-        "disabled": false,
-        "settings": {}
-      },
-      "16510219240223340300": {
-        "type": "shopify://apps/whatmore-shoppable-videos/blocks/app-embed/20db8a72-315a-4364-8885-64219ee48303",
-        "disabled": true,
-        "settings": {
-          "minimized_video_position": "right",
-          "horizontal-padding": 5,
-          "vertical-padding": 150,
-          "app-size": 50,
-          "minimized_video_position_landscape": "right",
-          "horizontal-padding-landscape": 5,
-          "vertical-padding-landscape": 150,
-          "app-size-landscape": 50,
-          "video-title": "Whatmore Shoppable Video",
-          "use-variant": "false"
-        }
       }
     }
   },
