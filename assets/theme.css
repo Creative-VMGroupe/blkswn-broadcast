@@ -25163,7 +25163,7 @@ a.btn.btn--small {
     top: 0;
     bottom: 0; */
     /* transform: translate(0%, 60px); */
-  transform: translate3d(0px, 24px, 0px);
+  transform: translate3d(0px, 110px, 0px);
     height: 14vw;
     /* width: 100%; */
     padding-left: var(--outer);
