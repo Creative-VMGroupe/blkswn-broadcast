@@ -25158,6 +25158,10 @@ a.btn.btn--small {
 }
 .header__logo {
   position: absolute;
+  top: 60px;
+}
+.header__logo__link {
+  max-width: none;
 }
 /*End Global*/
 
