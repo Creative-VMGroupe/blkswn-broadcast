@@ -63,7 +63,7 @@
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "bag",
-        "logo": "shopify://shop_images/BLKSWN_Wordmark_CMYK_WHITE.svg",
+        "logo": "shopify://shop_images/image.svg",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",
