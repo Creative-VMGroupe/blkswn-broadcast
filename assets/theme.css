@@ -25156,7 +25156,7 @@ a.btn.btn--small {
     display: flex; 
     justify-content: space-between; 
 }
-[data-expanded="true"] .header__logo {
+[data-header-expanded="true"] .header__logo {
   position: absolute;
   top: 60px;
   left: 0;
