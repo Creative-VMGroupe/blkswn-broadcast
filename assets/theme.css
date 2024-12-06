@@ -25156,16 +25156,30 @@ a.btn.btn--small {
     display: flex; 
     justify-content: space-between; 
 }
+[data-header-expanded="true"] .header__logo {
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    transform: translate(0%, 60px);
+    height: 14vw;
+    /* width: 100%; */
+    padding-left: var(--outer);
+    padding-right: var(--outer);
+}
 .header__logo {
-    transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
+    transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1), padding 0.8s cubic-bezier(0.5, 0, 0, 1);
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     transform: translate(0%, 0%);
-    will-change: transform;
+    will-change: transform, padding;
     width: 100%; 
+    padding-left: 0;
+    padding-right: 0;
 }
 .header__logo img {
     position: static;
@@ -25185,18 +25199,7 @@ a.btn.btn--small {
 [data-header-expanded="true"] .header__logo img {
     width: 100%
 }
-[data-header-expanded="true"] .header__logo {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: translate(0%, 60px);
-  height: 14vw;
-  width: 100%;
-  padding-left: var(--outer);
-  padding-right: var(--outer);
-}
+
 .header__logo__link {
   max-width: none;
   width: 100%;
