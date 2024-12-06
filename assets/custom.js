@@ -10,20 +10,23 @@
 
 (function() {
   // Add custom code below this line
-// Select the element with the 'data-header-expanded' attribute
-const headerElement = document.querySelector('[data-header-expanded]');
+// Select all elements with the 'data-header-expanded' attribute
+const headerElements = document.querySelectorAll('[data-header-expanded]');
 
 // Function to update the attribute based on scroll position
 function updateHeaderExpanded() {
-    if (window.scrollY === 0) {
-      console.log("Top")
-      
-        headerElement.setAttribute('data-header-expanded', 'true');
-    } else {
-      console.log("Not Top")
-          console.log(headerElement)
-        headerElement.setAttribute('data-header-expanded', 'false');
-    }
+    const isAtTop = window.scrollY === 0;
+
+    headerElements.forEach(headerElement => {
+        if (isAtTop) {
+            console.log("Top");
+            headerElement.setAttribute('data-header-expanded', 'true');
+        } else {
+            console.log("Not Top");
+            console.log(headerElement);
+            headerElement.setAttribute('data-header-expanded', 'false');
+        }
+    });
 }
 
 // Add event listener to update on scroll
@@ -31,6 +34,7 @@ window.addEventListener('scroll', updateHeaderExpanded);
 
 // Initial check in case the page is not loaded at the top
 updateHeaderExpanded();
+
 
 
 
