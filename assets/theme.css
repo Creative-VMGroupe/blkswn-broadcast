@@ -25159,10 +25159,9 @@ a.btn.btn--small {
 
 .header__logo {
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1), height 0.8s cubic-bezier(0.5, 0, 0, 1), absolute 0.8s cubic-bezier(0.5, 0, 0, 1);
-    position: relative;
     width: 143px;
     height: 50px;
-    will-change: width, height, position;
+    will-change: width, height;
     /* transform: translate3d(0px, -24px, 0px); */
 }
 [data-header-expanded="true"] .header__logo {
@@ -25175,10 +25174,6 @@ a.btn.btn--small {
 [data-header-expanded="true"] .header__logo__link {
   max-width: none;
   width: 100%;
-}
-.header__logo__link {
-    transition: width 0.8s cubic-bezier(0.5, 0, 0, 1), max-width 0.8s cubic-bezier(0.5, 0, 0, 1);
-    will-change: width, max-width;
 }
 /*End Global*/
 
