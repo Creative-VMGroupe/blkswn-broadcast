@@ -25172,7 +25172,7 @@ a.btn.btn--small {
   height: 14vw;
   width: 100%;
 }
-[data-header-expanded="true"] .header__logo__link {
+.header__logo__link {
   max-width: none;
   width: 100%;
 }
