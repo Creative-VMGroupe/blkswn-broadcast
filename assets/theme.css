@@ -25156,6 +25156,9 @@ a.btn.btn--small {
     display: flex; 
     justify-content: space-between; 
 }
+.header__logo {
+  position: absolute;
+}
 /*End Global*/
 
 /*Collection CLP*/
