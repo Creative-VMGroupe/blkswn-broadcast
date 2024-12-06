@@ -25161,6 +25161,7 @@ a.btn.btn--small {
     position: absolute;
     transform: translate(0%, 0%);
     will-change: transform;
+    width: 100%;
 }
 .header__logo img {
 
