@@ -25159,9 +25159,13 @@ a.btn.btn--small {
 .header__logo {
     transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     transform: translate(0%, 0%);
     will-change: transform;
-    width: 100%;
+    width: 100%; 
 }
 .header__logo img {
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
