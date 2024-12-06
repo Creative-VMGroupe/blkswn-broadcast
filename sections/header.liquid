@@ -766,7 +766,7 @@
   data-section-type="header"
   {{ highlight_style }}>
 
-  <header class="theme__header{% if show_separator_line %} has-border{% endif %}" role="banner" data-header-height data-aos="fade">
+  <header class="theme__header{% if show_separator_line %} has-border{% endif %} {% if section.settings.header_fixed %} enable_fixed{% endif %} " role="banner" data-header-height data-aos="fade">
 
     {%- if toolbar != blank -%}
       {{ toolbar }}
