@@ -25148,11 +25148,11 @@ a.btn.btn--small {
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
 }
 /* Logo Animation Effect */
-/* .header-sections {
+.header-sections {
   position: fixed;
   z-index: 99;
   width: 100%;
-} */
+}
 .js__show__mobile .header__mobile {
     display: flex; 
     justify-content: space-between; 
@@ -25172,7 +25172,7 @@ a.btn.btn--small {
     bottom: 0;
     transform: translate3d(0px, 0px, 0px);
     will-change: transform, padding;
-    /* width: 100%;  */
+    width: 100%; 
     padding-left: 0;
     padding-right: 0;
     padding-top: var(--PT-MOBILE, var(--padding-top));
