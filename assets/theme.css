@@ -25163,7 +25163,7 @@ a.btn.btn--small {
     padding-left: var(--outer);
     padding-right: var(--outer);
 }
-/* .header__logo {
+.header__logo {
     transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1), padding 0.8s cubic-bezier(0.5, 0, 0, 1);
     position: absolute;
     left: 0;
@@ -25172,12 +25172,12 @@ a.btn.btn--small {
     bottom: 0;
     transform: translate3d(0px, 0px, 0px);
     will-change: transform, padding;
-    width: 100%; 
+    /* width: 100%;  */
     padding-left: 0;
     padding-right: 0;
     padding-top: var(--PT-MOBILE, var(--padding-top));
     padding-bottom: var(--padding-bottom);
-} */
+}
 .header__logo img {
     position: static;
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
