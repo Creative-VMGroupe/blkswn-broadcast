@@ -25152,7 +25152,10 @@ a.btn.btn--small {
   z-index: 99;
   width: 100%;
 }
-
+.header__mobile {
+    display: flex; 
+    justify-content: space-between; 
+}
 /*End Global*/
 
 /*Collection CLP*/
