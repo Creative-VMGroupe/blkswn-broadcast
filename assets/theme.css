@@ -25153,7 +25153,7 @@ a.btn.btn--small {
   z-index: 99;
   width: 100%;
 } */
-.enable_fixed .js__show__mobile .header__mobile {
+.js__show__mobile .enable_fixed .header__mobile {
     display: flex; 
     justify-content: space-between; 
 }
