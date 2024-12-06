@@ -6829,6 +6829,7 @@
           this.resizeObserver?.unobserve(this.wrapper);
         } else {
           document.removeEventListener('theme:resize', this.checkWidth);
+          console.log("test2")
         }
       }
     }
