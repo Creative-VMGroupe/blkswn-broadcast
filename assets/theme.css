@@ -25163,12 +25163,10 @@ a.btn.btn--small {
     will-change: transform;
 }
 .header__logo img {
-    width: 143px;
-    height: 50px;
+
 }
 [data-header-expanded="true"] .header__logo img {
-    height: 14vw;
-    width: 100%;
+
 }
 [data-header-expanded="true"] .header__logo {
   position: absolute;
