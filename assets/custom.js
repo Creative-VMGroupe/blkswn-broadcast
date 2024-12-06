@@ -38,8 +38,10 @@ function toggleClassBasedOnScreenSize() {
 
     if (headerWrapper) {
         if (isMobile) {
+          console.log(headerWrapper)
             headerWrapper.classList.add('js__show__mobile');
         } else {
+           console.log("not mobile")
             headerWrapper.classList.remove('js__show__mobile');
         }
     }
