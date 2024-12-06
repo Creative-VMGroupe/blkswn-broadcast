@@ -25156,6 +25156,14 @@ a.btn.btn--small {
     display: flex; 
     justify-content: space-between; 
 }
+.header__logo {
+    transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1), width 0.8s cubic-bezier(0.5, 0, 0, 1), transform 0.8s cubic-bezier(0.5, 0, 0, 1), padding-bottom 0.8s cubic-bezier(0.5, 0, 0, 1);
+    /* width: 143px;
+    height: 0px;
+    padding-bottom: 0px; */
+    will-change: height, transform, padding-bottom;
+    transform: translate3d(0px, -24px, 0px);
+}
 [data-header-expanded="true"] .header__logo {
   position: absolute;
   top: 60px;
