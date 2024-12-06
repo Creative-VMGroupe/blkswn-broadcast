@@ -31,29 +31,7 @@ window.addEventListener('scroll', updateHeaderExpanded);
 updateHeaderExpanded();
 
 
-// Function to handle class toggling based on screen size
-function toggleClassBasedOnScreenSize() {
-    const headerWrappers = document.querySelectorAll('.header__wrapper');
-    const isMobile = window.innerWidth <= 768;
 
-    headerWrappers.forEach(headerWrapper => {
-        if (isMobile) {
-          console.log("Is Mobile")
-          console.log(headerWrapper)
-            headerWrapper.classList.add('js__show__mobile');
-        } else {
-          console.log("Not Mobile")
-          console.log(headerWrapper)
-            headerWrapper.classList.remove('js__show__mobile');
-        }
-    });
-}
-
-// Add an event listener for window resize
-window.addEventListener('resize', toggleClassBasedOnScreenSize);
-
-// Run the function once on page load
-toggleClassBasedOnScreenSize();
 
 
 
