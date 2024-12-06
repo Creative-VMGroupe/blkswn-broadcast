@@ -33,20 +33,18 @@ updateHeaderExpanded();
 
 // Function to handle class toggling based on screen size
 function toggleClassBasedOnScreenSize() {
-    const headerWrapper = document.querySelector('.header__wrapper');
+    const headerWrappers = document.querySelectorAll('.header__wrapper');
     const isMobile = window.innerWidth <= 768;
 
-    if (headerWrapper) {
+    headerWrappers.forEach(headerWrapper => {
         if (isMobile) {
-          console.log(headerWrapper)
-           console.log("Is mobile")
+          console.log("Is Mobile")
             headerWrapper.classList.add('js__show__mobile');
         } else {
-           console.log("not mobile")
-          console.log(headerWrapper)
+          console.log("Not Mobile")
             headerWrapper.classList.remove('js__show__mobile');
         }
-    }
+    });
 }
 
 // Add an event listener for window resize
@@ -54,6 +52,7 @@ window.addEventListener('resize', toggleClassBasedOnScreenSize);
 
 // Run the function once on page load
 toggleClassBasedOnScreenSize();
+
 
 
 
