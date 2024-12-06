@@ -56,8 +56,8 @@
         "toolbar"
       ],
       "settings": {
-        "header_sticky": true,
-        "header_fixed": false,
+        "header_sticky": false,
+        "header_fixed": true,
         "logo_animation": true,
         "header_style": "logo_center_menu_left",
         "show_separator_line": false,
