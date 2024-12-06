@@ -17,9 +17,11 @@ const headerElement = document.querySelector('[data-header-expanded]');
 function updateHeaderExpanded() {
     if (window.scrollY === 0) {
       console.log("Top")
+      
         headerElement.setAttribute('data-header-expanded', 'true');
     } else {
       console.log("Not Top")
+          console.log(headerElement)
         headerElement.setAttribute('data-header-expanded', 'false');
     }
 }
