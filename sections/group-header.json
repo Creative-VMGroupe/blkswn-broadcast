@@ -56,7 +56,8 @@
         "toolbar"
       ],
       "settings": {
-        "header_sticky": true,
+        "header_sticky": false,
+        "header_fixed": true,
         "header_style": "logo_center_menu_left",
         "show_separator_line": false,
         "separator_opacity": 50,
