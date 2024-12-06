@@ -25143,6 +25143,10 @@ a.btn.btn--small {
   opacity: 1 !important;
 }
 
+/*Header*/
+.header-sections {
+  position: fixed;
+}
 /*End Global*/
 
 /*Collection CLP*/
