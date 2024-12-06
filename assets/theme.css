@@ -25202,6 +25202,9 @@ a.btn.btn--small {
   max-width: none;
   width: 100%;
 }
+.enable_fixed .header__mobile__left, .enable_fixed .header__mobile__right {
+  z-index: 999
+}
 /*End Global*/
 
 /*Collection CLP*/
