@@ -25165,7 +25165,7 @@ a.btn.btn--small {
 }
 .header__logo {
     transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1), padding 0.8s cubic-bezier(0.5, 0, 0, 1);
-    /* position: absolute; */
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
