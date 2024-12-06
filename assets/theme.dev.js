@@ -6767,7 +6767,7 @@
       checkWidth() {
         if (document.body.clientWidth < this.minWidth) {
           this.wrapper.classList.add(classes$j.showMobileClass);
-
+console.log(this)
           // Update --header-height CSS variable when switching to a mobile nav
           const {headerHeight} = readHeights();
           document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
