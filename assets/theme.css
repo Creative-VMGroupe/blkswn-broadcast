@@ -25162,7 +25162,7 @@ a.btn.btn--small {
     height: 0px;
     padding-bottom: 0px; */
     will-change: height, transform, padding-bottom;
-    transform: translate3d(0px, -24px, 0px);
+    /* transform: translate3d(0px, -24px, 0px); */
 }
 [data-header-expanded="true"] .header__logo {
   position: absolute;
