@@ -25168,11 +25168,18 @@ a.btn.btn--small {
     width: 100%; 
 }
 .header__logo img {
+    position: static;
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
     width: 143px;
     will-change: transform;
     margin: 0 auto;
     right: 0;
+}
+.header__logo figure {
+    height: 42px;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 [data-header-expanded="true"] .header__logo img {
     width: 100%
