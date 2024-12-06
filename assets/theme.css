@@ -25164,7 +25164,7 @@ a.btn.btn--small {
   width: 100%;
 
 }
-[data-expanded="true"] .header__logo__link {
+[data-header-expanded="true"] .header__logo__link {
   max-width: none;
   width: 100%;
 }
