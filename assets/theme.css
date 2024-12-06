@@ -25156,16 +25156,15 @@ a.btn.btn--small {
     display: flex; 
     justify-content: space-between; 
 }
-.header__logo {
+[data-expanded="true"] .header__logo {
   position: absolute;
   top: 60px;
   left: 0;
   height: 14vw;
-  
   width: 100%;
 
 }
-.header__logo__link {
+[data-expanded="true"] .header__logo__link {
   max-width: none;
   width: 100%;
 }
