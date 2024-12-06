@@ -190,6 +190,14 @@
   {%- unless transparent_header -%}
     .main-content > .shopify-section:first-of-type .backdrop--linear:before { display: none; }
   {%- endunless -%}
+
+  {% if section.settings.header_fixed %}
+    .header-sections {
+      position: fixed;
+      z-index: 99;
+      width: 100%; 
+    }
+    {% endif %}
 {%- endstyle -%}
 
 {%- capture toolbar -%}
