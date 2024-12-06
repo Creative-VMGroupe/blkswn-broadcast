@@ -25158,12 +25158,9 @@ a.btn.btn--small {
 }
 .header__logo {
     transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1), width 0.8s cubic-bezier(0.5, 0, 0, 1), transform 0.8s cubic-bezier(0.5, 0, 0, 1), height 0.8s cubic-bezier(0.5, 0, 0, 1);
-    /*
-    height: 0px;
-    padding-bottom: 0px; */
     width: 143px;
     height: auto;
-    will-change: width, transform, height;
+    will-change: width;
     /* transform: translate3d(0px, -24px, 0px); */
 }
 [data-header-expanded="true"] .header__logo {
