@@ -25168,8 +25168,9 @@ a.btn.btn--small {
 }
 [data-header-expanded="true"] .header__logo {
   position: absolute;
-  top: 60px;
+  top: 0px;
   left: 0;
+ transform: translate(0%, 60px);
   height: 14vw;
   width: 100%;
 }
