@@ -25170,6 +25170,7 @@ a.btn.btn--small {
 .header__logo img {
     position: static;
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
+    height: auto;
     width: 143px;
     will-change: transform;
     margin: 0 auto;
