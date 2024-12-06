@@ -25168,7 +25168,6 @@ a.btn.btn--small {
     width: 143px;
     will-change: transform;
     margin: 0 auto;
-    display: block;
     right: 0;
 }
 [data-header-expanded="true"] .header__logo img {
