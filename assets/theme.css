@@ -25146,6 +25146,7 @@ a.btn.btn--small {
 /*Header*/
 .header-sections {
   position: fixed;
+  z-index: 99;
 }
 /*End Global*/
 
