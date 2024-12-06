@@ -25178,7 +25178,7 @@ a.btn.btn--small {
     padding-top: var(--PT-MOBILE, var(--padding-top));
     padding-bottom: var(--padding-bottom);
 } */
-/* .header__logo img {
+.header__logo img {
     position: static;
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
     height: auto;
@@ -25201,7 +25201,7 @@ a.btn.btn--small {
   max-height: 100%;
   max-width: none;
   width: 100%;
-} */
+}
 /*End Global*/
 
 /*Collection CLP*/
