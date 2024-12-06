@@ -6765,7 +6765,7 @@
       }
 
       checkWidth() {
-        console.log("this")
+        console.log("test1")
         if (document.body.clientWidth < this.minWidth) {
           this.wrapper.classList.add(classes$j.showMobileClass);
 
