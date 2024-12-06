@@ -12,7 +12,7 @@
   // Add custom code below this line
 // Select the element with the 'data-header-expanded' attribute
 const headerElement = document.querySelector('[data-header-expanded]');
-
+console.log('Working')
 // Function to update the attribute based on scroll position
 function updateHeaderExpanded() {
     if (window.scrollY === 0) {
