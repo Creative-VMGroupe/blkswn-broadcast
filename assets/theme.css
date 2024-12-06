@@ -25147,7 +25147,7 @@ a.btn.btn--small {
 .navtext {
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
 }
-/* .header-sections {
+.header-sections {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -25167,7 +25167,7 @@ a.btn.btn--small {
 [data-header-expanded="true"] .header__logo__link {
   max-width: none;
   width: 100%;
-} */
+}
 /*End Global*/
 
 /*Collection CLP*/
