@@ -25147,7 +25147,8 @@ a.btn.btn--small {
 .navtext {
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
 }
-.header-sections {
+/* Logo Animation Effect */
+/* .header-sections {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -25157,15 +25158,8 @@ a.btn.btn--small {
     justify-content: space-between; 
 }
 [data-header-expanded="true"] .header__logo {
-    /* position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0; */
-    /* transform: translate(0%, 60px); */
-  transform: translate3d(0px, 110px, 0px);
+    transform: translate3d(0px, 110px, 0px);
     height: 14vw;
-    /* width: 100%; */
     padding-left: var(--outer);
     padding-right: var(--outer);
 }
@@ -25176,8 +25170,7 @@ a.btn.btn--small {
     right: 0;
     top: 0;
     bottom: 0;
-    /* transform: translate(0%, 0%); */
-  transform: translate3d(0px, 0px, 0px);
+   transform: translate3d(0px, 0px, 0px);
     will-change: transform, padding;
     width: 100%; 
     padding-left: 0;
@@ -25208,7 +25201,7 @@ a.btn.btn--small {
   max-height: 100%;
   max-width: none;
   width: 100%;
-}
+} */
 /*End Global*/
 
 /*Collection CLP*/
