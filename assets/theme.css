@@ -25148,7 +25148,7 @@ a.btn.btn--small {
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
 }
 /* Logo Animation Effect */
-/* .header-sections {
+.header-sections {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -25201,7 +25201,7 @@ a.btn.btn--small {
   max-height: 100%;
   max-width: none;
   width: 100%;
-} */
+}
 /*End Global*/
 
 /*Collection CLP*/
