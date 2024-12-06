@@ -25182,6 +25182,8 @@ a.btn.btn--small {
     width: 100%; 
     padding-left: 0;
     padding-right: 0;
+    padding-top: var(--PT-MOBILE, var(--padding-top));
+    padding-bottom: var(--padding-bottom);
 }
 .header__logo img {
     position: static;
