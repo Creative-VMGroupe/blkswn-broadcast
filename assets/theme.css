@@ -25159,6 +25159,7 @@ a.btn.btn--small {
 .header__logo {
   position: absolute;
   top: 60px;
+  width: 100%;
 }
 .header__logo__link {
   max-width: none;
