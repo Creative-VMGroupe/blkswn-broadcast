@@ -25205,6 +25205,7 @@ a.btn.btn--small {
 }
 
 .header__logo__link {
+  max-height: 100%;
   max-width: none;
   width: 100%;
 }
