@@ -25153,10 +25153,10 @@ a.btn.btn--small {
   z-index: 99;
   width: 100%;
 }
-/* .js__show__mobile .header__mobile {
+.js__show__mobile .header__mobile {
     display: flex; 
     justify-content: space-between; 
-} */
+}
 [data-header-expanded="true"] .header__logo {
     transform: translate3d(0px, 110px, 0px);
     height: 14vw;
@@ -25170,7 +25170,7 @@ a.btn.btn--small {
     right: 0;
     top: 0;
     bottom: 0;
-   transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
     will-change: transform, padding;
     width: 100%; 
     padding-left: 0;
@@ -25178,7 +25178,7 @@ a.btn.btn--small {
     padding-top: var(--PT-MOBILE, var(--padding-top));
     padding-bottom: var(--padding-bottom);
 }
-.header__logo img {
+/* .header__logo img {
     position: static;
     transition: width 0.8s cubic-bezier(0.5, 0, 0, 1);
     height: auto;
@@ -25201,7 +25201,7 @@ a.btn.btn--small {
   max-height: 100%;
   max-width: none;
   width: 100%;
-}
+} */
 /*End Global*/
 
 /*Collection CLP*/
