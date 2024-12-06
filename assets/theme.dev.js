@@ -6765,7 +6765,7 @@
       }
 
       checkWidth() {
-        console.log("test1")
+        
         if (document.body.clientWidth < this.minWidth) {
           this.wrapper.classList.add(classes$j.showMobileClass);
 
@@ -6829,7 +6829,6 @@
           this.resizeObserver?.unobserve(this.wrapper);
         } else {
           document.removeEventListener('theme:resize', this.checkWidth);
-          console.log("test2")
         }
       }
     }
