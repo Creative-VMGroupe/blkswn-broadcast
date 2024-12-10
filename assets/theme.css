@@ -25224,7 +25224,10 @@ a.btn.btn--small {
 .product-item__swatches__count {
   padding: 0;
 }
-
+.quick-add__button {
+  right: 0;
+  left: initial;
+}
 .product-item__swatches__holder {
   min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px);
   margin: 0;
