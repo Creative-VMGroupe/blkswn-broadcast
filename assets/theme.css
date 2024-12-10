@@ -25218,6 +25218,9 @@ a.btn.btn--small {
   padding-left: 10px;
   padding-right: 10px;
 }
+.product-item--overlay-text .product-item__info {
+  padding: 0;
+}
 .product-item__swatches__holder {
   min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px)
 }
