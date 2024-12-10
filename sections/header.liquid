@@ -165,8 +165,10 @@
     {% comment %} --icon-add-cart variable is used on PGI and Product upsell block {% endcomment %}
     {%- if cart_icon_family == 'bag' -%}
       --icon-add-cart: var(--ICON-ADD-BAG);
-    {%- else -%}
+    {%- elsif cart_icon_family == 'cart' -%}
       --icon-add-cart: var(--ICON-ADD-CART);
+    {%- else -%}
+      --icon-add-cart: var(--ICON-ADD-SQUAREBAG);
     {%- endif -%}
   }
 
