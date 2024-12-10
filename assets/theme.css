@@ -25227,6 +25227,7 @@ a.btn.btn--small {
 .quick-add__button {
   right: 0;
   left: initial;
+  background-color: transparent;
 }
 .product-item__swatches__holder {
   min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px);
