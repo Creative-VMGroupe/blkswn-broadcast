@@ -25214,7 +25214,7 @@ a.btn.btn--small {
   max-width: 490px;
 }
 /*Featured Collections*/
-.product-item--overlay-text .product-information {
+.product-item--overlay-text .product-information, .supports-touch .product-item--overlay-text .product-information {
   padding-left: 10px;
   padding-right: 10px;
 }
