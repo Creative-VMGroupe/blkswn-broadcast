@@ -25209,6 +25209,10 @@ a.btn.btn--small {
 .logo_animated .header__mobile__left, .logo_animated .header__mobile__right {
   z-index: 999
 }
+/*Image Banner*/
+.hero__aside__wrapper.frame__item, .index-hero .hero__content {
+  max-width: 400px;
+}
 /*End Global*/
 
 /*Collection CLP*/
