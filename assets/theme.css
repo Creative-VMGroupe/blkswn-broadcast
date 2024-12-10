@@ -25213,6 +25213,10 @@ a.btn.btn--small {
 .hero__aside__wrapper.frame__item, .index-hero .hero__content {
   max-width: 490px;
 }
+/*Featured Collections*/
+.product-item__swatches__holder {
+  min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px)
+}
 /*End Global*/
 
 /*Collection CLP*/
