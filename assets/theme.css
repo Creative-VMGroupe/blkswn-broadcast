@@ -25217,6 +25217,9 @@ a.btn.btn--small {
 .product-item__swatches__holder {
   min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px)
 }
+.product-item__swatches__count {
+  padding-top: 0;
+}
 /*End Global*/
 
 /*Collection CLP*/
