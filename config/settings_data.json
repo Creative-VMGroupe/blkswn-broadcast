@@ -56,6 +56,7 @@
     "show_labels": true,
     "variant_lines": true,
     "show_variant_image": true,
+    "swatch_style": "circle",
     "link_hover_color": "#bcb2a8",
     "header_link_hover": "#AB8C52",
     "show_logo_bg": false,
