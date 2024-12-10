@@ -13,6 +13,23 @@
   "sections": {
     "announcement": {
       "type": "announcement",
+      "blocks": {
+        "text_mmVUgf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seasonal Releases & Promotions</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_mmVUgf"
+      ],
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -22,8 +39,8 @@
         "marquee_speed": 100,
         "message_spacing": 10,
         "text_size": 7,
-        "bg_color": "#f7f7f7",
-        "color": "#545454",
+        "bg_color": "#472426",
+        "color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
       }
