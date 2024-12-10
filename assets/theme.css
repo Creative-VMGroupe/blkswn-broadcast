@@ -25121,6 +25121,10 @@ h6, .article__author-bio h3, .blog-section .article__image .article__tags,
 .h6 {
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
 }
+/*Font size H7*/
+header .popout__toggle__text, header .popout-list__option {
+    font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
+}
 /*Font size H8*/
 .product-upsell__title, .radio__legend__label, .radio__legend__value {
     font-size: calc(var(--font-8) * var(--FONT-ADJUST-BODY));
