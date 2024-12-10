@@ -25229,6 +25229,9 @@ a.btn.btn--small {
   left: initial;
   background-color: transparent;
 }
+.btn__plus {
+  color: black;
+}
 .product-item__swatches__holder {
   min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px);
   margin: 0;
