@@ -25229,7 +25229,7 @@ a.btn.btn--small {
   left: initial;
   background-color: transparent;
 }
-.btn__plus {
+.quick-add__button .btn__plus {
   color: black;
 }
 .product-item__swatches__holder {
