@@ -25231,6 +25231,9 @@ a.btn.btn--small {
 .quick-add__button .btn__plus {
   color: black;
 }
+.supports-touch hover-images:after {
+  height: 0;
+}
 .product-item__swatches__holder {
   min-height: auto;
   margin: 0;
