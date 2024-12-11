@@ -25240,6 +25240,16 @@ a.btn.btn--small {
   padding-top: 0;
   padding-bottom: 0;
 }
+.product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
+  opacity: 1;
+  visibility: visible;
+  }
+@media(min-width: 750px) {
+.product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
+  opacity: 0;
+  visibility: hidden;
+  }
+}
 /*End Global*/
 
 /*Collection CLP*/
