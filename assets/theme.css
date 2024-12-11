@@ -25232,7 +25232,7 @@ a.btn.btn--small {
   color: black;
 }
 .product-item__swatches__holder {
-  min-height: calc(var(--font-7) * var(--FONT-ADJUST-BODY) * 1.4 + 16px);
+  min-height: auto;
   margin: 0;
 }
 .product-item__swatches__count {
