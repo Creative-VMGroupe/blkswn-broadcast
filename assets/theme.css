@@ -25215,8 +25215,7 @@ a.btn.btn--small {
 }
 /*Featured Collections*/
 .product-item--overlay-text .product-information, .supports-touch .product-item--overlay-text .product-information {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px
 }
 .product-item--overlay-text .product-item__info {
   padding: 0;
