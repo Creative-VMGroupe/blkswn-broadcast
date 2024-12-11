@@ -25228,6 +25228,9 @@ a.btn.btn--small {
   left: initial;
   background-color: transparent;
 }
+.btn__plus {
+  margin-bottom: 4px;
+}
 .quick-add__button .btn__plus {
   color: black;
 }
