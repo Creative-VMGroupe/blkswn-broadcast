@@ -25249,12 +25249,7 @@ a.btn.btn--small {
   opacity: 1;
   visibility: visible;
   }
-@media(min-width: 750px) {
-.product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
-  opacity: 0;
-  visibility: hidden;
-  }
-}
+
 /*End Global*/
 
 /*Collection CLP*/
@@ -25268,13 +25263,18 @@ a.btn.btn--small {
 /*End PDP*/
 /*Media Queries Start*/
 @media(min-width: 750px) {
-  .featured-posts-custom.full_bleed .editorial{
-position: relative;
+.product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
+  opacity: 0;
+  visibility: hidden;
 }
+  
+.featured-posts-custom.full_bleed .editorial{
+    position: relative;
+    }
 
 .featured-posts-custom.full_bleed .editorial__image{
-flex: 1;
-}
+    flex: 1;
+    }
 
 .featured-posts-custom.full_bleed .editorial__aside{
     position: absolute;
