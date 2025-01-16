@@ -26404,6 +26404,10 @@ a.btn.btn--small {
   gap: 10px;
   flex-shrink: 0;
 }
+.btn--solid span,
+.btn--outline span {
+  height: auto !important;
+}
 /*Default Carousels*/
 .product-item__title {
   font-size: 12px;
