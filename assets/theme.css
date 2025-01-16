@@ -26796,6 +26796,15 @@ letter-spacing: 0.5px;
     border: solid 1px black;
     color: black;
 }
+/*Desktop Custom Content*/
+.custom-content .hero__content {
+  gap: 16px;
+  padding: 0 40px 42px;
+}
+.custom-content .hero__content .hero__title, .custom-content .hero__content .hero__description, .custom-content .hero__content .hero__button {
+  margin-top: 0px;
+  margin-bottom: 0px
+}
 /*End Desktop*/
 }
 
