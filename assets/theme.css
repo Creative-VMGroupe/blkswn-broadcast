@@ -25285,7 +25285,11 @@ a.btn.btn--small {
 }
 }
 
-
+@media(min-width: 768px) {
+  .tolstoy-carousel-container {
+    max-width: none !important;
+  }
+}
 #appointo-body-calendar {
   display: block !important;
 }
