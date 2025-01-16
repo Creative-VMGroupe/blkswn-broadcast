@@ -26384,6 +26384,7 @@ a.btn.btn--small {
   font-weight: 500;
   line-height: 140%; /* 18.2px */
   letter-spacing: 0.65px;
+  white-space: nowrap;
 }
 .btn--solid,
 .btn--outline,
