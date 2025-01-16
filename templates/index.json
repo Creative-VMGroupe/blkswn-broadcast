@@ -134,7 +134,7 @@
             "title": "BED",
             "heading_size": 3,
             "description": "Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sadipscing elitr, sadipscing elitr",
-            "text_size": 7,
+            "text_size": 6,
             "flex_align": "align--bottom-left",
             "link_text": "LEARN MORE",
             "link": "",
