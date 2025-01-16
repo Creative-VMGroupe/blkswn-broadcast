@@ -25339,28 +25339,32 @@ a.btn.btn--small {
 .h1 {
   /*48px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 2.4px
+  letter-spacing: 2.4px;
+  line-height: 100%; /* 48px */
 }
 
 .heading-size-2, h2,
 .h2  {
   /*40px*/
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 2px
+  letter-spacing: 2px;
+  line-height: 120%; /* 48px */
 }
 
 .heading-size-3, h3,
 .h3 {
   /*30px*/
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 1.5px
+  letter-spacing: 1.5px;
+  line-height: 100%; /* 30px */
+
 }
 
 .heading-size-4, h4,
 .h4 {
   /*24px*/
   font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 1.2px
+  letter-spacing: 1.2px;
 }
 
 .heading-size-5, h5,
@@ -25375,24 +25379,28 @@ a.btn.btn--small {
   /*16px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING)) !important;
   letter-spacing: -0.32px;
+  line-height: 130%; /* 20.8px */
 }
 
 .heading-size-7 {
   /*13px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
   letter-spacing: 0.65px;
+  line-height: 140%; /* 18.2px */
 }
 
 .heading-size-8 {
   /*12px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING)) !important;
   letter-spacing: 0.6px;
+  line-height: 100%; /* 12px */
 }
 
 .heading-size-9 {
   /*10px*/
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)) !important;
   letter-spacing: 0.5px;
+  line-height: 125%; /* 12.5px */
 }
 
 .heading-size-10 {
