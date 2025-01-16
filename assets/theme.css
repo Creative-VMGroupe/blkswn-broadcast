@@ -26440,7 +26440,7 @@ a.btn.btn--small {
   margin-bottom: 0 !important;
 }
 .featured-collections .grid__heading-holder {
-    display: flex;
+  display: flex;
   justify-content: space-between;
 }
 .featured-collections .grid__heading-actions {
@@ -26576,6 +26576,7 @@ a.btn.btn--small {
 
 /*End PDP*/
 /*Media Queries Start*/
+/*Desktop!*/
 @media (min-width: 750px) {
   :root {
     --font-15: 48px;
@@ -26736,8 +26737,13 @@ a.btn.btn--small {
     margin: auto;
     transform: translateY(-50%);
   }
-}
 
+  /*Desktop Carousels*/
+  .featured-collections .grid__heading-text {
+  max-width: none;
+}
+}
+/*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
   .tolstoy-carousel-container {
