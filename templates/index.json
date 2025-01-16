@@ -108,7 +108,7 @@
         "featured_collection": "test",
         "layout_desktop": "grid",
         "is_quick_add_outlined": true,
-        "quick_add_color": "btn--black",
+        "quick_add_color": "btn--white",
         "grid": 4,
         "rows": 1,
         "width": "wrapper--full-padded",
