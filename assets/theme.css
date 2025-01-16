@@ -26580,7 +26580,7 @@ letter-spacing: 0.4px;
 .custom-content .hero__content {
   display: flex;
   flex-direction: column;
-  gap: 12px
+  gap: 12px;
   padding: 0 24px 34px;
 }
 .custom-content .hero__content .hero__title, .custom-content .hero__content .hero__description, .custom-content .hero__content .hero__button {
