@@ -26499,14 +26499,14 @@ a.btn.btn--small {
 .index-hero .hero__content {
   max-width: 490px;
 }
-.hero__content {
+/* .hero__content {
   gap: 15px;
   padding-bottom: 55px !important;
 }
 .hero__content .hero__title, .hero__content .hero__description, .hero__content .hero__button {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-}
+} */
 /*Default Featured Collections*/
 .product-item--overlay-text .product-information,
 .supports-touch .product-item--overlay-text .product-information {
