@@ -149,7 +149,7 @@
                     assign animation_delay = forloop.index0 | modulo: grid_int | times: 1
                   endif
 
-                  render 'product-grid-item', product: product, animation_delay: animation_delay, index: forloop.index, outlined_quick_add: section.settings.outlined_quick_add, quick_add_color: section.settings.quick_add_color
+                  render 'product-grid-item', product: product, animation_delay: animation_delay, index: forloop.index, is_quick_add_outlined: section.settings.is_quick_add_outlined, quick_add_color: section.settings.quick_add_color
                 endfor
               -%}
 
@@ -298,15 +298,19 @@
       },
       {
   "type": "checkbox",
-  "id": "outlined_quick_add",
+  "id": "is_quick_add_outlined",
   "label": "Enable Outlined Quick Add Button",
   "default": true
 },
       {
-  "type": "color",
+  "type": "select",
   "id": "quick_add_color",
   "label": "Quick Add Border/Text Color",
-  "default": "#FFFFFF"
+  "default": "btn--white",
+        "options": [
+          {"value": "btn--white", "label": "White"},
+          {"value": "btn--black", "label": "Black"}
+        ]
 },
       {
         "type": "header",
