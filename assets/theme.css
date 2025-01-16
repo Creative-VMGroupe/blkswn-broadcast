@@ -25092,16 +25092,19 @@ body {
 .mobile-heading-size-6 {
   /*13px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
+  letter-spacing: 0.65px
 }
 
 .mobile-heading-size-7 {
   /*12px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING));
+  letter-spacing: 0.6px
 }
 
 .mobile-heading-size-8 {
   /*10px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING));
+  letter-spacing: 0.5px
 }
 
 .mobile-heading-size-9 {
@@ -25356,36 +25359,37 @@ a.btn.btn--small {
 .h5 {
   /*20px*/
   font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 1px;
 }
 
 .heading-size-6, h6, .article__author-bio h3, .blog-section .article__image .article__tags,
 .h6 {
   /*16px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: -0.32px
+  letter-spacing: -0.32px;
 }
 
 .heading-size-7 {
   /*13px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 0.65px
+  letter-spacing: 0.65px;
 }
 
 .heading-size-8 {
   /*12px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 0.6px
+  letter-spacing: 0.6px;
 }
 
 .heading-size-9 {
   /*10px*/
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 0.5px
+  letter-spacing: 0.5px;
 }
 
 .heading-size-10 {
   font-size: calc(var(--font-10) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 0.5px
+  letter-spacing: 0.5px;
 }
 
 .heading-size-11 {
