@@ -25091,7 +25091,10 @@ html {
 body {
   font-size: 13px;
 }
-/*Heading Font Size*/
+/*Heading Font*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
+  letter-spacing: var(--MOBILE-LETTER-SPACING-HEADING);
+}
 h1,
 .h1 {
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
@@ -25121,9 +25124,7 @@ h6, .article__author-bio h3, .blog-section .article__image .article__tags,
 .h6 {
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
-  letter-spacing: var(--MOBILE-LETTER-SPACING-HEADING);
-}
+
 /*Font size H7*/
 header .popout__toggle__text, header .popout-list__option {
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
@@ -25266,6 +25267,10 @@ a.btn.btn--small {
 /*End PDP*/
 /*Media Queries Start*/
 @media(min-width: 750px) {
+/*Heading Font*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
+  letter-spacing: var(--LETTER-SPACING-HEADING);
+}
 .product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
   opacity: 0;
   visibility: hidden;
@@ -25288,6 +25293,7 @@ a.btn.btn--small {
 }
 }
 
+/*Only Header */
 @media(min-width: 768px) {
   .tolstoy-carousel-container {
     max-width: none !important;
