@@ -25210,6 +25210,23 @@ a.btn.btn--small {
   letter-spacing: 3px;
 }
 
+/*Default Carousels*/
+.product-item__title {
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 12px */
+letter-spacing: 0.6px;
+text-transform: capitalize;
+}
+.product-item__price, .product-item__swatches__count {
+  font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 12.5px */
+letter-spacing: 0.5px;
+}
+
 .product__price {
   opacity: 1 !important;
 }
@@ -25276,11 +25293,11 @@ a.btn.btn--small {
 .logo_animated .header__mobile__left, .logo_animated .header__mobile__right {
   z-index: 999
 }
-/*Image Banner*/
+/*Default Image Banner*/
 .hero__aside__wrapper.frame__item, .index-hero .hero__content {
   max-width: 490px;
 }
-/*Featured Collections*/
+/*Default Featured Collections*/
 .product-item--overlay-text .product-information, .supports-touch .product-item--overlay-text .product-information {
   padding: 10px
 }
