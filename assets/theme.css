@@ -26432,7 +26432,7 @@ a.btn.btn--small {
 
 .grid-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
 }
 .grid-container .grid__heading-holder {
