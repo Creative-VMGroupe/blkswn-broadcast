@@ -30,6 +30,7 @@
     "type_heading_size": 100,
     "type_base_font": "avenir_next_n4",
     "type_body_size": 100,
+    "adobe_font_enabled": true,
     "btn_font": "avenir_next_n4",
     "btn_border_style": "square",
     "btn_size": 10,
