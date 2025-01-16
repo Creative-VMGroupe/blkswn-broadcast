@@ -25299,6 +25299,7 @@ a.btn.btn--small {
     grid-template-columns: none !important;
     display: flex !important;
     flex-direction: columns;
+    gap: 0 !imprtant
   }
   /*End min-width: 768px*/
 }
