@@ -26500,7 +26500,12 @@ a.btn.btn--small {
   max-width: 490px;
 }
 .hero__content {
+  gap: 15px;
   padding-bottom: 42px !important;
+}
+.hero__content h2,.hero__content p,.hero__content div, {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 /*Default Featured Collections*/
 .product-item--overlay-text .product-information,
