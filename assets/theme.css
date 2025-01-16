@@ -26441,6 +26441,7 @@ a.btn.btn--small {
 }
 .featured-collections .grid__heading-holder {
     display: flex;
+  justify-content: space-between;
 }
 .featured-collections .grid__heading-actions {
     display: flex;
