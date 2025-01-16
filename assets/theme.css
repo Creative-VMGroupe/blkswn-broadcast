@@ -26749,6 +26749,18 @@ letter-spacing: 0.4px;
   }
 
   /*Desktop Carousels*/
+.product-item__title {
+font-size: 12px;
+line-height: 100%; /* 12px */
+letter-spacing: 0.6px;
+
+}
+.product-item__price,
+.product-item__swatches__count {
+font-size: 10px;
+line-height: 125%; /* 12.5px */
+letter-spacing: 0.5px;
+}
   .featured-collections .grid__heading-holder {
   align-items: normal;
   }
