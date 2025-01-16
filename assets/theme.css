@@ -25060,34 +25060,42 @@ body {
 }
 /*Mobile Headings*/
 .mobile-heading-size-1 {
+  /*40px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-2 {
+  /*30px*/
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-3 {
+  /*24px*/
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-4 {
+  /*20px*/
   font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-5 {
+  /*16px*/
   font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-6 {
+  /*13px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-7 {
+  /*12px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING));
 }
 
 .mobile-heading-size-8 {
+  /*10px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING));
 }
 
