@@ -25294,6 +25294,10 @@ a.btn.btn--small {
     width: 250px;
     height: 465px;
   }
+  .tolstoy-carousel-videos-container {
+    width: 100%;
+  }
+  /*End min-width: 768px*/
 }
 #appointo-body-calendar {
   display: block !important;
