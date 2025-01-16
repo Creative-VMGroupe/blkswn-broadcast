@@ -253,6 +253,7 @@
           "settings": {
             "title": "PILLOW TALK",
             "text_size": 1,
+            "mobile_heading_size": 1,
             "padding_bottom": 0
           }
         }
