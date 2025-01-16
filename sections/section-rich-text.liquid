@@ -95,8 +95,8 @@
               {%- if block.settings.text != blank -%}
                 {%- assign animation_order = animation_order | plus: 1 -%}
                 {%- assign font_size_class = block.settings.text_size | prepend: 'heading-size-' -%}
-                {%- assign mobile_font_size_class = block.settings.mobile_heading_size | prepend: 'mobile-heading-size-' -%}
-                <div class="hero__rte {{ mobile_font_size_class }} {{ font_size_class }} {{ block.settings.text_style }} block-padding"
+               
+                <div class="hero__rte  {{ font_size_class }} {{ block.settings.text_style }} block-padding"
                   data-aos="hero"
                   data-aos-anchor="{{ animation_anchor }}"
                   data-aos-order="{{ animation_order }}"
@@ -111,9 +111,9 @@
               {%- if block.settings.text != blank -%}
                 {%- assign animation_order = animation_order | plus: 1 -%}
                 {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
-                {%- assign mobile_font_size_class = block.settings.mobile_heading_size | prepend: 'mobile-heading-size-' -%}
+                
                 {%- assign text_columns_class = block.settings.text_columns | prepend: 'columns--' -%}
-                <div class="hero__rte {{ mobile_font_size_class }} {{ font_size_class }} {{ text_columns_class }} {{ block.settings.text_style }} block-padding"
+                <div class="hero__rte  {{ font_size_class }} {{ text_columns_class }} {{ block.settings.text_style }} block-padding"
                   data-aos="hero"
                   data-aos-anchor="{{ animation_anchor }}"
                   data-aos-order="{{ animation_order }}"
@@ -442,15 +442,6 @@
           "default": 7
         },
         {
-          "type":  "range",
-          "id":    "mobile_heading_size",
-          "label": "Mobile Size",
-          "min": 1,
-          "max": 9,
-          "step": 1,
-          "default":2
-        },
-        {
           "type": "select",
           "id": "text_style",
           "label": "Text style",
@@ -508,15 +499,6 @@
           "max": 8,
           "step": 1,
           "default": 7
-        },
-        {
-          "type":  "range",
-          "id":    "mobile_heading_size",
-          "label": "Mobile Size",
-          "min": 1,
-          "max": 9,
-          "step": 1,
-          "default":2
         },
         {
           "type": "select",
