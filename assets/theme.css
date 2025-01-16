@@ -25316,35 +25316,72 @@ a.btn.btn--small {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
   letter-spacing: var(--MOBILE-LETTER-SPACING-HEADING);
 }
-h1,
+  .heading-size-1, h1,
 .h1 {
-  font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
+  font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
-h2,
-.h2 {
-  font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING));
+.heading-size-2, h2,
+.h2  {
+  font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
-h3,
+.heading-size-3, h3,
 .h3 {
-  font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING));
+  font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
-h4,
+.heading-size-4, h4,
 .h4 {
-  font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING));
+  font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
-h5,
+.heading-size-5, h5,
 .h5 {
-  font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));
+  font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
-h6, .article__author-bio h3, .blog-section .article__image .article__tags,
+.heading-size-6, h6, .article__author-bio h3, .blog-section .article__image .article__tags,
 .h6 {
-  font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
+  font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING)) !important;
 }
+
+.heading-size-7 {
+  font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-8 {
+  font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-9 {
+  font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-10 {
+  font-size: calc(var(--font-10) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-11 {
+  font-size: calc(var(--font-11) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-12 {
+  font-size: calc(var(--font-12) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-13 {
+  font-size: calc(var(--font-13) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-14 {
+  font-size: calc(var(--font-14) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
+.heading-size-15 {
+  font-size: calc(var(--font-15) * var(--FONT-ADJUST-HEADING)) !important;
+}
+
 /*Unknown*/
 .product-item--has-quickbuy.product-item--overlay-text:hover .product-item__info {
   opacity: 0;
