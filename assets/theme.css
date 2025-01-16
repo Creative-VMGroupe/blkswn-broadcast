@@ -26442,6 +26442,10 @@ a.btn.btn--small {
 .featured-collections .grid__heading-holder {
     display: flex;
 }
+.featured-collections .grid__heading-actions {
+    display: flex;
+    align-items: end;
+}
 .featured-collections .grid__heading-holder {}
 /*Header*/
 .navtext {
