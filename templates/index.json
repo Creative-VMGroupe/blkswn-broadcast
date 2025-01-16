@@ -16,7 +16,8 @@
           "type": "heading",
           "settings": {
             "title": "COLLECTION TITLE",
-            "heading_size": 1
+            "heading_size": 1,
+            "mobile_heading_size": 1
           }
         },
         "text_7gQFpP": {
