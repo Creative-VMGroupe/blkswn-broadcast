@@ -26777,6 +26777,8 @@ letter-spacing: 0.5px;
 .quick-add__button:after {
   background: transparent !important;
 }
+.quick-add-btn--white {}
+.quick-add-btn--white {}
 /*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
