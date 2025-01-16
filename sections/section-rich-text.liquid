@@ -94,7 +94,7 @@
             {%- when 'text' -%}
               {%- if block.settings.text != blank -%}
                 {%- assign animation_order = animation_order | plus: 1 -%}
-                {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+                {%- assign font_size_class = block.settings.text_size | prepend: 'heading-size-' -%}
                 {%- assign mobile_font_size_class = block.settings.mobile_heading_size | prepend: 'mobile-heading-size-' -%}
                 <div class="hero__rte {{ mobile_font_size_class }} {{ font_size_class }} {{ block.settings.text_style }} block-padding"
                   data-aos="hero"
