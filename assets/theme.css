@@ -26503,7 +26503,7 @@ a.btn.btn--small {
   gap: 15px;
   padding-bottom: 42px !important;
 }
-.hero__content h2,.hero__content p,.hero__content div, {
+.hero__content .hero__title, .hero__content .hero__description, .hero__content .hero__button, {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
