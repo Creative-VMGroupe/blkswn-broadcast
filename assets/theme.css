@@ -26739,6 +26739,9 @@ a.btn.btn--small {
   }
 
   /*Desktop Carousels*/
+  .featured-collections .grid__heading-holder {
+  align-items: normal;
+  }
   .featured-collections .grid__heading-text {
   max-width: none;
 }
