@@ -26774,6 +26774,9 @@ letter-spacing: 0.5px;
   padding: 0 10px 20px;
   backdrop-filter: none !important;
 }
+.quick-add__button:after {
+  background: transparent !important;
+}
 /*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
