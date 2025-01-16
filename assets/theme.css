@@ -25297,6 +25297,9 @@ letter-spacing: 0.5px;
 .hero__aside__wrapper.frame__item, .index-hero .hero__content {
   max-width: 490px;
 }
+.hero__content {
+  padding-bottom: 42px !important
+}
 /*Default Featured Collections*/
 .product-item--overlay-text .product-information, .supports-touch .product-item--overlay-text .product-information {
   padding: 10px
