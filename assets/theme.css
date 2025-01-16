@@ -25323,25 +25323,28 @@ a.btn.btn--small {
 .h1 {
   /*48px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING)) !important;
-  letter-spacing: 2px
+  letter-spacing: 2.4px
 }
 
 .heading-size-2, h2,
 .h2  {
   /*40px*/
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 2px
 }
 
 .heading-size-3, h3,
 .h3 {
   /*30px*/
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 1.5px
 }
 
 .heading-size-4, h4,
 .h4 {
   /*24px*/
   font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 1.2px
 }
 
 .heading-size-5, h5,
@@ -25354,25 +25357,30 @@ a.btn.btn--small {
 .h6 {
   /*16px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: -0.32px
 }
 
 .heading-size-7 {
   /*13px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 0.65px
 }
 
 .heading-size-8 {
   /*12px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 0.6px
 }
 
 .heading-size-9 {
   /*10px*/
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 0.5px
 }
 
 .heading-size-10 {
   font-size: calc(var(--font-10) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 0.5px
 }
 
 .heading-size-11 {
