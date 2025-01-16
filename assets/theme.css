@@ -26777,8 +26777,14 @@ letter-spacing: 0.5px;
 .quick-add__button:after {
   background: transparent !important;
 }
-.quick-add-btn--white {}
-.quick-add-btn--white {}
+.quick-add-btn--white .quick-add__button {
+    border: solid 1px white;
+    color: white;
+}
+.quick-add-btn--white .quick-add__button{
+    border: solid 1px black;
+    color: black;
+}
 /*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
