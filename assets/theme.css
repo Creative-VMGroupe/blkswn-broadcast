@@ -26779,8 +26779,8 @@ letter-spacing: 0.5px;
   max-width: none;
 }
   .featured-collections .product-item__info {}
-}
-/*Quick Add*/
+  
+/*Desktop Quick Add*/
 .quick-add__holder {
   padding: 0 10px 20px;
   backdrop-filter: none !important;
@@ -26796,6 +26796,9 @@ letter-spacing: 0.5px;
     border: solid 1px black;
     color: black;
 }
+/*End Desktop*/
+}
+
 /*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
