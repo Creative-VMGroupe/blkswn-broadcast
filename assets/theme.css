@@ -26394,8 +26394,8 @@ a.btn.btn--small {
   line-height: 125%; /* 12.5px */
   letter-spacing: 3px;
 }
-.btn--solid,
-.btn--outline {
+.btn--solid:not(.btn--scroll-top),
+.btn--outline:not(.btn--scroll-top) {
   display: flex;
   width: 185px;
   height: 45px;
