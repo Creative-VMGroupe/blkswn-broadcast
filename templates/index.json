@@ -248,15 +248,6 @@
     "section_rich_text_V86WcM": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_H8D6PN": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "text_size": 1,
-            "mobile_heading_size": 4,
-            "padding_bottom": 16
-          }
-        },
         "heading_98h7WR": {
           "type": "heading",
           "settings": {
@@ -268,7 +259,6 @@
         }
       },
       "block_order": [
-        "subheading_H8D6PN",
         "heading_98h7WR"
       ],
       "settings": {
