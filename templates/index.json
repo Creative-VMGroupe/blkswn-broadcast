@@ -137,7 +137,7 @@
             "link": "",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--text",
+            "button_style": "btn--outline",
             "show_arrow": false,
             "bg_color": "",
             "color": "#ffffff"
@@ -161,7 +161,7 @@
             "link": "",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--text",
+            "button_style": "btn--outline",
             "show_arrow": false
           }
         }
@@ -202,7 +202,7 @@
             "link": "",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--text",
+            "button_style": "btn--outline",
             "show_arrow": false
           }
         },
@@ -224,7 +224,7 @@
             "link": "",
             "button_type": "btn--white",
             "button_size": "btn--small",
-            "button_style": "btn--text",
+            "button_style": "btn--outline",
             "show_arrow": false
           }
         }
