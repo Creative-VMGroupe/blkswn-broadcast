@@ -28,7 +28,7 @@
     "footer_link": "#212121",
     "type_heading_font": "cardo_n4",
     "type_heading_size": 100,
-    "heading_letter_spacing": 75,
+    "heading_letter_spacing": "2.4",
     "type_base_font": "avenir_next_n4",
     "type_body_size": 100,
     "adobe_font_enabled": true,
