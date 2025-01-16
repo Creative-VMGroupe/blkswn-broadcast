@@ -25062,49 +25062,57 @@ body {
 .mobile-heading-size-1 {
   /*40px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 2px
+  letter-spacing: 2px;
+  line-height: 120%
 }
 
 .mobile-heading-size-2 {
   /*30px*/
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 1.5px
+  letter-spacing: 1.5px;
+  line-height: 100%; 
 }
 
 .mobile-heading-size-3 {
   /*24px*/
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 1.2px
+  letter-spacing: 1.2px;
+  line-height: 120%; /* 28.8px */
 }
 
 .mobile-heading-size-4 {
   /*20px*/
   font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  line-height: 120%; /* 28.8px */
 }
 
 .mobile-heading-size-5 {
   /*16px*/
   font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: -0.32px
+  letter-spacing: -0.32px;
+  line-height: 130%; /* 20.8px */
 }
 
 .mobile-heading-size-6 {
   /*13px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 0.65px
+  letter-spacing: 0.65px;
+  line-height: 150%; /* 19.5px */
 }
 
 .mobile-heading-size-7 {
   /*12px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 0.6px
+  letter-spacing: 0.6px;
+  
 }
 
 .mobile-heading-size-8 {
   /*10px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING));
-  letter-spacing: 0.5px
+  letter-spacing: 0.5px;
+  
 }
 
 .mobile-heading-size-9 {
