@@ -25105,14 +25105,14 @@ body {
   /*12px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING));
   letter-spacing: 0.6px;
-  
+  line-height: 100%; /* 12px */
 }
 
 .mobile-heading-size-8 {
   /*10px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING));
   letter-spacing: 0.5px;
-  
+  line-height: 125%; /* 12.5px */
 }
 
 .mobile-heading-size-9 {
