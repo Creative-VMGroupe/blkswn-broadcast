@@ -25039,14 +25039,14 @@ body {
   --font-9: 10px;
   --font-8: 12px;
   --font-7: 13px;
-  --font-6: 13px;
-  --font-5: 16px;
-  --font-4: 20px;
-  --font-3: 24px;
-  --font-2: 30px;
-  --font-1: 40px;
+  --font-6: 16px;
+  --font-5: 20px;
+  --font-4: 24px;
+  --font-3: 30px;
+  --font-2: 40px;
+  --font-1: 48px;
 }
-@media only screen and (min-width: 750px) and (max-width: 989px) {
+@media only screen and (min-width: 750px) {
   :root {
   --font-15: 48px;
   --font-14: 48px;
@@ -25065,25 +25065,7 @@ body {
   --font-1: 48px;
   }
 }
-@media only screen and (min-width: 990px) {
-  :root {
-  --font-15: 48px;
-  --font-14: 48px;
-  --font-13: 48px;
-  --font-12: 48px;
-  --font-11: 48px;
-  --font-10: 48px;
-  --font-9: 10px;
-  --font-8: 12px;
-  --font-7: 13px;
-  --font-6: 16px;
-  --font-5: 20px;
-  --font-4: 24px;
-  --font-3: 30px;
-  --font-2: 40px;
-  --font-1: 48px;
-  }
-}
+
 /*Body Font Size*/
 html {
   font-size: 13px;
