@@ -25296,7 +25296,7 @@ a.btn.btn--small {
   }
   .tolstoy-carousel-videos-container {
     width: 100%;
-    grid-template-columns: none !important
+    grid-template-columns: none !important;
     display: flex !important;
     flex-direction: columns;
   }
