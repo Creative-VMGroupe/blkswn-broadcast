@@ -26587,6 +26587,9 @@ letter-spacing: 0.4px;
   margin-top: 0px;
   margin-bottom: 0px
 }
+ .custom-content .hero__content .hero__description {
+   max-width: 330px;
+ }
 /*End Global*/
 
 /*Collection CLP*/
