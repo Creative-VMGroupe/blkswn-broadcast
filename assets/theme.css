@@ -26501,7 +26501,7 @@ a.btn.btn--small {
 }
 .hero__content {
   gap: 15px;
-  padding-bottom: 42px !important;
+  padding-bottom: 55px !important;
 }
 .hero__content .hero__title, .hero__content .hero__description, .hero__content .hero__button {
   margin-top: 0px !important;
