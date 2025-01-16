@@ -26781,7 +26781,7 @@ letter-spacing: 0.5px;
     border: solid 1px white;
     color: white;
 }
-.quick-add-btn--white .quick-add__button{
+.quick-add-btn--black .quick-add__button{
     border: solid 1px black;
     color: black;
 }
