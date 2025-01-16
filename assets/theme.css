@@ -25321,43 +25321,53 @@ a.btn.btn--small {
 }
   .heading-size-1, h1,
 .h1 {
+  /*48px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING)) !important;
+  letter-spacing: 2px
 }
 
 .heading-size-2, h2,
 .h2  {
+  /*40px*/
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-3, h3,
 .h3 {
+  /*30px*/
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-4, h4,
 .h4 {
+  /*24px*/
   font-size: calc(var(--font-4) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-5, h5,
 .h5 {
+  /*20px*/
   font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-6, h6, .article__author-bio h3, .blog-section .article__image .article__tags,
 .h6 {
+  /*16px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-7 {
+  /*13px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-8 {
+  /*12px*/
   font-size: calc(var(--font-8) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
 .heading-size-9 {
+  /*10px*/
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)) !important;
 }
 
