@@ -26769,6 +26769,11 @@ letter-spacing: 0.5px;
 }
   .featured-collections .product-item__info {}
 }
+/*Quick Add*/
+.quick-add__holder {
+  padding: 0 10px 20px;
+  backdrop-filter: none !important;
+}
 /*Unknown Breakpoint*/
 /*Only Header */
 @media (min-width: 768px) {
