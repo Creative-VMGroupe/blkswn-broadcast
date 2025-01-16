@@ -26450,6 +26450,16 @@ a.btn.btn--small {
 .featured-collections .grid__heading-text {
   max-width: 250px;
 }
+.featured-collections .product-item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.featured-collections .product-item__info .product-link {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
 /*Header*/
 .navtext {
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
