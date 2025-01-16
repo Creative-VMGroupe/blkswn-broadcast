@@ -25197,6 +25197,12 @@ a.btn {
 a.btn.btn--small {
   min-width: auto;
 }
+.btn--text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%; /* 18.2px */
+  letter-spacing: 0.65px;  
+}
 .product__price {
   opacity: 1 !important;
 }
