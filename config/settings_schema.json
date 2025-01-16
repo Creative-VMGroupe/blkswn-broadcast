@@ -168,14 +168,10 @@
         "default": 100
       },
       {
-        "type": "range",
+        "type": "text",
         "id": "heading_letter_spacing",
-        "min": -25,
-        "max": 200,
-        "step": 25,
-        "unit": "%",
-        "label": "Letter spacing",
-        "default": 0
+        "label": "Letter spacing in PX",
+        "default": "0"
       },
       {
         "type": "checkbox",
