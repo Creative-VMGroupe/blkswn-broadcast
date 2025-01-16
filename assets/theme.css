@@ -26411,20 +26411,20 @@ a.btn.btn--small {
 }
 /*Default Carousels*/
 .product-item__title {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 12px */
-  letter-spacing: 0.6px;
-  text-transform: capitalize;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 12.5px */
+letter-spacing: 0.5px;
+text-transform: capitalize;
 }
 .product-item__price,
 .product-item__swatches__count {
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 125%; /* 12.5px */
-  letter-spacing: 0.5px;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 10px */
+letter-spacing: 0.4px;
 }
 
 .product__price {
