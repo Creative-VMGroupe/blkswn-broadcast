@@ -26439,7 +26439,10 @@ a.btn.btn--small {
 .featured-collections .grid-container .grid__heading-holder {
   margin-bottom: 0 !important;
 }
-.featured-collections .grid__items-holder {}
+.featured-collections .grid__heading-holder {
+    display: flex;
+}
+.featured-collections .grid__heading-holder {}
 /*Header*/
 .navtext {
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
