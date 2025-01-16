@@ -25288,6 +25288,7 @@ a.btn.btn--small {
 @media(min-width: 768px) {
   .tolstoy-carousel-container {
     max-width: none !important;
+    margin: 60px 40px !important;
   }
   .tolstoy-carousel-tile-container {
     width: 250px;
