@@ -26430,6 +26430,13 @@ a.btn.btn--small {
   opacity: 1 !important;
 }
 
+.grid-container {
+  gap: 30px;
+}
+.grid__heading-holder {
+  margin-bottom: 0 !important;
+}
+.grid__items-holder {}
 /*Header*/
 .navtext {
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
