@@ -26745,6 +26745,7 @@ a.btn.btn--small {
   .featured-collections .grid__heading-text {
   max-width: none;
 }
+  .featured-collections .product-item__info {}
 }
 /*Unknown Breakpoint*/
 /*Only Header */
