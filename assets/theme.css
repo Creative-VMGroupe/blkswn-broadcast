@@ -26433,7 +26433,7 @@ a.btn.btn--small {
 .grid-container {
   gap: 30px;
 }
-.grid__heading-holder {
+.grid-container .grid__heading-holder {
   margin-bottom: 0 !important;
 }
 .grid__items-holder {}
