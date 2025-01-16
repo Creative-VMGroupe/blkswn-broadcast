@@ -25297,7 +25297,7 @@ a.btn.btn--small {
   .tolstoy-carousel-videos-container {
     width: 100%;
     grid-template-columns: none !important
-    display: flex;
+    display: flex !important;
     flex-direction: columns;
   }
   /*End min-width: 768px*/
