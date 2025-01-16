@@ -25054,11 +25054,11 @@ html {
 body {
   font-size: 13px;
 }
-/*Heading Font*/
+/*Default Heading Font*/
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .article__author-bio h3, .blog-section .article__image .article__tags {
   letter-spacing: var(--MOBILE-LETTER-SPACING-HEADING);
 }
-/*Mobile Headings*/
+
 .mobile-heading-size-1 {
   /*40px*/
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-HEADING));
@@ -25186,7 +25186,10 @@ small,
 p small, .product-upsell__price  {
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
 }
-
+.body-size-6 {
+  line-height: 150%; /* 19.5px */
+  letter-spacing: 0.65px;
+}
 /*Buttons*/
 a.btn {
   min-width: 200px;
