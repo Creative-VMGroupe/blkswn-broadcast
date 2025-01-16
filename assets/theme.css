@@ -25203,12 +25203,13 @@ a.btn.btn--small {
   line-height: 140%; /* 18.2px */
   letter-spacing: 0.65px;  
 }
-.btn--solid {
+.btn--solid, .btn--outline {
   font-size: 10px;
   font-weight: 500;
   line-height: 125%; /* 12.5px */
   letter-spacing: 3px;
 }
+
 .product__price {
   opacity: 1 !important;
 }
