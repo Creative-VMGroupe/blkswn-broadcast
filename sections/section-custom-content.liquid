@@ -28,7 +28,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="custom-content"
   {% if transparent_header %}data-overlay-header{% endif %}
-  class="section-padding">
+  class="section-padding custom-content">
   {%- if section.blocks.size > 0 -%}
     <div class="brick__section{% if section.settings.reverse_blocks %} brick__section--reversed-mobile{% endif %}{% if section.settings.gutters %} brick--margin{% endif %} {{ border_class }} {{ width }}">
       {%- for block in section.blocks -%}
