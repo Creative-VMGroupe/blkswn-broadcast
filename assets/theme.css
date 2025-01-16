@@ -25294,12 +25294,15 @@ a.btn.btn--small {
     width: 250px;
     height: 465px;
   }
+  .tolstoy-video-carousel-container {
+    gap: 0 !imprtant;
+  }
   .tolstoy-carousel-videos-container {
     width: 100%;
     grid-template-columns: none !important;
     display: flex !important;
     flex-direction: columns;
-    gap: 0 !imprtant
+    
   }
   /*End min-width: 768px*/
 }
