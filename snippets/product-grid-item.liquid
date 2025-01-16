@@ -119,6 +119,10 @@
   if block_index > 1
     assign loading = 'lazy'
   endif
+
+  if is_quick_add_outlined
+    assign outlined_quick_add = quick_add_color | prepend: 'quick-add-'
+  endif
 -%}
 
 {%- if settings.swatches_type != 'disabled' and settings.show_grid_swatches -%}
@@ -440,7 +444,7 @@
       assign unique = section.id | append: '-' | append: product.id
     -%}
 
-    <quick-add-product>
+    <quick-add-product class='{{ outlined_quick_add }}'>
       <div class="quick-add__holder" data-quick-add-holder="{{ product.id }}">
         {%- if product.variants.size == 1 -%}
           {%- assign product_form_id = 'ProductForm--' | append: unique -%}
