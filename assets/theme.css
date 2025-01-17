@@ -26465,7 +26465,7 @@ letter-spacing: 0.4px;
     flex-direction: column;
     gap: 3px;
 }
-/*Header*/
+/*Default Header*/
 .navtext {
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-BODY));
 }
