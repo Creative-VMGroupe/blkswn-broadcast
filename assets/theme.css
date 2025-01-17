@@ -26590,6 +26590,14 @@ letter-spacing: 0.4px;
  .custom-content .hero__content .hero__description {
    max-width: 330px;
  }
+/*Default Featured blog posts*/
+.featured-posts-custom .editorial__aside {
+  padding-top: 37px !important
+}
+.featured-posts-custom .editorial__title, .featured-posts-custom .editorial__excerpt, .featured-posts-custom .editorial__link {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 /*End Global*/
 
 /*Collection CLP*/
