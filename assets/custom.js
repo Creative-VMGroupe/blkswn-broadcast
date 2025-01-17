@@ -28,12 +28,23 @@ function updateHeaderExpanded() {
         }
     });
 }
+//Check for Homepage
+const isHP = () => {
+  const currentURL = windows.location.href;
+  const baseURL = windows.location.origin;
 
+  currentURL === baseURL? console.log('On HP') : console.log('Not HP')
+  return currentURL === baseURL
+}
+
+if(isHP()) {
 // Add event listener to update on scroll
 window.addEventListener('scroll', updateHeaderExpanded);
 
 // Initial check in case the page is not loaded at the top
 updateHeaderExpanded();
+  
+}  
 
 
 
