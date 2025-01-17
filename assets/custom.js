@@ -33,6 +33,7 @@ const isHP = () => {
   const currentURL = window.location.href;
   const baseURL = window.location.origin;
 
+  console.log(currentURL, baseURL)
   currentURL === baseURL? console.log('On HP') : console.log('Not HP')
   return currentURL === baseURL
 }
