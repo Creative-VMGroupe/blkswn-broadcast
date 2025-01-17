@@ -26389,7 +26389,7 @@ font-weight: 500;
 line-height: 125%; /* 12.5px */
 letter-spacing: 0.5px;
   white-space: nowrap;
-  min-width: auto;
+  min-width: auto !important;
 }
 .btn--solid,
 .btn--outline,
