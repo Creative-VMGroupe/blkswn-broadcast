@@ -26848,6 +26848,7 @@ letter-spacing: 0.5px;
     gap: 10px;
     flex-shrink: 0;
   color: var(--text);
+  overflow: hidden;
 }
   .featured-blog-btn--outline:hover {
     border-color: currentColor;
