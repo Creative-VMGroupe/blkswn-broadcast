@@ -26842,7 +26842,6 @@ letter-spacing: 0.5px;
     width: 185px;
     height: 45px;
     border: 1px solid currentcolor;
-  border-color: currentColor;
     padding: 11px 23px;
     justify-content: center;
     align-items: center;
@@ -26850,6 +26849,9 @@ letter-spacing: 0.5px;
     flex-shrink: 0;
   color: var(--text);
 }
+  .featured-blog-btn--outline:hover {
+    border-color: currentColor;
+  }
 .featured-blog-btn--outline.btn--text span {
 font-size: 10px;
 font-style: normal;
