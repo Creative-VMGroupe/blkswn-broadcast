@@ -26863,6 +26863,19 @@ letter-spacing: 3px;
   padding: 0;
   height: auto;
 }
+  .featured-blog-btn--outline.btn--text span:after {
+        content: "";
+    position: absolute;
+    top: 0;
+    left: -60px;
+    z-index: -1;
+    width: calc(100% + 120px);
+    height: 100%;
+    background-color: currentColor;
+    opacity: .1;
+    transform: translate3d(-100%,0,0) skew(30deg);
+    transition: transform .5s cubic-bezier(.33,0,0,1);
+  }
   .featured-posts-custom .editorial__aside {
   padding: 40px;
 }
