@@ -26594,7 +26594,7 @@ letter-spacing: 0.4px;
 .featured-posts-custom .editorial__aside {
   padding-top: 37px !important
 }
-.featured-posts-custom .editorial__title, .featured-posts-custom .editorial__excerpt, .featured-posts-custom .editorial__link {
+.featured-posts-custom .editorial__title, .featured-posts-custom .editorial__excerpt p, .featured-posts-custom .editorial__link {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
