@@ -26848,6 +26848,13 @@ letter-spacing: 0.5px;
     gap: 10px;
     flex-shrink: 0;
 }
+.featured-blog-btn--outline .btn--text span {
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 12.5px */
+letter-spacing: 3px;  
+}
 /*End Desktop*/
 }
 
