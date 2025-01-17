@@ -22,8 +22,6 @@ function updateHeaderExpanded() {
             console.log("Top");
             headerElement.setAttribute('data-header-expanded', 'true');
         } else {
-            console.log("Not Top");
-            console.log(headerElement);
             headerElement.setAttribute('data-header-expanded', 'false');
         }
     });
