@@ -26598,6 +26598,9 @@ letter-spacing: 0.4px;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+.featured-posts-custom .editorial__link .btn {
+  min-width: auto;
+}
 /*End Global*/
 
 /*Collection CLP*/
