@@ -26389,6 +26389,7 @@ font-weight: 500;
 line-height: 125%; /* 12.5px */
 letter-spacing: 0.5px;
   white-space: nowrap;
+  min-width: auto;
 }
 .btn--solid,
 .btn--outline,
@@ -26608,9 +26609,7 @@ letter-spacing: 0.4px;
   margin-bottom: 16px;  
   padding-right: 36px;
 }
-.featured-posts-custom .editorial__link .btn {
-  min-width: auto;
-}
+
 /*End Global*/
 
 /*Collection CLP*/
