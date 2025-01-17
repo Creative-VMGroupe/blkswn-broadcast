@@ -26841,6 +26841,7 @@ letter-spacing: 0.5px;
       display: flex;
     width: 185px;
     height: 45px;
+    border: 1px solid currentcolor;
     padding: 11px 23px;
     justify-content: center;
     align-items: center;
