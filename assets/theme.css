@@ -26455,12 +26455,12 @@ letter-spacing: 0.4px;
 .featured-collections .grid__heading-text {
   max-width: 250px;
 }
-.featured-collections .product-item__info {
+.featured-collections .product-item__info, . collection-custom .product-item__info{
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
-.featured-collections .product-item__info .product-link {
+.featured-collections .product-item__info .product-link, .collection-custom .product-item__info .product-link{
     display: flex;
     flex-direction: column;
     gap: 3px;
