@@ -26379,7 +26379,7 @@ a.btn {
 a.btn.btn--small {
   min-width: auto;
 }
-.btn--text {
+.btn--text, .btn--text span {
 font-size: 10px;
 font-style: normal;
 font-weight: 500;
@@ -26756,7 +26756,7 @@ letter-spacing: 0.4px;
   }
 
   /*Desktop Buttons*/
-  .btn--text {
+  .btn--text, .btn--text span {
   font-size: 13px;
   font-weight: 500;
   line-height: 140%; /* 18.2px */
