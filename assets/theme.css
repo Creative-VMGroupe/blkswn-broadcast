@@ -26597,7 +26597,7 @@ letter-spacing: 0.4px;
  }
 /*Default Featured blog posts*/
 .featured-posts-custom .editorial__aside {
-  padding: 37px 0 20px;
+  padding: 37px 0 0;
 }
 .featured-posts-custom .editorial__title, .featured-posts-custom .editorial__excerpt p, .featured-posts-custom .editorial__link {
   margin-top: 0;
