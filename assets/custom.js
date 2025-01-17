@@ -12,7 +12,8 @@
   // Add custom code below this line
 // Select all elements with the 'data-header-expanded' attribute
 const headerElements = document.querySelectorAll('[data-header-expanded]');
-
+const mainHeader = document.querySelector('header')
+  
 // Function to update the attribute based on scroll position
 function updateHeaderExpanded() {
     const isAtTop = window.scrollY === 0;
@@ -36,6 +37,7 @@ const isHP = () => {
 }
 
 if(isHP()) {
+  mainHeader.classList.add('animate-header')
 // Add event listener to update on scroll
 window.addEventListener('scroll', updateHeaderExpanded);
 
