@@ -26860,6 +26860,9 @@ letter-spacing: 3px;
   padding: 0;
   height: auto;
 }
+  .featured-posts-custom .editorial__aside {
+  padding: 37px 40px 0;
+}
 /*End Desktop*/
 }
 
