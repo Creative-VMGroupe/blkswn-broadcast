@@ -87,7 +87,7 @@
 
                     {%- unless article != blank and article.excerpt_or_content == blank -%}
                       <div class="editorial__excerpt">
-                        <p>{{ article.excerpt_or_content | default: default_content | strip_html | truncatewords: 30 }}</p>
+                        <p class='body-size-6'>{{ article.excerpt_or_content | default: default_content | strip_html | truncatewords: 30 }}</p>
                       </div>
                     {%- endunless -%}
 
