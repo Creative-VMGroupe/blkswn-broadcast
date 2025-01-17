@@ -26595,8 +26595,12 @@ letter-spacing: 0.4px;
   padding-top: 37px !important
 }
 .featured-posts-custom .editorial__title, .featured-posts-custom .editorial__excerpt p, .featured-posts-custom .editorial__link {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.featured-posts-custom .editorial__excerpt p {
+  margin-top: 8px;
+  margin-bottom: 16px;  
 }
 .featured-posts-custom .editorial__link .btn {
   min-width: auto;
