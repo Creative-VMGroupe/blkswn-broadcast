@@ -26847,6 +26847,7 @@ letter-spacing: 0.5px;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+  color: var(--text);
 }
 .featured-blog-btn--outline.btn--text span {
 font-size: 10px;
