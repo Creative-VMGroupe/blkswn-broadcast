@@ -26380,10 +26380,11 @@ a.btn.btn--small {
   min-width: auto;
 }
 .btn--text {
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 140%; /* 18.2px */
-  letter-spacing: 0.65px;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 12.5px */
+letter-spacing: 0.5px;
   white-space: nowrap;
 }
 .btn--solid,
@@ -26754,6 +26755,14 @@ letter-spacing: 0.4px;
     font-size: calc(var(--font-15) * var(--FONT-ADJUST-HEADING)) !important;
   }
 
+  /*Desktop Buttons*/
+  .btn--text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%; /* 18.2px */
+  letter-spacing: 0.65px;
+  white-space: nowrap;
+}
   /*Unknown*/
   .product-item--has-quickbuy.product-item--overlay-text:hover
     .product-item__info {
