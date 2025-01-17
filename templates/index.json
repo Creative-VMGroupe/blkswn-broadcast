@@ -298,7 +298,9 @@
         "show_date": false,
         "show_button": true,
         "bg_color": "",
-        "color": "",
+        "color": "#000000",
+        "desktop_color": "#ffffff",
+        "outlined_btn": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
