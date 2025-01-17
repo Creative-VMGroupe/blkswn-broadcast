@@ -26836,6 +26836,17 @@ letter-spacing: 0.5px;
   margin-top: 0px;
   margin-bottom: 0px
 }
+/*Default Featured blog posts*/
+.featured-blog-btn--outline {
+      display: flex;
+    width: 185px;
+    height: 45px;
+    padding: 11px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
 /*End Desktop*/
 }
 
