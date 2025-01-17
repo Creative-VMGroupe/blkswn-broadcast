@@ -26863,7 +26863,7 @@ letter-spacing: 3px;
   padding: 0;
   height: auto;
 }
-  .featured-blog-btn--outline.btn--text span:after {
+  .featured-blog-btn--outline.btn--text:after {
         content: "";
     position: absolute;
     top: 0;
