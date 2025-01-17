@@ -20,7 +20,6 @@ function updateHeaderExpanded() {
 
     headerElements.forEach(headerElement => {
         if (isAtTop) {
-            console.log("Top");
             headerElement.setAttribute('data-header-expanded', 'true');
         } else {
             headerElement.setAttribute('data-header-expanded', 'false');
