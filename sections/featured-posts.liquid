@@ -26,7 +26,7 @@
   #FeaturedPosts--{{ section.id }} {     
     {%- unless desktop_color == 'rgba(0,0,0,0)' or desktop_color == blank -%}
       --text: {{ desktop_color }};
-      --btn-border-hover" {{ btn_border_color_hover }}
+      --btn-border-hover: {{ btn_border_color_hover }}
     {%- endunless -%}
   
     }
