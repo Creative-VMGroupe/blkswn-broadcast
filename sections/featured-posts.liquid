@@ -6,7 +6,7 @@
   assign full_bleed = section.settings.full_bleed
   assign outlined_btn = section.settings.outlined_btn
   assign desktop_color = section.settings.desktop_color
-  assign btn_border_color_hover = section.settings.desktop_color
+  
 -%}
 
 {%- style -%}
@@ -26,7 +26,7 @@
   #FeaturedPosts--{{ section.id }} {     
     {%- unless desktop_color == 'rgba(0,0,0,0)' or desktop_color == blank -%}
       --text: {{ desktop_color }};
-      --btn-border-hover: {{ btn_border_color_hover }}
+     
     {%- endunless -%}
   
     }
