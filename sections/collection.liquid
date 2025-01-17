@@ -171,7 +171,7 @@
   {%- endfor -%}
 
   {%- assign featured_images_array = featured_images_array | split: '@@' | sort -%}
-{%- endif -%}<section class="collection collection-products collection-{{ collection.handle }} section-padding"
+{%- endif -%}<section class="collection collection-products collection-{{ collection.handle }} section-padding collection-custom"
     id="Collection--{{ section.id }}"
     data-section-id="{{ section.id }}"
     data-section-type="collection"
