@@ -95,6 +95,9 @@
   if button_style == 'btn--text' and block.settings.show_arrow
     assign button_style = button_style | append: ' btn--text-no-underline'
   endif
+
+  assign is_quick_add_outlined = section.settings.is_quick_add_outlined
+  assign quick_add_color = section.settings.quick_add_color
 -%}
 
 {%- capture style -%}
@@ -303,7 +306,7 @@
   assign items_on_row_remaining = items_on_row_remaining | minus: 1
 
   if collection
-    render 'product-grid-item', product: product, index: forloop.index, sizes: image_sizes
+    render 'product-grid-item', product: product, index: forloop.index, sizes: image_sizes, is_quick_add_outlined: is_quick_add_outlined, quick_add_color: quick_add_color
   endif
 -%}
 {%- endfor -%}
@@ -418,6 +421,26 @@
         "label":   "Products per page",
         "default": 24
       },
+      {
+        "type": "header",
+        "content": "Quick Add Button"
+      },
+            {
+  "type": "checkbox",
+  "id": "is_quick_add_outlined",
+  "label": "Enable Outlined Quick Add Button",
+  "default": true
+},
+      {
+  "type": "select",
+  "id": "quick_add_color",
+  "label": "Quick Add Border/Text Color",
+  "default": "btn--white",
+        "options": [
+          {"value": "btn--white", "label": "White"},
+          {"value": "btn--black", "label": "Black"}
+        ]
+},
       {
         "type": "header",
         "content": "Colors"
