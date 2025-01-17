@@ -365,6 +365,67 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_rich_text_NcbV9V": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_6tNmkR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "mobile_heading_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "heading_rpfzpU": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 1,
+            "mobile_heading_size": 2,
+            "padding_bottom": 16
+          }
+        },
+        "text_yAwHze": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 7,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_xtNJj3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6tNmkR",
+        "heading_rpfzpU",
+        "text_yAwHze",
+        "buttons_xtNJj3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -377,6 +438,7 @@
     "featured_posts_BPRi9F",
     "section_collection_HCegyn",
     "1731611205705610c2",
-    "17370436900ae32ae9"
+    "17370436900ae32ae9",
+    "section_rich_text_NcbV9V"
   ]
 }
