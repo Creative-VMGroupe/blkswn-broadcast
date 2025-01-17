@@ -31,7 +31,6 @@
   assign is_quick_add_outlined = section.settings.is_quick_add_outlined
   assign quick_add_color = section.settings.quick_add_color
 
-  assign mobile_font_size_class = block.settings.mobile_heading_size | prepend: 'mobile-heading-size-'
 -%}
 
 {%- capture image_sizes -%}
@@ -120,6 +119,7 @@
     <div class="product-item__image-overlay">
       <div class="product-item__image-content">
         {%- if featured_header != blank -%}
+          {%- assign mobile_font_size_class = block.settings.mobile_heading_size | prepend: 'mobile-heading-size-' -%}
           <h3 class="heading-size-{{ block.settings.heading_size }} {{ mobile_font_size_class }}">{{ featured_header }}</h3>
         {%- endif -%}
 
