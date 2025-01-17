@@ -36,7 +36,8 @@ const isHP = () => {
 }
 
 if(isHP()) {
-  mainHeader.classList.add('animate-header')
+//Applies styles only when on HP
+mainHeader.classList.add('animate-header')
 // Add event listener to update on scroll
 window.addEventListener('scroll', updateHeaderExpanded);
 
