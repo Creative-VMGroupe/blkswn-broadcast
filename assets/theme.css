@@ -26834,7 +26834,7 @@ letter-spacing: 0.5px;
 }
 .custom-content .hero__content .hero__title, .custom-content .hero__content .hero__description, .custom-content .hero__content .hero__button, .custom-content .hero__content .hero__button-group {
   margin-top: 0px;
-  margin-bottom: 0px
+  margin-bottom: 0px;
 }
 /*Default Featured blog posts*/
 .featured-blog-btn--outline {
