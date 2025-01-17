@@ -26613,7 +26613,9 @@ letter-spacing: 0.4px;
 /*End Global*/
 
 /*Collection CLP*/
-
+.popout__toggleable-text {
+  text-transform: capitalize;
+}
 /*End Collection CLP*/
 
 /*PDP*/
