@@ -26606,7 +26606,7 @@ letter-spacing: 0.4px;
 .featured-posts-custom .editorial__excerpt p {
   margin-top: 8px;
   margin-bottom: 16px;  
-  padding-left: 36px;
+  padding-right: 36px;
 }
 .featured-posts-custom .editorial__link .btn {
   min-width: auto;
