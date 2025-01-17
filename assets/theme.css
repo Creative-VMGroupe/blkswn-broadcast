@@ -26855,6 +26855,8 @@ font-weight: 500;
 line-height: 125%; /* 12.5px */
 letter-spacing: 3px;  
   background: none;
+  margin: auto;
+  padding: 0;
 }
 /*End Desktop*/
 }
