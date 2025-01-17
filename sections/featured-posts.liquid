@@ -4,6 +4,7 @@
   assign bg_color = section.settings.bg_color
   assign text_color = section.settings.color
   assign full_bleed = section.settings.full_bleed
+  assign outlined_btn = section.settings.outlined_btn
 -%}
 
 {%- style -%}
@@ -93,7 +94,7 @@
 
                     {%- if section.settings.show_button -%}
                       <div class="editorial__link">
-                        <a href="{{ article.url }}" class="btn btn--text" aria-label="{{ 'blogs.article.read_more_descriptive' | t }}">
+                        <a href="{{ article.url }}" class="btn btn--text {%- if outlined_btn -%}featured-blog-btn--outline{%- endif -%}" aria-label="{{ 'blogs.article.read_more_descriptive' | t }}">
                           <span>{{ 'blogs.article.read_more' | t }}</span>
                         </a>
                       </div>
