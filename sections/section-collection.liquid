@@ -58,6 +58,8 @@
     assign button_style = button_style | append: ' btn--text-no-underline'
   endif
 
+  assign is_quick_add_outlined = section.settings.is_quick_add_outlined
+  assign quick_add_color = section.settings.quick_add_color
 -%}
 
 {%- style -%}
@@ -149,7 +151,7 @@
                     assign animation_delay = forloop.index0 | modulo: grid_int | times: 1
                   endif
 
-                  render 'product-grid-item', product: product, animation_delay: animation_delay, index: forloop.index, is_quick_add_outlined: section.settings.is_quick_add_outlined, quick_add_color: section.settings.quick_add_color
+                  render 'product-grid-item', product: product, animation_delay: animation_delay, index: forloop.index, is_quick_add_outlined: is_quick_add_outlined, quick_add_color: quick_add_color
                 endfor
               -%}
 
