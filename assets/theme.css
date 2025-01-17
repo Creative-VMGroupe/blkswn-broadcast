@@ -26369,8 +26369,11 @@ p small,
   font-size: calc(var(--font-9) * var(--FONT-ADJUST-BODY));
 }
 .body-size-6 {
-  line-height: 150%; /* 19.5px */
-  letter-spacing: 0.65px;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 19.5px */
+letter-spacing: 0.65px;
 }
 /*Default Buttons*/
 a.btn {
