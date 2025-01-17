@@ -27,6 +27,9 @@
 
   assign animation_anchor = '.collection-' | append: collection.handle
   assign animation_duration = 800
+
+  assign is_quick_add_outlined = section.settings.is_quick_add_outlined
+  assign quick_add_color = section.settings.quick_add_color
 -%}
 
 {%- capture image_sizes -%}
@@ -96,8 +99,6 @@
     assign button_style = button_style | append: ' btn--text-no-underline'
   endif
 
-  assign is_quick_add_outlined = section.settings.is_quick_add_outlined
-  assign quick_add_color = section.settings.quick_add_color
 -%}
 
 {%- capture style -%}
