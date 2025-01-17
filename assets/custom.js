@@ -30,8 +30,8 @@ function updateHeaderExpanded() {
 }
 //Check for Homepage
 const isHP = () => {
-  const currentURL = windows.location.href;
-  const baseURL = windows.location.origin;
+  const currentURL = window.location.href;
+  const baseURL = window.location.origin;
 
   currentURL === baseURL? console.log('On HP') : console.log('Not HP')
   return currentURL === baseURL
