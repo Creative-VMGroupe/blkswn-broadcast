@@ -26721,6 +26721,15 @@ letter-spacing: 0.65px;
 .product__content {
   margin: 0 var(--outer);
 }
+.pdp-dots .product__thumb figure{
+  display: none;
+}
+.pdp-dots .product__thumb {
+    width: 9px;
+  height: 9px;
+  background-color: black;
+  border-radius: 50%;
+}
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
