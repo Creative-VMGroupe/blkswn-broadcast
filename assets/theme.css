@@ -26721,6 +26721,10 @@ letter-spacing: 0.65px;
 .product__content {
   margin: 0 var(--outer);
 }
+/*Default PDP Dots*/
+.product__thumbs {
+    min-height: 0;
+}
 .pdp-dots .product__thumb figure{
   display: none;
 }
@@ -26730,6 +26734,7 @@ letter-spacing: 0.65px;
   background-color: black;
   border-radius: 50%;
 }
+
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
