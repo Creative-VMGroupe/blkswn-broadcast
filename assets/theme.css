@@ -26992,10 +26992,10 @@ letter-spacing: 3px;
     webkit-mask: none;
     mask: none;
   }
-  /* .featured-product__body {
+  .featured-product__body {
         height: 650px;
     min-height: 0;
-  } */
+  }
   .featured-product__content {
     margin: auto;
   }
