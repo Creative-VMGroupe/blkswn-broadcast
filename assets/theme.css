@@ -26689,10 +26689,14 @@ letter-spacing: 0.65px;
   justify-content: center;
 }
     .pagination-custom__prev, .pagination-custom__next {
-  flex: none
+  flex: none;
+      font-size: 13px;
+font-weight: 400;
+line-height: 150%; /* 19.5px */
+letter-spacing: 0.65px;
 }
 .pagination-custom__prev span, .pagination-custom__next span {
-    display: inline-block
+    display: inline-block;
 }
 /*End Collection CLP*/
 
