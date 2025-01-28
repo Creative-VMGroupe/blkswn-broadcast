@@ -208,8 +208,9 @@
               aria-expanded="{% if filters_expanded %}true{% else %}false{% endif %}"
               aria-controls="filter-groups"
               data-aria-toggle>
+              {% comment %} 
               {%- render 'icon-filter' -%}
-
+{% endcomment %}
               {%- if filter_layout == 'slide-out' -%}
                 {{ 'collections.general.filters' | t }}
               {%- else -%}
