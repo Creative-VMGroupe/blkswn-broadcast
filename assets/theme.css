@@ -26620,7 +26620,10 @@ letter-spacing: 0.4px;
   border: none;
 }
 .popout--group .popout__toggle {
-  border-right: none;
+  border: none;
+}
+.popout--sort .popout__toggle {
+  border: none;
 }
 .popout--group .popout__toggle, .popout--sort .popout__toggle {
   padding-top: 30px;
