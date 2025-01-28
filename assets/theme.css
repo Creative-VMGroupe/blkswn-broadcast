@@ -26993,7 +26993,7 @@ letter-spacing: 3px;
     mask: none;
   }
   .featured-product__body {
-        height: 100vh;
+        height: 650px;
     min-height: 0;
   }
   .featured-product__content {
@@ -27035,4 +27035,11 @@ letter-spacing: 3px;
 }
 #appointo-body-calendar {
   display: block !important;
+}
+@media(min-width: 1100px) {
+  /*Desktop Featured Product 1100px*/
+    .featured-product__body {
+      height: 100vh;
+    
+  }
 }
