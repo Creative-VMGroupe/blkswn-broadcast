@@ -26651,7 +26651,9 @@ letter-spacing: 0.4px;
     grid-column-end: 3;
     display: inline-grid;
 }
-
+.product-item__image {
+  padding-top: 100%;
+}
 .product-item__image-content {
     text-align: start;
 }
