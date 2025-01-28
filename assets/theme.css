@@ -26630,7 +26630,7 @@ letter-spacing: 0.4px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.popout__expanded-show. .popout__toggle__text {
+.popout__expanded-show, .popout__toggle__text {
     background: linear-gradient(to right,currentColor,currentColor);
     background-size: 100% 1px;
     background-position: 50% 86%;
