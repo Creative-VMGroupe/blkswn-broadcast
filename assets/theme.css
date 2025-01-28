@@ -26982,7 +26982,7 @@ letter-spacing: 3px;
   padding: 40px;
 }
   /*Desktop Featured Product*/
-  /* .featured-product__aside--bg {
+  .featured-product__aside--bg {
     padding-top: 100%;
   }
   .featured-product__inner {
@@ -26998,7 +26998,7 @@ letter-spacing: 3px;
   }
   .featured-product__content {
     margin: auto;
-  } */
+  }
 /*End Desktop*/
 }
 
