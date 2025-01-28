@@ -26616,6 +26616,7 @@ letter-spacing: 0.4px;
 .popout__toggleable-text, .popout__toggle__text {
   text-transform: capitalize;
 }
+/*Filters*/
 .collection__nav {
   border: none;
 }
@@ -26628,6 +26629,12 @@ letter-spacing: 0.4px;
 .popout--group .popout__toggle, .popout--sort .popout__toggle {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.popout__expanded-show {
+  background-size: 100% 1px;
+}
+.popout__expanded-show:hover {
+  background-size: 0% 1px;
 }
 /*End Collection CLP*/
 
