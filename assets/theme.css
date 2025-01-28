@@ -26985,6 +26985,9 @@ letter-spacing: 3px;
   .featured-product__aside--bg {
     padding-top: 100%;
   }
+  .featured-product__inner {
+      display: none;
+  }
 /*End Desktop*/
 }
 
