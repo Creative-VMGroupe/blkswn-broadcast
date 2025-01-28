@@ -181,8 +181,8 @@
             {%- endif -%}
 
             {%- if show_thumbnails -%}
-              <product-thumbs class="product__thumbs">
-                <div class="product__thumbs__holder {% if enable_dots%}pdp-dots{% endif %}" data-thumbs-slider>
+              <product-thumbs class="product__thumbs {% if enable_dots%}pdp-dots{% endif %}">
+                <div class="product__thumbs__holder " data-thumbs-slider>
                   {%- for media in product.media -%}
                     <div class="product__thumb{% if media == featured_media %} is-active{% endif %}" data-thumb-item>
                       <a
