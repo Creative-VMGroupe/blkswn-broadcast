@@ -26619,6 +26619,9 @@ letter-spacing: 0.4px;
 .collection__nav {
   border: none;
 }
+.popout--group .popout__toggle {
+  border-right: none;
+}
 /*End Collection CLP*/
 
 /*PDP*/
