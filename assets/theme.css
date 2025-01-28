@@ -26691,6 +26691,9 @@ letter-spacing: 0.65px;
     .pagination-custom__prev, .pagination-custom__next {
   flex: none
 }
+.pagination-custom__prev span, .pagination-custom__next span {
+    display: inline-block
+}
 /*End Collection CLP*/
 
 /*PDP*/
