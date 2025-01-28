@@ -152,6 +152,7 @@
         "enable_zoom": true,
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
+        "enable_dots": true,
         "padding_top": 90,
         "padding_bottom": 30
       }
