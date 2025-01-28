@@ -26616,6 +26616,9 @@ letter-spacing: 0.4px;
 .popout__toggleable-text, .popout__toggle__text {
   text-transform: capitalize;
 }
+.collection__nav {
+  border: none;
+}
 /*End Collection CLP*/
 
 /*PDP*/
