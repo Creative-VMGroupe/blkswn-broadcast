@@ -26435,7 +26435,9 @@ letter-spacing: 0.4px;
 .product__price {
   opacity: 1 !important;
 }
-
+.featured-collections .grid {
+  gap: 30px 10px;
+}
 .featured-collections .grid-container {
   display: flex;
   flex-direction: column;
