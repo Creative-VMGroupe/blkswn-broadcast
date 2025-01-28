@@ -9,12 +9,16 @@
     {%- if paginate.previous -%}
       <a class="pagination-custom__prev" href="{{ paginate.previous.url }}" title="{{ 'general.pagination.prev' | t }}">
         <span>{{ 'general.pagination.prev' | t }}</span>
+        {% comment %}
         {%- render 'icon-arrow-left' -%}
+        {% endcomment %}
       </a>
     {%- else -%}
       <span class="pagination-custom__prev is-hidden">
         <span>{{ 'general.pagination.prev' | t }}</span>
+        {% comment %}
         {%- render 'icon-arrow-left' -%}
+        {% endcomment %}
       </span>
     {%- endif -%}
 
