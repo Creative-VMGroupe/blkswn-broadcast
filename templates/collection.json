@@ -75,7 +75,7 @@
         "filter_layout": "inline-closed",
         "default_open": true,
         "collection_linklist": "",
-        "grid": 3,
+        "grid": 4,
         "grid_mobile": "2",
         "products_per_page": 24,
         "is_quick_add_outlined": true,
