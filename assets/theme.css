@@ -26703,6 +26703,12 @@ letter-spacing: 0.65px;
 }
 /*End Collection CLP*/
 
+/*Collection LP*/
+.featured-product__card {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
 /*PDP*/
 
 /*End PDP*/
