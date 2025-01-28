@@ -26631,7 +26631,13 @@ letter-spacing: 0.4px;
   padding-bottom: 30px;
 }
 .popout__expanded-show {
-  background-size: 100% 1px;
+    background: linear-gradient(to right,currentColor,currentColor);
+    background-size: 100% 1px;
+    background-position: 50% 86%;
+    background-repeat: no-repeat;
+    transition: color .25s ease-in,background-size .25s ease-in;
+    line-height: 2;
+    padding: 5px 0;
 }
 .popout__expanded-show:hover {
   background-size: 0% 1px;
