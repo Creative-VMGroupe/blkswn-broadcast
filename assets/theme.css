@@ -26270,14 +26270,14 @@ h6,
   line-height: 130%; /* 20.8px */
 }
 
-.mobile-heading-size-6 {
+.mobile-heading-size-6, .popout__toggleable-text, .popout__toggle__text  {
   /*13px*/
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
   letter-spacing: 0.65px;
   line-height: 150%; /* 19.5px */
 }
 
-.mobile-heading-size-7, .popout__toggleable-text, .popout__toggle__text {
+.mobile-heading-size-7{
   /*12px*/
   font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING));
   letter-spacing: 0.6px;
