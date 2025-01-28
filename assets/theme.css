@@ -26675,6 +26675,10 @@ letter-spacing: 0.4px;
 .pagination-custom__page--active:hover {
  background-size: 0% 1px;  
 }
+.pagination-custom__page {
+  margin-left: 15px;
+  margin-right: 15px;
+}
 /*End Collection CLP*/
 
 /*PDP*/
