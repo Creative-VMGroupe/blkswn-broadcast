@@ -26646,6 +26646,9 @@ letter-spacing: 0.4px;
   background-size: 0% 1px;
 }
 /*Collection Grid*/
+.collection .grid {
+  gap: 10px
+}
 .collection__products .grid-outer {
   padding-top: 0;
 }
