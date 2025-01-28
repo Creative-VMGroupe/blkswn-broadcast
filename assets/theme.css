@@ -26724,7 +26724,7 @@ letter-spacing: 0.65px;
 .pdp-dots .product__thumb figure{
   display: none;
 }
-.pdp-dots .product__thumb {
+.pdp-dots .product__thumb__link {
     width: 9px;
   height: 9px;
   background-color: black;
