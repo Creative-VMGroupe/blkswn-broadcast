@@ -26996,6 +26996,9 @@ letter-spacing: 3px;
         height: 650px;
     min-height: 0;
   }
+  .featured-product__content {
+    margin: auto;
+  }
 /*End Desktop*/
 }
 
