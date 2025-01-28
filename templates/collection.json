@@ -77,7 +77,7 @@
         "collection_linklist": "",
         "grid": 4,
         "grid_mobile": "2",
-        "products_per_page": 24,
+        "products_per_page": 16,
         "is_quick_add_outlined": true,
         "quick_add_color": "btn--white",
         "border_color": "",
