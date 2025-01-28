@@ -121,6 +121,34 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_MVyaVg": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_xLcann": {
+          "type": "heading",
+          "settings": {
+            "title": "PILLOW TALK",
+            "text_size": 1,
+            "mobile_heading_size": 1,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_xLcann"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
     "featured_posts_cHxCRF": {
       "type": "featured-posts",
       "blocks": {
@@ -128,7 +156,7 @@
           "type": "featured_post",
           "settings": {
             "featured_post": "news/test-post",
-            "subheading": "Pillow Talk"
+            "subheading": ""
           }
         }
       },
@@ -144,8 +172,8 @@
         "show_date": false,
         "show_button": true,
         "bg_color": "",
-        "color": "",
-        "desktop_color": "",
+        "color": "#000000",
+        "desktop_color": "#ffffff",
         "outlined_btn": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -174,6 +202,7 @@
     "section_hero_t44NNM",
     "section_collection_fJ4thJ",
     "section_product_3JcBWq",
+    "section_rich_text_MVyaVg",
     "featured_posts_cHxCRF",
     "173256533424760160"
   ]
