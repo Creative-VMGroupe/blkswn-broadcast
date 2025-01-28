@@ -26993,7 +26993,7 @@ letter-spacing: 3px;
     mask: none;
   }
   .featured-product__body {
-        height: 650px;
+        height: 100vh;
     min-height: 0;
   }
   .featured-product__content {
