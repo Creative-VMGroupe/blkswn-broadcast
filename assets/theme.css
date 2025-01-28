@@ -26655,6 +26655,7 @@ letter-spacing: 0.4px;
     text-align: start;
 }
 .product-item__image-overlay {
+  align-items: start;
   padding: 30px;
 }
 /*End Collection CLP*/
