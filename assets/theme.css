@@ -26717,12 +26717,12 @@ letter-spacing: 0.65px;
 
 
 /*Default PDP*/
-/* .product__wrapper {
+.product__wrapper {
   margin: 0;
 }
 .product__content {
   margin: 0 var(--outer);
-} */
+}
 /*Default PDP Dots*/
 .pdp-dots.product__thumbs {
     min-height: 0;
