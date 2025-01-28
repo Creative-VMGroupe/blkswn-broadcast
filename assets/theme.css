@@ -26620,6 +26620,9 @@ letter-spacing: 0.4px;
 .collection__nav {
   border: none;
 }
+.collection  .popout__toggle {
+  text-transform: capitalize;
+}
 .popout--group .popout__toggle {
   border: none;
 }
