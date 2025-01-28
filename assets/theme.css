@@ -26679,6 +26679,12 @@ letter-spacing: 0.4px;
   margin-left: 15px;
   margin-right: 15px;
 }
+.pagination-custom__page {
+  font-size: 13px;
+font-weight: 500;
+line-height: 190%; /* 24.7px */
+letter-spacing: 0.65px;
+}
 /*End Collection CLP*/
 
 /*PDP*/
