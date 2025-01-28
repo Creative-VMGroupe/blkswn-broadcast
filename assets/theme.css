@@ -26622,6 +26622,10 @@ letter-spacing: 0.4px;
 .popout--group .popout__toggle {
   border-right: none;
 }
+.popout--group .popout__toggle, .popout--sort .popout__toggle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /*End Collection CLP*/
 
 /*PDP*/
