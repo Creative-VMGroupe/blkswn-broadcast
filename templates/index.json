@@ -50,7 +50,7 @@
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/SoJuicyLipOil-BabyPanda-Stylized-Into_1_1.jpg",
         "link": "",
-        "mobile_height": "screen-height-full--mobile",
+        "mobile_height": "sixty-fifty-height-hero--mobile",
         "flex_align_desktop": "align--bottom-left-desktop",
         "flex_align_mobile": "align--bottom-center-mobile",
         "overlay_opacity": 30,
