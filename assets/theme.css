@@ -26642,6 +26642,10 @@ letter-spacing: 0.4px;
 .popout__expanded-show:hover, .popout__toggle__text:hover {
   background-size: 0% 1px;
 }
+/*Collection Grid*/
+.collection__products .grid-outer {
+  pading-top: 0;
+}
 /*End Collection CLP*/
 
 /*PDP*/
