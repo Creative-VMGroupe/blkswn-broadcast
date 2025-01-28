@@ -26721,6 +26721,7 @@ letter-spacing: 0.65px;
   margin: 0;
 }
 .product__content {
+  /*Padding instead 16px both sides causing overflwo*/
   margin: 0 var(--outer);
 }
 /*Default PDP Dots*/
