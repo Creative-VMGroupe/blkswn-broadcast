@@ -26646,6 +26646,11 @@ letter-spacing: 0.4px;
 .collection__products .grid-outer {
   padding-top: 0;
 }
+.product-item--featured-image {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: inline-grid;
+}
 /*End Collection CLP*/
 
 /*PDP*/
