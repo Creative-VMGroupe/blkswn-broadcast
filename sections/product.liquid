@@ -100,6 +100,9 @@
     assign badge = product_tags | split: '_badge_'
     assign badge = badge[1] | split: ',' | first | replace: '_', ' '
   endif
+
+
+  assign enable_dots = section.settings.enable_dots
 -%}
 
 {%- style -%}
@@ -179,7 +182,7 @@
 
             {%- if show_thumbnails -%}
               <product-thumbs class="product__thumbs">
-                <div class="product__thumbs__holder" data-thumbs-slider>
+                <div class="product__thumbs__holder {% if enable_dots%}pdp-dots{% endif %}" data-thumbs-slider>
                   {%- for media in product.media -%}
                     <div class="product__thumb{% if media == featured_media %} is-active{% endif %}" data-thumb-item>
                       <a
