@@ -26722,9 +26722,12 @@ letter-spacing: 0.65px;
   margin: 0 var(--outer);
 }
 /*Default PDP Dots*/
-.product__thumbs {
+.pdp-dots.product__thumbs {
     min-height: 0;
   margin-top: 24px;
+}
+.pdp-dots .product__thumbs__holder {
+  justify-content: center;
 }
 .pdp-dots .product__thumb figure{
   display: none;
