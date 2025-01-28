@@ -26714,6 +26714,8 @@ letter-spacing: 0.65px;
   padding-bottom: 36px;
 }
 /*End Default Collection LP*/
+
+
 /*Default PDP*/
 .product__wrapper {
   margin: 0;
@@ -26726,6 +26728,9 @@ letter-spacing: 0.65px;
     min-height: 0;
   margin-top: 24px;
   margin-bottom: 44px;
+}
+.pdp-dots .product__thumb {
+  margin-left: 19px;
 }
 .pdp-dots .product__thumbs__holder {
   justify-content: center;
