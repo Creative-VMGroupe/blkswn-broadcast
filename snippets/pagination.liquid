@@ -35,12 +35,16 @@
     {%- if paginate.next -%}
       <a class="pagination-custom__next" href="{{ paginate.next.url }}" title="{{ 'general.pagination.next' | t }}">
         <span>{{ 'general.pagination.next' | t }}</span>
+        {% comment %}
         {%- render 'icon-arrow-right' -%}
+         {% endcomment %}     
       </a>
     {%- else -%}
     <span class="pagination-custom__next is-hidden">
       <span>{{ 'general.pagination.next' | t }}</span>
+      {% comment %}
       {%- render 'icon-arrow-right' -%}
+      {% endcomment %}
     </span>
     {%- endif -%}
   </nav>
