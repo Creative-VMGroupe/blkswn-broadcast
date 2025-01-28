@@ -26797,7 +26797,7 @@ letter-spacing: 0.65px;
     line-height: 130%; /* 20.8px */
   }
 
-  .heading-size-7 {
+  .heading-size-7, .popout__toggleable-text, .popout__toggle__text, .popout__toggle {
     /*13px*/
     font-size: calc(var(--font-7) * var(--FONT-ADJUST-HEADING)) !important;
     letter-spacing: 0.65px;
