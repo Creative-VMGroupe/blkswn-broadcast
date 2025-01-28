@@ -26661,6 +26661,20 @@ letter-spacing: 0.4px;
   align-items: start;
   padding: 30px;
 }
+/*Page Selector*/
+.pagination-custom__page--active {
+  box-shadow: none;
+    background: linear-gradient(to right,currentColor,currentColor);
+    background-size: 100% 1px;
+    background-position: 50% 86%;
+    background-repeat: no-repeat;
+    transition: color .25s ease-in,background-size .25s ease-in;
+    line-height: 2;
+    padding: 5px 0;
+}
+.pagination-custom__page--active:hover {
+ background-size: 0% 1px;  
+}
 /*End Collection CLP*/
 
 /*PDP*/
