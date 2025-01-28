@@ -26708,14 +26708,19 @@ letter-spacing: 0.65px;
 }
 /*End Collection CLP*/
 
-/*Collection LP*/
+/*Default Collection LP*/
 .featured-product__card {
   padding-top: 36px;
   padding-bottom: 36px;
 }
-
-/*PDP*/
-
+/*End Default Collection LP*/
+/*Default PDP*/
+.product__wrapper {
+  margin: 0;
+}
+.product__content {
+  margin: 0 var(--outer);
+}
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
