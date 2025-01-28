@@ -26981,6 +26981,10 @@ letter-spacing: 3px;
   .featured-posts-custom .editorial__aside {
   padding: 40px;
 }
+  /*Featured Product*/
+  .featured-product__aside--bg {
+    padding-top: 100%;
+  }
 /*End Desktop*/
 }
 
