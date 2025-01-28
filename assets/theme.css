@@ -26953,6 +26953,15 @@ letter-spacing: 3px;
   }
   /*End min-width: 768px*/
 }
+
+/**/
+@media(min-width: 990px) {
+  /*CLP*/
+  /*Collection Grid*/
+  .product-item--featured-image .product-item__image {
+  padding: 0;
+}
+}
 #appointo-body-calendar {
   display: block !important;
 }
