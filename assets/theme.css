@@ -26983,7 +26983,7 @@ letter-spacing: 3px;
 }
   /*Desktop Featured Product*/
   .featured-product__aside--bg {
-    padding-top: 100%;
+    height: 100%;
   }
   .featured-product__inner {
       display: none;
