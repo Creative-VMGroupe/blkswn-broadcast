@@ -649,7 +649,7 @@
 {%- endcapture -%}
 
 {%- if product_variant_options != blank -%}
-  <div class="product__block{% if settings.show_lines %} product__block--lines{% endif %} product__form__holder block-padding"
+  <div class="variants product__block{% if settings.show_lines %} product__block--lines{% endif %} product__form__holder block-padding"
     {{ block_style }}
     {{ block.shopify_attributes }}
     {% if animation_name %}
