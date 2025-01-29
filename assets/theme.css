@@ -26724,6 +26724,9 @@ letter-spacing: 0.65px;
   /*Padding instead 16px both sides causing overflwo*/
   margin: 0 var(--outer);
 }
+.index-product {
+    overflow-x: hidden
+}
 /*Default PDP Dots*/
 .pdp-dots.product__thumbs {
     min-height: 0;
