@@ -26780,6 +26780,21 @@ display: none;
 .product__content .variants .radio__button {
   padding: 0;
 }
+.product__content .variants .radio__fieldset .radio__button input.sold-out + label {
+  background-color: transparent;
+}
+
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+.product__content .variants {}
+
+
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
