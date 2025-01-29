@@ -26763,7 +26763,7 @@ letter-spacing: 0.65px;
 .product__content .product__price--off {
   padding: 0;
 }
-.product__content .product__selectors .product__selectors {
+.product__content .product__selectors .radio__fieldset{
   padding-top: 0;
   pading-bottom: 0
 }
