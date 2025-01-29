@@ -26768,7 +26768,7 @@ letter-spacing: 0.65px;
   pading-bottom: 0;
 }
 /*Variant images*/
-.product__content .variants .option-image {
+/* .product__content .variants .option-image {
 display: none;
 }
 .product__content .variants .radio__button label {
@@ -26784,7 +26784,7 @@ display: none;
   background-color: transparent;
   color: black;
 }
-
+ */
 .product__content .variants {}
 .product__content .variants {}
 .product__content .variants {}
