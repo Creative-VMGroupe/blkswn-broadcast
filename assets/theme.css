@@ -26771,7 +26771,7 @@ letter-spacing: 0.65px;
 .product__content .variants .option-image {
 display: none;
 }
-.product-content .variants .radio__fieldset--variant-option-image .radio__button label {
+.product-content .variants .radio__button label {
     min-height: 0%;
     display: inline-block;
     border: none;
