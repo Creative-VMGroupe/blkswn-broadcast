@@ -26777,6 +26777,9 @@ display: none;
     border: none;
     padding: 0 15px 0 0;
 }
+.product__content .variants .radio__button {
+  padding: 0;
+}
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
