@@ -26754,6 +26754,9 @@ letter-spacing: 0.65px;
 .product__content .product__block nav {
   margin-bottom: 0;
 }
+.product__content .product__block .product__price {
+  padding: 0;
+}
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
