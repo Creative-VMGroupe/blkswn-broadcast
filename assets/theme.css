@@ -26748,7 +26748,9 @@ letter-spacing: 0.65px;
   background-color: black;
   border-radius: 50%;
 }
-
+.product-content .product__block {
+  margin-bottom: 0;
+}
 /*End PDP*/
 /*Media Queries Start*/
 /*Desktop!*/
