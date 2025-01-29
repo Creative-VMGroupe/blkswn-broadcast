@@ -26786,7 +26786,8 @@ display: none;
 }
 
 .product__content .variants .radio__fieldset .radio__button input:checked~label{
-  border: solid 1px black;
+  border: none;
+  border-bottom: solid 1px black;
 }
 .product__content .variants {}
 .product__content .variants {}
