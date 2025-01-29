@@ -26782,7 +26782,7 @@ display: none;
   padding: 0;
 }
 .product__content .variants .radio__fieldset .radio__button input.sold-out + label {
-  min-width: 5px;
+  min-width: 17px;
   background-color: transparent;
   color: black;
 }
