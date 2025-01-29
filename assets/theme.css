@@ -26765,7 +26765,7 @@ letter-spacing: 0.65px;
 }
 .product__content .product__selectors .radio__fieldset{
   padding-top: 0;
-  pading-bottom: 0
+  pading-bottom: 0;
 }
 /*Variant images*/
 .product__content .variants .option-image {
@@ -26776,8 +26776,6 @@ display: none;
     display: inline-block;
     border: none;
     padding: 0 15px 0 0;
-  display: none;
-
 }
 /*End PDP*/
 /*Media Queries Start*/
