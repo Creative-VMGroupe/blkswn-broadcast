@@ -26777,6 +26777,7 @@ display: none;
     border: none;
     padding: 0;
   margin-right: 15px;
+  justify-items: start;
 }
 .product__content .variants .radio__button {
   padding: 0;
