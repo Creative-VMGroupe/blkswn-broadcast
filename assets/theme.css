@@ -27107,8 +27107,13 @@ letter-spacing: 3px;
 }
  .editorial-images .brick__block:first-child {
       flex: 1;
-    max-height: 300px;
 }
+  .editorial-images .brick__block:first-child .brick__block__image {
+    height: 75%;
+  }
+    .editorial-images .brick__block:first-child img {
+    height: 75%;
+  }
 /*End Desktop*/
 }
 
