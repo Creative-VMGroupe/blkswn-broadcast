@@ -16,7 +16,7 @@
 
   assign animation_anchor = '#BrickSection--' | append: section.id
 
-  assign remove-text_padding = section.settings.remove-text_padding
+  assign remove_text_padding = section.settings.remove_text_padding
 -%}
 
 {%- style -%}
@@ -63,7 +63,7 @@
             {%- render 'brick-image', block: block, style: style, animation_anchor: animation_anchor -%}
 
           {%- when 'text' -%}
-            {%- render 'brick-text', block: block, style: style, padding_class: padding_class, animation_anchor: animation_anchor, remove-text_padding: remove-text_padding -%}
+            {%- render 'brick-text', block: block, style: style, padding_class: padding_class, animation_anchor: animation_anchor, remove_text_padding: remove_text_padding -%}
 
           {%- when 'newsletter' -%}
             {%- render 'brick-newsletter', block: block, style: style, padding_class: padding_class, animation_anchor: animation_anchor -%}
@@ -491,7 +491,7 @@
         },
             {
       "type": "checkbox",
-      "id": "remove-text_padding",
+      "id": "remove_text_padding",
       "label": "Remove extra padding on text block",
       "default": false
     },
