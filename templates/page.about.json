@@ -214,6 +214,7 @@
             "heading_size": 2,
             "text": "<p>Lörem ipsum mytotopi medelpod: i lagån tir. Mal rodybelt iledes den tripol taliban-tv åvis exopöbelt vakus. Gått töligt men dekaling och rabes. Spevide tev lyssna in. Monoleras sudoku, vas, i deciledes påliga. Sonade apladör radiosiv bepengen. </p>",
             "text_size": 7,
+            "remove-text_padding": true,
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
