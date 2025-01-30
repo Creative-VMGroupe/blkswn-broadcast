@@ -26815,7 +26815,7 @@ display: none;
   gap: 30px;
 }
 .remove-text-padding .hero__content {
-  padding: 0;
+  padding: 30px 0;
 }
 /**/
 /*Media Queries Start*/
