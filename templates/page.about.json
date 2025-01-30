@@ -42,14 +42,15 @@
           "type": "heading",
           "settings": {
             "title": "OUR PROMISE",
-            "heading_size": 1
+            "heading_size": 1,
+            "mobile_heading_size": 3
           }
         },
         "text_kfgLfG": {
           "type": "text",
           "settings": {
             "description": "Lörem ipsum komtopi jovissade krodell bön, och favis kalapp och don och testbädd. Dysvision operaosmos. Ölig kontragyn tekrati och filologi såväl som tran och chefsnappni",
-            "text_size": 7,
+            "text_size": 6,
             "text_style": "font-body"
           }
         }
@@ -85,6 +86,7 @@
           "settings": {
             "title": "ABOUT US",
             "text_size": 1,
+            "mobile_heading_size": 2,
             "padding_bottom": 8
           }
         },
@@ -106,7 +108,7 @@
         "width": "wrapper--full-padded",
         "align_text": "text-center",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "#f7f7f7",
         "color": "",
@@ -122,7 +124,7 @@
           "settings": {
             "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_1.jpg",
             "overlay_opacity": 30,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 1,
@@ -130,7 +132,7 @@
             "text_size": 7,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
@@ -144,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_3.jpg",
             "overlay_opacity": 30,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 1,
@@ -152,7 +154,7 @@
             "text_size": 7,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
@@ -185,7 +187,7 @@
           "settings": {
             "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_1_1.jpg",
             "overlay_opacity": 30,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 1,
@@ -193,7 +195,7 @@
             "text_size": 7,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
