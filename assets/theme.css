@@ -26810,6 +26810,10 @@ display: none;
 /*End PDP*/
 
 /*Default About*/
+/*Default Custom Content - Editorial Images*/
+.editorial-images .brick__section {
+  gap: 30px;
+}
 /**/
 /*Media Queries Start*/
 /*Desktop!*/
