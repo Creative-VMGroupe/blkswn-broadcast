@@ -30,7 +30,7 @@
   {% if transparent_header %}data-overlay-header{% endif %}
   class="section-padding custom-content">
   {%- if section.blocks.size > 0 -%}
-    <div class="brick__section{% if section.settings.reverse_blocks %} brick__section--reversed-mobile{% endif %}{% if section.settings.gutters %} brick--margin{% endif %} {{ border_class }} {{ width }}">
+    <div class="brick__section{% if section.settings.reverse_blocks %} brick__section--reversed-mobile{% endif %}{% if section.settings.gutters %} brick--margin{% endif %} {{ border_class }} {{ width }} {% if section.settings.editorial %}editorial-images{% endif %}">
       {%- for block in section.blocks -%}
         {%- liquid
           assign animation_order = 0
@@ -238,6 +238,12 @@
       "id": "gutters",
       "label": "Enable gutters",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "editorial",
+      "label": "Enable editorial style images",
+      "default": true
     },
     {
       "type": "header",
