@@ -67,7 +67,7 @@
         "link": "",
         "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_desktop": "align--middle-left-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "flex_align_mobile": "align--bottom-left-mobile",
         "overlay_opacity": 30,
         "overlay_color": "#000000",
         "show_overlay_text": false,
