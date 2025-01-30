@@ -27100,6 +27100,15 @@ letter-spacing: 3px;
   .featured-product__content {
     margin: auto;
   }
+  /*About page*/
+  /*Custom Content Dekstop*/
+  .editorial-images {
+  gap: 0;
+}
+ .editorial-images .brick__block {
+      flex: 1;
+    max-height: 300px;
+}
 /*End Desktop*/
 }
 
