@@ -27110,10 +27110,17 @@ letter-spacing: 3px;
       flex: 1;
 }
   .editorial-images .brick__block:first-child .brick__block__image {
-    height: 75%;
+    height: 60vh;
   }
     .editorial-images .brick__block:first-child img {
-    height: 75%;
+    height: 60vh;
+  }
+  /*Second Image*/
+  .editorial-images .brick__block:nth-child(2) .brick__block__image {
+    height: 80vh;
+  }
+    .editorial-images .brick__block:nth-child(2) img {
+    height: 80vh;
   }
 /*End Desktop*/
 }
