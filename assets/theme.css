@@ -26814,6 +26814,9 @@ display: none;
 .editorial-images {
   gap: 30px;
 }
+.remove-text-padding .hero__content {
+  padding: 0;
+}
 /**/
 /*Media Queries Start*/
 /*Desktop!*/
