@@ -27103,7 +27103,7 @@ letter-spacing: 3px;
   /*About page*/
   /*Custom Content Dekstop*/
   .editorial-images {
-  gap: 0;
+  gap: 20px;
 }
  .editorial-images .brick__block:first-child {
       flex: 1;
