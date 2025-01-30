@@ -27105,7 +27105,7 @@ letter-spacing: 3px;
   .editorial-images {
   gap: 0;
 }
- .editorial-images .brick__block {
+ .editorial-images .brick__block:first-child {
       flex: 1;
     max-height: 300px;
 }
