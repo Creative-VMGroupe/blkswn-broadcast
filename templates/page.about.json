@@ -86,7 +86,7 @@
           "settings": {
             "title": "ABOUT US",
             "text_size": 1,
-            "mobile_heading_size": 2,
+            "mobile_heading_size": 3,
             "padding_bottom": 8
           }
         },
@@ -94,7 +94,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Lörem ipsum äldrelots semilog i tegon selig kall sulävis filoosmos desk. Ryngen nekrok täligt, dianetik agnostisocial digon, oses, ylig. Nesk pneumasocial ösovira i </p>",
-            "text_size": 7,
+            "text_size": 6,
             "text_style": "font-body",
             "padding_bottom": 0
           }
