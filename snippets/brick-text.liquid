@@ -6,7 +6,8 @@
     - style: {String} Block inline style
     - padding_class: {String} Set class "has-padding" if background colors of the block and the body are different
     - animation_anchor: {String} ID of the element that will trigger animations
-
+    -remove_text_padding: applies class to remove extra padding from custom content
+    
     Usage:
     {% render 'brick-text', block: block, style: style, padding_class: padding_class, animation_anchor: animation_anchor %}
 {% endcomment %}
@@ -27,6 +28,8 @@
   if button_style == 'btn--text' and block.settings.show_arrow
     assign button_style = button_style | append: ' btn--text-no-underline'
   endif
+
+   assign remove_text_padding = remove_text_padding
 -%}
 
 {%- capture style -%}
@@ -41,7 +44,7 @@
   {%- endunless -%}
 {%- endcapture -%}
 
-<div class="brick__block brick__block--text"{% if style != blank %} style="{{ style }}"{% endif %} {{ block.shopify_attributes }}>
+<div class="brick__block brick__block--text {% if remove_text_padding %} remove-text-padding{% endif %}"{% if style != blank %} style="{{ style }}"{% endif %} {{ block.shopify_attributes }}>
   <div class="brick__block__text{{ padding_class }}">
     <div class="hero__content hero__content--compact {{ block.settings.align_text }}">
       {%- if subheading != blank -%}
