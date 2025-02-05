@@ -26831,6 +26831,9 @@ display: none;
 .article__hero .article__image:not(:first-child) {
   margin-top: 16px;
 }
+.article__wrapper {
+  max-width: 640px;
+}
 /*End Default Blog Detail*/
 /*Media Queries Start*/
 /*Desktop!*/
