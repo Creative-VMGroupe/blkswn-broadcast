@@ -132,7 +132,7 @@
         "columns": "1",
         "bg_color": "",
         "color": "",
-        "border_color": "",
+        "border_color": "#000000",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -194,7 +194,7 @@
         "columns": "1",
         "bg_color": "rgba(0,0,0,0)",
         "color": "",
-        "border_color": "",
+        "border_color": "#000000",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -256,7 +256,7 @@
         "columns": "1",
         "bg_color": "",
         "color": "",
-        "border_color": "",
+        "border_color": "#000000",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -293,7 +293,7 @@
       "type": "section-divider",
       "settings": {
         "show_line": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "border_color": "#000000",
         "bg_color": "",
         "padding_top": 20,
