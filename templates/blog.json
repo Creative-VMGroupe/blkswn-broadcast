@@ -17,7 +17,7 @@
           "settings": {
             "title": "Image banner",
             "heading_size": 9,
-            "mobile_heading_size": 2
+            "mobile_heading_size": 9
           }
         },
         "heading_ygxgmN": {
@@ -57,10 +57,11 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Group_633220.jpg",
         "link": "",
         "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_desktop": "align--middle-left-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "flex_align_mobile": "align--bottom-left-mobile",
         "overlay_opacity": 30,
         "overlay_color": "#000",
         "show_overlay_text": false,
