@@ -235,7 +235,7 @@
       ],
       "settings": {
         "height": "five-fifty-height-hero",
-        "mobile_height": "five-fifty-height-hero--mobile",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
