@@ -36,7 +36,7 @@
         "mobile_height": "screen-height-one-third--mobile",
         "bg_color": "",
         "show_date": true,
-        "show_author": true,
+        "show_author": false,
         "tags": false,
         "show_sharing": true,
         "arrows": false,
