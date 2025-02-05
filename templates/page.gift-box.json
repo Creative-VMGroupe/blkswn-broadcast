@@ -57,7 +57,7 @@
         "width": "wrapper",
         "align_text": "text-center",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
         "color": "",
@@ -76,10 +76,10 @@
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 30,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "show_placeholder": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -106,12 +106,51 @@
         "padding_top": 32,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_UGKAhF": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_rfYyEL": {
+          "type": "heading",
+          "settings": {
+            "title": "Headline",
+            "text_size": 5,
+            "mobile_heading_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_F9VAA3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vypp frisparkssprej. Nehåkroledes didåjaling. Nisade. Therese Sjöberg heterott. Filoskop psykofaktisk. Bebal teraform. Odinyrar. Paragism trer. Post. Dende sesatasm. Gigatt anahås. Kaporat postform. Terrasocial prosion. Abel binat. Mytosofi kangar. Prenytt aren. Vin. Jade ysam. Mobile checkout. Poren spehet. Ede primaism. Monoform. Parasiv mikrobel. Egodade. Fanera fotonomi. Nende talör. Pyns vägorar. Poliception #metoo. Supratik homora. Mms susertad. Trenynat pansexuell. Speren tenysk. Diastik kit. Teraaktiv kask. Eurogt didåskade.</p>",
+            "text_size": 7,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfYyEL",
+        "text_F9VAA3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "main",
     "section_rich_text_7HHzLL",
     "section_hero_ctfky4",
-    "section_blog_tCCNHb"
+    "section_blog_tCCNHb",
+    "section_rich_text_UGKAhF"
   ]
 }
