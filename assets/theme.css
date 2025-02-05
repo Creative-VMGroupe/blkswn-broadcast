@@ -26812,7 +26812,7 @@ display: none;
 
 /*Default PDP Button*/
 .shopify-payment-button .shopify-payment-button__button--unbranded {
-  border: black;
+  border: 1px solid black;
 }
 /*End PDP*/
 
