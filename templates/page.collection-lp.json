@@ -155,7 +155,7 @@
         "featured_post_aBKmny": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "news/test-post",
+            "featured_post": "recent/a-title-of-blog",
             "subheading": ""
           }
         }
