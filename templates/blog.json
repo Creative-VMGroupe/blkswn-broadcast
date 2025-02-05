@@ -9,6 +9,68 @@
  */
 {
   "sections": {
+    "section_hero_Xn3hJt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_AarYU9": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_size": 9,
+            "mobile_heading_size": 2
+          }
+        },
+        "heading_ygxgmN": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_size": 1,
+            "mobile_heading_size": 2
+          }
+        },
+        "text_qWh7A8": {
+          "type": "text",
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "button_H4Fnnn": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AarYU9",
+        "heading_ygxgmN",
+        "text_qWh7A8",
+        "button_H4Fnnn"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "width": "wrapper--full",
+        "link": "",
+        "mobile_height": "five-fifty-height-hero--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured": {
       "type": "featured-posts",
       "blocks": {
@@ -23,7 +85,9 @@
       "block_order": [
         "feat"
       ],
+      "disabled": true,
       "settings": {
+        "full_bleed": true,
         "height": "five-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
@@ -32,6 +96,8 @@
         "show_button": true,
         "bg_color": "",
         "color": "",
+        "desktop_color": "",
+        "outlined_btn": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -57,6 +123,7 @@
     }
   },
   "order": [
+    "section_hero_Xn3hJt",
     "featured",
     "main"
   ]
