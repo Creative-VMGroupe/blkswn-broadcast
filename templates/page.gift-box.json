@@ -55,14 +55,14 @@
       ],
       "settings": {
         "width": "wrapper",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "overlay_opacity": 0,
         "overlay_color": "#000",
         "show_overlay_text": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 60,
+        "padding_bottom": 30
       }
     },
     "section_hero_ctfky4": {
@@ -70,6 +70,7 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
+        "image_1": "shopify://shop_images/BLKSWN_Shopping_Bag_2.jpg",
         "link": "",
         "mobile_height": "five-fifty-height-hero--mobile",
         "flex_align_desktop": "align--middle-center-desktop",
