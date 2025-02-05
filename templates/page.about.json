@@ -105,7 +105,7 @@
         "text_fPbKLx"
       ],
       "settings": {
-        "width": "wrapper--full-padded",
+        "width": "wrapper--narrow",
         "align_text": "text-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
