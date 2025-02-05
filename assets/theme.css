@@ -26796,7 +26796,7 @@ display: none;
   border-bottom: solid 1px black;
 }
 .product__content .variants .radio__button input {
-  min-width: 17px
+  min-width: 17px;
 }
 
 .product__content .variants {}
