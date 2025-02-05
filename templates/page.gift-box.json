@@ -69,7 +69,7 @@
       "type": "section-hero",
       "settings": {
         "height": "seven-fifty-height-hero",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/BLKSWN_Shopping_Bag_2.jpg",
         "link": "",
         "mobile_height": "five-fifty-height-hero--mobile",
