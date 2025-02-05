@@ -87,8 +87,8 @@
         "faq-0": {
           "type": "question",
           "settings": {
-            "default_open": false,
-            "title": "Frequently asked question",
+            "default_open": true,
+            "title": "Where can I see my order status?",
             "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
@@ -100,7 +100,7 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
+            "title": "When will my order arrive?",
             "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
@@ -192,7 +192,7 @@
       "settings": {
         "width": "wrapper--narrow",
         "columns": "1",
-        "bg_color": "#fafafa",
+        "bg_color": "rgba(0,0,0,0)",
         "color": "",
         "border_color": "",
         "padding_top": 50,
