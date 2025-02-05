@@ -338,7 +338,7 @@
         "color": "",
         "padding_top": 60,
         "padding_bottom": 60,
-        "layout_mobile": "2"
+        "layout_mobile": "slider"
       }
     },
     "1732565543de22959d": {
@@ -354,6 +354,7 @@
       "block_order": [
         "tolstoy_shoppable_video_ugc_carousel_block_Khdk7W"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": false
       }
