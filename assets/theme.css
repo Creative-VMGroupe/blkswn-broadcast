@@ -26825,6 +26825,9 @@ display: none;
 .article__hero {
   padding: 0;
 }
+.article__hero .article__title {
+    font-weight: 400;
+}
 /*End Default Blog Detail*/
 /*Media Queries Start*/
 /*Desktop!*/
