@@ -26822,6 +26822,9 @@ display: none;
 .article__hero .article__image .image__fill img {
   object-fit: cover;
 }
+.article__hero {
+  padding: 0;
+}
 /*End Default Blog Detail*/
 /*Media Queries Start*/
 /*Desktop!*/
