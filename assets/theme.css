@@ -26825,6 +26825,11 @@ display: none;
 .article__hero {
   padding: 0;
 }
+.article__hero .wrapper {
+    max-width: none;
+    width: 100vw;
+    padding: 0;
+}
 .article__hero .article__title {
     font-weight: 400;
 }
