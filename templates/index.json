@@ -381,7 +381,7 @@
         "text_yAwHze": {
           "type": "text",
           "settings": {
-            "text": "<p>FOLLOW @BLKSWN</p>",
+            "text": "<p><a href=\"http://instagram.com\" title=\"http://instagram.com\">FOLLOW @BLKSWN</a></p>",
             "text_size": 7,
             "text_style": "font-body",
             "padding_bottom": 16
