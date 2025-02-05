@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "title": "A TITLE OF BLOG",
-            "heading_size": 1,
+            "heading_size": 2,
             "mobile_heading_size": 3
           }
         },
