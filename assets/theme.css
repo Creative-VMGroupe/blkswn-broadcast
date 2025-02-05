@@ -26350,6 +26350,10 @@ h6,
   font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
 }
 
+ul, ol {
+    font-size: calc(var(--font-6) * var(--FONT-ADJUST-HEADING));
+}
+
 /*Font size H7*/
 header .popout__toggle__text,
 header .popout-list__option {
