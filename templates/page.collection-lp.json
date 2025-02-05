@@ -203,16 +203,16 @@
         "heading_t4DQLi": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "SLEEP WITH US",
             "text_size": 1,
-            "mobile_heading_size": 2,
+            "mobile_heading_size": 1,
             "padding_bottom": 16
           }
         },
         "text_LYT8AM": {
           "type": "text",
           "settings": {
-            "text": "<p>FOLLOW BLKSWN</p>",
+            "text": "<p><a href=\"http://instagram.com\" title=\"http://instagram.com\">FOLLOW @BLKSWN</a></p>",
             "text_size": 7,
             "text_style": "font-body",
             "padding_bottom": 16
