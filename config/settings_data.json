@@ -45,6 +45,8 @@
     "grid_style": "classic",
     "product_grid_outline": false,
     "show_scroll_top_button": true,
+    "instagram_link": "https://instagram.com/shopify",
+    "tiktok_link": "https://tiktok.com/@shopify",
     "product_grid_center": false,
     "overlay_text": true,
     "product_grid_aspect_ratio": 1.5,
