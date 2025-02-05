@@ -27141,6 +27141,9 @@ letter-spacing: 3px;
     .editorial-images .brick__block:first-child img {
     height: 60vh;
   }
+   .editorial-images .brick__block:not(:first-child) {
+      flex: 2;
+}
   /*Second Image*/
   .editorial-images .brick__block:nth-child(2) .brick__block__image {
     height: 80vh;
