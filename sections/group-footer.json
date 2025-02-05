@@ -1,1 +1,92 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"footer-0":{"type":"newsletter","settings":{"text":"<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>","show_name":true}},"footer-1":{"type":"linklist","settings":{"linklist":"main-menu","title":""}},"footer-2":{"type":"text","settings":{"title":"Contact","text":"<p>1234 Main Street <br>New York, NY 12345 <br> 123.456.7890<br>help@broadcast.com<\/p>"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"logo":"{{ shop.brand.logo }}","logo_image_width":150}},"supporting-menu":{"type":"section-supporting-menu","settings":{"linklist":"","footer_payment_enable":false,"show_locale_selector":true,"show_country_selector":true}}},"order":["footer","supporting-menu"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join The Newsletter",
+            "text": "",
+            "show_name": false,
+            "button_text": "",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_social_links": true,
+            "column_width": 33
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "help",
+            "title": "HELP",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        },
+        "linklist_jDpMRT": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "LEGAL",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "linklist_jDpMRT"
+      ],
+      "settings": {
+        "logo_image_width": 150,
+        "border_color": "#212121",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "disabled": true,
+      "settings": {
+        "linklist": "",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_anchor_logo_cTQBVm": {
+      "type": "section-anchor-logo",
+      "settings": {
+        "logo": "shopify://shop_images/Layer_1_1.png",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu",
+    "section_anchor_logo_cTQBVm"
+  ]
+}
