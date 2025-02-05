@@ -26828,6 +26828,9 @@ display: none;
 .article__hero .article__title {
     font-weight: 400;
 }
+.article__hero .article__image:not(:first-child) {
+  margin-top: 0;
+}
 /*End Default Blog Detail*/
 /*Media Queries Start*/
 /*Desktop!*/
