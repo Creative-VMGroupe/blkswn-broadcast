@@ -48,6 +48,21 @@
     "header": {
       "type": "header",
       "blocks": {
+        "image_g3khKG": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/Frame_1087723.jpg",
+            "aspect_ratio": 1.4,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "title": "Title",
+            "link_text": "",
+            "link": "",
+            "text_color": "#000000"
+          }
+        },
         "toolbar": {
           "type": "toolbar",
           "disabled": true,
@@ -70,6 +85,7 @@
         }
       },
       "block_order": [
+        "image_g3khKG",
         "toolbar"
       ],
       "settings": {
