@@ -48,7 +48,7 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/SoJuicyLipOil-BabyPanda-Stylized-Into_1_1.jpg",
+        "image_1": "shopify://shop_images/SoJuicyLipOil-BabyPanda-Stylized-Into_1_1_9e4363b8-46ef-4101-a4dc-eea60fa93d4a.jpg",
         "link": "",
         "mobile_height": "sixty-fifty-height-hero--mobile",
         "flex_align_desktop": "align--bottom-left-desktop",
@@ -122,34 +122,32 @@
     "section_custom_content_dyBMKi": {
       "type": "section-custom-content",
       "blocks": {
-        "video_EadAhQ": {
-          "type": "video",
+        "image_36YC8b": {
+          "type": "image",
           "settings": {
-            "video": "shopify://files/videos/tolstoy_1694feb7-5317-48ad-a74c-f98b1af27305_preview.mp4",
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "image": "shopify://shop_images/Frame_1087621_aa2f4b11-e439-4d59-a6a6-0ae2fb4501f9.jpg",
             "overlay_opacity": 30,
             "overlay_color": "#000000",
             "show_overlay_text": false,
-            "title": "BED",
+            "title": "BATH",
             "heading_size": 3,
             "description": "Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sadipscing elitr, sadipscing elitr",
             "text_size": 6,
             "flex_align": "align--bottom-left",
+            "bg_color": "",
+            "color": "#ffffff",
             "link_text": "LEARN MORE",
             "link": "",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--outline",
-            "show_arrow": false,
-            "bg_color": "",
-            "color": "#ffffff"
+            "show_arrow": false
           }
         },
-        "image_36YC8b": {
+        "image_K8WDra": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2eaeb5e41c3931f9712d3fd70d68bea8.jpg",
+            "image": "shopify://shop_images/Frame_1087621_1.jpg",
             "overlay_opacity": 30,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -170,8 +168,8 @@
         }
       },
       "block_order": [
-        "video_EadAhQ",
-        "image_36YC8b"
+        "image_36YC8b",
+        "image_K8WDra"
       ],
       "settings": {
         "height": "sixty-fifty-height-hero",
