@@ -45,6 +45,20 @@
         "padding_bottom": 50
       }
     },
+    "section_product_XcLhtR": {
+      "type": "section-product",
+      "settings": {
+        "layout": "is-reversed",
+        "product": "test-1",
+        "limit": 5,
+        "image": "shopify://shop_images/SoJuicy_Lip-Oil_HP-Banner_Launch_Desktop_3.jpg",
+        "scrolling_styles": "vertical",
+        "horizontal_scroll": false,
+        "bg_color": "#ee3831",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_blog_TxkcwV": {
       "type": "section-blog",
       "settings": {
@@ -70,6 +84,7 @@
   },
   "order": [
     "main",
+    "section_product_XcLhtR",
     "section_blog_TxkcwV"
   ]
 }
