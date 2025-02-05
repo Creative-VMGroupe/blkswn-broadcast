@@ -33,8 +33,8 @@
         "heading_MFWqp4": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
-            "text_size": 1,
+            "title": "GIFT PACKAGING",
+            "text_size": 2,
             "mobile_heading_size": 2,
             "padding_bottom": 16
           }
@@ -61,7 +61,7 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 60,
+        "padding_top": 102,
         "padding_bottom": 30
       }
     },
