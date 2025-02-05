@@ -21,6 +21,7 @@
         },
         "recent-articles": {
           "type": "recent",
+          "disabled": true,
           "settings": {
             "title": "Recent articles"
           }
@@ -47,7 +48,7 @@
     "section_blog_TxkcwV": {
       "type": "section-blog",
       "settings": {
-        "blog_name": "",
+        "blog_name": "recent",
         "title": "Blog posts",
         "heading_size": 5,
         "width": "wrapper--full-padded",
