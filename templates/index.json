@@ -179,6 +179,7 @@
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
+        "editorial": false,
         "reverse_blocks": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -242,6 +243,7 @@
         "width": "wrapper--full",
         "borders": false,
         "gutters": false,
+        "editorial": false,
         "reverse_blocks": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -281,7 +283,7 @@
         "featured_post_EzdUWm": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "news/test-post",
+            "featured_post": "recent/test-post",
             "subheading": ""
           }
         }
