@@ -108,7 +108,7 @@
         "show_title": true,
         "show_rss": false,
         "show_tag_nav": true,
-        "grid": 4,
+        "grid": 3,
         "rows": 3,
         "aspect_ratio": 1.4,
         "title_size": 4,
