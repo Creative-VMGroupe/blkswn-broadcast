@@ -27133,7 +27133,7 @@ letter-spacing: 3px;
     max-width: 1100px;
 }
  .editorial-images .brick__block:first-child {
-      flex: 1;
+      flex: 2;
 }
   .editorial-images .brick__block:first-child .brick__block__image {
     height: 60vh;
@@ -27142,7 +27142,7 @@ letter-spacing: 3px;
     height: 60vh;
   }
    .editorial-images .brick__block:not(:first-child) {
-      flex: 2;
+      flex: 3;
 }
   /*Second Image*/
   .editorial-images .brick__block:nth-child(2) .brick__block__image {
