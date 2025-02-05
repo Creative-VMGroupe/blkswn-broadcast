@@ -21,6 +21,7 @@
         },
         "recent-articles": {
           "type": "recent",
+          "disabled": true,
           "settings": {
             "title": "Recent articles"
           }
