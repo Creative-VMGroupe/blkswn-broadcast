@@ -40,7 +40,7 @@
         "show_date": true,
         "show_author": false,
         "tags": false,
-        "show_sharing": true,
+        "show_sharing": false,
         "arrows": false,
         "padding_top": 100,
         "padding_bottom": 50
