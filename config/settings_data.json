@@ -43,6 +43,7 @@
     "btn_secondary_text_color": "#ffffff",
     "btn_secondary_border_color": "#ab8c52",
     "grid_style": "classic",
+    "parallax_enable": false,
     "product_grid_outline": false,
     "show_scroll_top_button": true,
     "instagram_link": "https://instagram.com/shopify",
