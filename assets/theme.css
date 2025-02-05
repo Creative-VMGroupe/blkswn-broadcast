@@ -26810,7 +26810,10 @@ display: none;
 .product__content .variants {}
 .product__content .variants {}
 
-
+/*Default PDP Button*/
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+  border: black;
+}
 /*End PDP*/
 
 /*Default About*/
