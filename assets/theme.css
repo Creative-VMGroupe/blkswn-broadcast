@@ -26817,7 +26817,12 @@ display: none;
 .remove-text-padding .hero__content {
   padding: 30px 0;
 }
-/**/
+/*End Default About*/
+/*Default Blog Detail*/
+.article__hero .article__image .image__fill img {
+  object-fit: cover;
+}
+/*End Default Blog Detail*/
 /*Media Queries Start*/
 /*Desktop!*/
 @media (min-width: 750px) {
