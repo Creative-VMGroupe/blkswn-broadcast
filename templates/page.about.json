@@ -85,7 +85,7 @@
           "type": "heading",
           "settings": {
             "title": "ABOUT US",
-            "text_size": 1,
+            "text_size": 2,
             "mobile_heading_size": 3,
             "padding_bottom": 8
           }
