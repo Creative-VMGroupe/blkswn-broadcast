@@ -67,7 +67,7 @@
         "title": "RECENT ARTICLES",
         "heading_size": 2,
         "width": "wrapper--full-padded",
-        "grid": 4,
+        "grid": 3,
         "rows": 1,
         "aspect_ratio": 1.4,
         "title_size": 4,
