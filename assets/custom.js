@@ -32,7 +32,7 @@ const isHP = () => {
   const currentURL = window.location.href;
   const baseURL = window.location.origin + '/';
 
-  console.log(currentURL)
+  console.log(currentURL, baseURL)
   return currentURL === baseURL;
 }
 
