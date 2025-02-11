@@ -29,7 +29,7 @@ function updateHeaderExpanded() {
 }
 //Check for Homepage
 const isHP = () => {
-  const currentURL = window.location.href;
+  const currentURL = window.location.origin + window.location.pathname;
   const baseURL = window.location.origin + '/';
 
   console.log(currentURL, baseURL)
