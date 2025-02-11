@@ -10,6 +10,7 @@
 
 (function() {
   // Add custom code below this line
+  
 // Select all elements with the 'data-header-expanded' attribute
 const headerElements = document.querySelectorAll('[data-header-expanded]');
 const mainHeader = document.querySelector('header')
@@ -31,7 +32,7 @@ const isHP = () => {
   const currentURL = window.location.href;
   const baseURL = window.location.origin + '/';
 
-
+  console.log(currentURL)
   return currentURL === baseURL;
 }
 
